@@ -1,0 +1,7 @@
+{
+  "source": "model/robot.xml",
+  "sha256": "b5786bb6c225659bfc142f9e2bceefcf485b16ab172ad1dc9c958f35dedfca16",
+  "engine": "MuJoCo mj_forward (no physics stepping)",
+  "head_pan_reference_rad": 3.141592653589793,
+  "other_reference_rad": 0
+}

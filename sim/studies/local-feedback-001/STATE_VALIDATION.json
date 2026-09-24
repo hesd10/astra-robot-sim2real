@@ -1,0 +1,59 @@
+[
+  {
+    "state": "S1",
+    "source_run": "er001-t016",
+    "source_time": 223.15000000070145,
+    "backward_offset_m": 0.0,
+    "normalization": "stop control, settle 1s, reset task clock/health counters only after unpressed/no fault check",
+    "reference_pulses": [
+      1,
+      1
+    ],
+    "reference_command": {
+      "vx": 0.04,
+      "vy": -0.006,
+      "duration": 0.8,
+      "cycle_seconds": 1.1
+    },
+    "snapshot_spec": "mjSTATE_INTEGRATION + geom_rgba; controller idle; all panel latches false",
+    "source_is_not_skill_origin": true
+  },
+  {
+    "state": "S2",
+    "source_run": "er001-t016",
+    "source_time": 223.15000000070145,
+    "backward_offset_m": 0.02,
+    "normalization": "stop control, settle 1s, reset task clock/health counters only after unpressed/no fault check",
+    "reference_pulses": [
+      2,
+      2
+    ],
+    "reference_command": {
+      "vx": 0.04,
+      "vy": -0.006,
+      "duration": 0.8,
+      "cycle_seconds": 1.1
+    },
+    "snapshot_spec": "mjSTATE_INTEGRATION + geom_rgba; controller idle; all panel latches false",
+    "source_is_not_skill_origin": true
+  },
+  {
+    "state": "S3",
+    "source_run": "er001-t016",
+    "source_time": 223.15000000070145,
+    "backward_offset_m": 0.04,
+    "normalization": "stop control, settle 1s, reset task clock/health counters only after unpressed/no fault check",
+    "reference_pulses": [
+      3,
+      3
+    ],
+    "reference_command": {
+      "vx": 0.04,
+      "vy": -0.006,
+      "duration": 0.8,
+      "cycle_seconds": 1.1
+    },
+    "snapshot_spec": "mjSTATE_INTEGRATION + geom_rgba; controller idle; all panel latches false",
+    "source_is_not_skill_origin": true
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "state": "S1",
+    "closed_loop_steps": 1,
+    "physical_success": true,
+    "model_calls": 0
+  },
+  {
+    "state": "S2",
+    "closed_loop_steps": 2,
+    "physical_success": true,
+    "model_calls": 0
+  },
+  {
+    "state": "S3",
+    "closed_loop_steps": 3,
+    "physical_success": true,
+    "model_calls": 0
+  },
+  {
+    "single_step_only": true
+  },
+  {
+    "budget_stop": true
+  },
+  {
+    "invalid_image_region_stops_before_motion": true
+  }
+]

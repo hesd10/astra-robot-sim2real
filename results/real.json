@@ -1,0 +1,176 @@
+[
+  {
+    "id": "A1",
+    "condition": "A",
+    "repeat": 1,
+    "success": true,
+    "seconds": 808.8823289871216,
+    "arm_head_requests": 22,
+    "base_requests": 20,
+    "motions": 42,
+    "start": "shared",
+    "prior_images": []
+  },
+  {
+    "id": "B1",
+    "condition": "B",
+    "repeat": 1,
+    "success": true,
+    "seconds": 284.34958720207214,
+    "arm_head_requests": 3,
+    "base_requests": 9,
+    "motions": 12,
+    "start": "shared",
+    "prior_images": []
+  },
+  {
+    "id": "C1",
+    "condition": "C",
+    "repeat": 1,
+    "success": true,
+    "seconds": 366.480895280838,
+    "arm_head_requests": 10,
+    "base_requests": 13,
+    "motions": 23,
+    "start": "shared",
+    "prior_images": [
+      "observations/0021/head.jpg"
+    ]
+  },
+  {
+    "id": "B2",
+    "condition": "B",
+    "repeat": 2,
+    "success": true,
+    "seconds": 408.5037798881531,
+    "arm_head_requests": 6,
+    "base_requests": 13,
+    "motions": 19,
+    "start": "shared",
+    "prior_images": []
+  },
+  {
+    "id": "C2",
+    "condition": "C",
+    "repeat": 2,
+    "success": true,
+    "seconds": 381.30531764030457,
+    "arm_head_requests": 11,
+    "base_requests": 15,
+    "motions": 26,
+    "start": "shared",
+    "prior_images": [
+      "observations/0021/head.jpg"
+    ]
+  },
+  {
+    "id": "A2",
+    "condition": "A",
+    "repeat": 2,
+    "success": true,
+    "seconds": 431.4501838684082,
+    "arm_head_requests": 14,
+    "base_requests": 10,
+    "motions": 24,
+    "start": "shared",
+    "prior_images": []
+  },
+  {
+    "id": "C3",
+    "condition": "C",
+    "repeat": 3,
+    "success": true,
+    "seconds": 364.3055033683777,
+    "arm_head_requests": 8,
+    "base_requests": 11,
+    "motions": 19,
+    "start": "shared",
+    "prior_images": [
+      "observations/0021/head.jpg",
+      "observations/0011/head.jpg",
+      "observations/0012/head.jpg"
+    ]
+  },
+  {
+    "id": "A3",
+    "condition": "A",
+    "repeat": 3,
+    "success": true,
+    "seconds": 980.0872044563293,
+    "arm_head_requests": 24,
+    "base_requests": 26,
+    "motions": 50,
+    "start": "shared",
+    "prior_images": []
+  },
+  {
+    "id": "B3",
+    "condition": "B",
+    "repeat": 3,
+    "success": true,
+    "seconds": 351.1697015762329,
+    "arm_head_requests": 2,
+    "base_requests": 10,
+    "motions": 12,
+    "start": "shared",
+    "prior_images": []
+  },
+  {
+    "id": "D1",
+    "condition": "D",
+    "repeat": 1,
+    "success": true,
+    "seconds": 250.34485626220703,
+    "arm_head_requests": 4,
+    "base_requests": 8,
+    "motions": 12,
+    "start": "shared",
+    "prior_images": [
+      "observations/0000/head.jpg",
+      "observations/0006/head.jpg",
+      "observations/0013/right_wrist.jpg",
+      "observations/0017/head.jpg",
+      "observations/0017/right_wrist.jpg",
+      "observations/0024/head.jpg",
+      "observations/0024/right_wrist.jpg"
+    ]
+  },
+  {
+    "id": "D2",
+    "condition": "D",
+    "repeat": 2,
+    "success": true,
+    "seconds": 269.73945021629333,
+    "arm_head_requests": 2,
+    "base_requests": 7,
+    "motions": 9,
+    "start": "new-1",
+    "prior_images": [
+      "observations/0000/head.jpg",
+      "observations/0006/head.jpg",
+      "observations/0013/right_wrist.jpg",
+      "observations/0024/right_wrist.jpg"
+    ]
+  },
+  {
+    "id": "D3",
+    "condition": "D",
+    "repeat": 3,
+    "success": true,
+    "seconds": 360.0363178253174,
+    "arm_head_requests": 7,
+    "base_requests": 13,
+    "motions": 20,
+    "start": "new-2",
+    "prior_images": [
+      "observations/0000/head.jpg",
+      "observations/0024/left_wrist.jpg",
+      "observations/0024/right_wrist.jpg",
+      "observations/0024/head.jpg",
+      "observations/0018/right_wrist.jpg",
+      "observations/0020/right_wrist.jpg",
+      "observations/0019/right_wrist.jpg",
+      "observations/0021/right_wrist.jpg"
+    ]
+  }
+]

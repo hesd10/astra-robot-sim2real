@@ -1,0 +1,74 @@
+[
+  {
+    "id": "R010-P1",
+    "settled_world_xy_m": [
+      7.683752073024355,
+      1.5417048867712846
+    ],
+    "distance_from_selected_point_m": 1.8997729466963366e-13
+  },
+  {
+    "id": "R010-P2",
+    "settled_world_xy_m": [
+      7.5180745641304645,
+      1.653592205557118
+    ],
+    "distance_from_selected_point_m": 1.9019892926994025e-13
+  },
+  {
+    "id": "R010-P3",
+    "settled_world_xy_m": [
+      7.607994710500767,
+      1.699848487634833
+    ],
+    "distance_from_selected_point_m": 1.8997729466963366e-13
+  },
+  {
+    "id": "R050-P1",
+    "settled_world_xy_m": [
+      7.139771413447159,
+      1.789423191301206
+    ],
+    "distance_from_selected_point_m": 1.9019892926994025e-13
+  },
+  {
+    "id": "R050-P2",
+    "settled_world_xy_m": [
+      8.098093406118206,
+      1.6662427247563003
+    ],
+    "distance_from_selected_point_m": 1.8941237774444833e-13
+  },
+  {
+    "id": "R050-P3",
+    "settled_world_xy_m": [
+      7.51732034359729,
+      1.1073086737527602
+    ],
+    "distance_from_selected_point_m": 1.9019892926994025e-13
+  },
+  {
+    "id": "R100-P1",
+    "settled_world_xy_m": [
+      8.579435325263528,
+      1.813539474838682
+    ],
+    "distance_from_selected_point_m": 1.8963441259600366e-13
+  },
+  {
+    "id": "R100-P2",
+    "settled_world_xy_m": [
+      6.979859492996064,
+      2.382506731315328
+    ],
+    "distance_from_selected_point_m": 1.819991147356255e-13
+  },
+  {
+    "id": "R100-P3",
+    "settled_world_xy_m": [
+      6.6820530610068385,
+      1.2091343156142345
+    ],
+    "distance_from_selected_point_m": 1.8997729466963366e-13
+  }
+]

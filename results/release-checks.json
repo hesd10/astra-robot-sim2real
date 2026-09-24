@@ -1,0 +1,16 @@
+{
+  "fixed-start": 30,
+  "perturbation": 18,
+  "local-skills": 27,
+  "real": 12,
+  "percentages": {
+    "sim_body": 57.355485223789856,
+    "sim_E3": 68.63936752450172,
+    "real_body": 52.98082337647407,
+    "real_E3": 49.915247661560635,
+    "STEP": 28.999941977200205,
+    "LOOP": 30.564630991713827
+  },
+  "broken_links": [],
+  "private_account_files": 0
+}

@@ -1,0 +1,95 @@
+{
+  "created_unix": 1789894094.7315323,
+  "incomplete_condition": "I1E0",
+  "groups": {
+    "I0E0": {
+      "n": 3,
+      "times": [
+        1145.4629999798253,
+        908.2599999854344,
+        1020.9279999827702
+      ],
+      "sim_seconds": 1024.8836666493432,
+      "motion_commands": 66.66666666666667,
+      "observation_groups": 32.333333333333336,
+      "tool_seconds": 116.85381647699371,
+      "outside_tool_seconds": 906.996329870674
+    },
+    "I1E0": {
+      "n": 2,
+      "times": [
+        1211.5539999782625,
+        1263.7009999770294
+      ],
+      "sim_seconds": 1237.627499977646,
+      "motion_commands": 71.5,
+      "observation_groups": 33,
+      "tool_seconds": 111.45821857899773,
+      "outside_tool_seconds": 1124.984588483504
+    },
+    "I2E0": {
+      "n": 3,
+      "times": [
+        685.2439999907081,
+        541.9399999940968,
+        512.1829999948004
+      ],
+      "sim_seconds": 579.7889999932017,
+      "motion_commands": 48,
+      "observation_groups": 17.666666666666668,
+      "tool_seconds": 68.53729785067237,
+      "outside_tool_seconds": 510.2482908163268
+    },
+    "I3E0": {
+      "n": 3,
+      "times": [
+        440.14899999650373,
+        388.0459999977358,
+        482.97499999549103
+      ],
+      "sim_seconds": 437.0566666632435,
+      "motion_commands": 33.333333333333336,
+      "observation_groups": 12,
+      "tool_seconds": 49.22086522132789,
+      "outside_tool_seconds": 386.8189031913383
+    }
+  },
+  "latest_task_result_pending_archive": {
+    "run": "be001-r3-i1e0",
+    "result": {
+      "target_pressed": true,
+      "wrong_button": false,
+      "released_for_2s": false,
+      "stopped": true,
+      "physical_success": true,
+      "subject_outcome": "success",
+      "fault": null,
+      "actions": 59,
+      "sim_seconds": 1005.964999983124,
+      "peak_non_support_contact_N": 4.988034143460902,
+      "health_parameters": {
+        "jam_effort_fraction": 0.9,
+        "jam_error_rad": 0.08,
+        "jam_speed_rad_s": 0.02,
+        "jam_grace_s": 0.5,
+        "risk_accumulation_s": 2.0,
+        "severe_contact_N": 250.0,
+        "sustained_contact_N": 100.0,
+        "sustained_contact_s": 0.05
+      },
+      "health_scope": "experimental thresholds, not real damage prediction",
+      "wall_seconds": 1006.9653333739989,
+      "max_lateness_s": 0.007581060999655165,
+      "sampled_lateness_p99_s": 0.0015769699573866074,
+      "camera_delivery_age_max_s": 0.012989839997317176,
+      "states_written": 20141,
+      "recording_error": null,
+      "operator_monitor": {
+        "enabled": true,
+        "dropped_snapshots": 0,
+        "error": null
+      }
+    },
+    "three_trial_mean_seconds": 1160.4066666461385
+  }
+}

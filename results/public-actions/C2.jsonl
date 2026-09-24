@@ -1,0 +1,26 @@
+{"seconds": 44.52785873413086, "request": {"op": "move", "targets": {"head_2": 0.35}, "duration": 2.0}}
+{"seconds": 51.909066915512085, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 78.11780571937561, "request": {"op": "move", "targets": {"right_2": 2.07, "right_3": 1.2, "right_4": 0.4}, "duration": 9.5}}
+{"seconds": 78.13139653205872, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 104.39767336845398, "request": {"op": "move", "targets": {"right_2": 1.0, "right_4": -0.84, "head_2": 0.15}, "duration": 9.5}}
+{"seconds": 104.41120433807373, "request": {"op": "base", "vx": 0.08, "vy": 0.06, "wz": 0, "duration": 5}}
+{"seconds": 143.49512362480164, "request": {"op": "move", "targets": {"right_2": 1.65, "right_4": -0.19, "head_2": 0.3}, "duration": 5.8}}
+{"seconds": 161.62155389785767, "request": {"op": "move", "targets": {"right_2": 1.95, "right_4": 0.11}, "duration": 2.8}}
+{"seconds": 161.63444471359253, "request": {"op": "base", "vx": 0.08, "vy": 0.06, "wz": 0, "duration": 5}}
+{"seconds": 188.4667592048645, "request": {"op": "base", "vx": 0.06, "vy": 0, "wz": 0, "duration": 4}}
+{"seconds": 207.2123544216156, "request": {"op": "base", "vx": 0.08, "vy": -0.045, "wz": 0, "duration": 4}}
+{"seconds": 226.03440976142883, "request": {"op": "base", "vx": 0.06, "vy": -0.035, "wz": 0, "duration": 3}}
+{"seconds": 244.86796069145203, "request": {"op": "move", "targets": {"right_2": 1.83, "right_4": -0.01}, "duration": 1.4}}
+{"seconds": 244.8797254562378, "request": {"op": "base", "vx": 0.04, "vy": -0.035, "wz": 0, "duration": 2}}
+{"seconds": 264.7129797935486, "request": {"op": "move", "targets": {"right_2": 1.63, "right_4": -0.21}, "duration": 2}}
+{"seconds": 264.72644209861755, "request": {"op": "base", "vx": 0.04, "vy": 0, "wz": 0, "duration": 1.5}}
+{"seconds": 284.00251603126526, "request": {"op": "move", "targets": {"right_2": 1.45, "right_4": -0.39}, "duration": 1.8}}
+{"seconds": 300.59461283683777, "request": {"op": "move", "targets": {"right_2": 1.39, "right_4": -0.45}, "duration": 0.9}}
+{"seconds": 300.60623240470886, "request": {"op": "base", "vx": 0.025, "vy": -0.01, "wz": 0, "duration": 1.2}}
+{"seconds": 313.07398653030396, "request": {"op": "base", "vx": 0.02, "vy": 0, "wz": 0, "duration": 1.2}}
+{"seconds": 328.848340511322, "request": {"op": "move", "targets": {"right_2": 1.34, "right_4": -0.5}, "duration": 0.9}}
+{"seconds": 328.8616256713867, "request": {"op": "base", "vx": 0.015, "vy": 0, "wz": 0, "duration": 1}}
+{"seconds": 344.6272385120392, "request": {"op": "move", "targets": {"right_2": 1.24, "right_4": -0.6}, "duration": 1.1}}
+{"seconds": 356.4001886844635, "request": {"op": "base", "vx": 0.015, "vy": 0, "wz": 0, "duration": 1.3}}
+{"seconds": 367.3579022884369, "request": {"op": "base", "vx": 0.015, "vy": 0, "wz": 0, "duration": 1}}
+{"seconds": 377.3770968914032, "request": {"op": "base", "vx": 0.012, "vy": 0, "wz": 0, "duration": 1.2}}

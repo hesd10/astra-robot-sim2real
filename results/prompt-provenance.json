@@ -1,0 +1,23 @@
+{
+  "transcription": "Complete prompt text; LaTeX escaping and typesetting only.",
+  "sources": [
+    {
+      "path": "sim/studies/body-experience-001/common/PROMPT.md",
+      "sha256": "cf1c995efb154685b00da2c8110aaf2c5918a1b0fd4abf410c84c0c12586ed5f",
+      "latex_label": "app:prompt-sim",
+      "words": 190
+    },
+    {
+      "path": "sim/studies/local-feedback-001/inputs/FREE/PROMPT.md",
+      "sha256": "9e0803ac89a9574c6838a1ec5a7389bd7b5ef6fec3865f2140604445d27192c5",
+      "latex_label": "app:prompt-local",
+      "words": 206
+    },
+    {
+      "path": "experiments/real/common/PROMPT.md",
+      "sha256": "d9d7e3afff83bb7ed7b68b35c2774f674812a5f5cee835606e4350c20f2f1278",
+      "latex_label": "app:prompt-real",
+      "words": 318
+    }
+  ]
+}

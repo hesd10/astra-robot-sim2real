@@ -1,0 +1,5 @@
+{
+  "roles_confirmed": false,
+  "devices": {},
+  "note": "Configure and confirm camera roles for the selected physical robot; disabled by default."
+}

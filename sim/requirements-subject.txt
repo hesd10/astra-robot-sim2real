@@ -1,0 +1,2 @@
+# Used by /usr/bin/python3 (Python 3.10 on this host), independently of the runner.
+numpy==2.2.6

@@ -1,0 +1,137 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Astra · 场景与执行流程</title><style>
+:root{color-scheme:dark}*{box-sizing:border-box}
+body{margin:0;background:#10151c;color:#edf2f6;font:14px system-ui}
+main{max-width:1720px;height:calc(100dvh - 32px);margin:16px auto;padding:0 24px;display:flex;flex-direction:column;gap:12px}
+h1{font-size:24px;margin:0}.top,.panel-top{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.view-controls{display:flex;align-items:center;gap:12px;flex-wrap:wrap;justify-content:flex-end;font-size:12px}.view-controls label{color:#a7b4c3}
+small,.muted{color:#a7b4c3}#status{color:#69d6b0;white-space:nowrap}
+.layout{display:grid;grid-template-columns:minmax(0,1fr) 380px;gap:16px;flex:1;min-height:0}
+.grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:minmax(0,1.8fr) minmax(0,1fr);gap:12px;min-height:0}
+article,.workflow{background:#1a222d;border:1px solid #2b3542;border-radius:10px;overflow:hidden;display:flex;flex-direction:column;min-width:0}
+article[data-camera="third_person"]{grid-column:1 / -1}
+h2{font-size:16px;font-weight:600;margin:10px 12px}
+canvas{width:100%;display:block;flex:1 1 0;height:0;min-height:0;background:#141b24;object-fit:contain}
+.metrics{display:flex;justify-content:space-between;gap:6px;margin:8px 12px;font-size:12px;flex-wrap:wrap}.metrics span{color:#a7b4c3}
+.metrics>div{white-space:nowrap}.metrics b{display:inline-block;font-variant-numeric:tabular-nums}
+.metrics b[id^="time-"]{min-width:9ch}.metrics b[id^="age-"]{min-width:7ch}
+footer{color:#a7b4c3;font-size:12px}#fault{color:#ffb36a}#fault:empty{display:none}
+.panel-head{padding:16px;border-bottom:1px solid #2b3542}.panel-head h2{margin:0;font-size:18px}
+#phase{font-size:12px;padding:5px 8px;border-radius:6px;background:#203a36;color:#8ce0bf;white-space:nowrap}
+.session-meta{display:flex;justify-content:space-between;margin:12px 0;color:#a7b4c3;font-size:12px}
+.controls{display:flex;justify-content:space-between;align-items:center;gap:8px}
+button,select{font:inherit;font-size:12px;border:1px solid #435367;border-radius:6px;background:#18212c;color:#dce6ef;padding:6px 8px}
+button{cursor:pointer}button[aria-pressed="true"]{border-color:#6dcdb1;color:#8ce0bf}
+#workflow-connection{font-size:12px;color:#a7b4c3;margin-top:10px;min-height:17px}
+#timeline{flex:1;min-height:0;overflow:auto;padding:0 14px 14px;scrollbar-gutter:stable;overflow-anchor:none}
+.empty{color:#a7b4c3;line-height:1.8;padding:22px 2px}
+.entry{padding:13px 0;border-bottom:1px solid #2b3542;font-size:13px}
+.entry-head{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:11px;color:#a7b4c3}
+.source{color:#92d6ff}.entry[data-source="robot"] .source{color:#deb888}.entry[data-source="assistant"] .source{color:#91ddbf}
+.entry-title{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin:7px 0}
+.entry-title strong{font-weight:600}.entry-status{font-size:11px;color:#b6c9d8;flex-shrink:0}
+.entry-status[data-failed="true"]{color:#ffad92}
+.entry pre{font:12px/1.65 ui-monospace,SFMono-Regular,Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere;margin:7px 0}
+.entry .message{font:13px/1.75 system-ui;max-height:300px;overflow:auto}
+.command-preview{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;color:#bac7d6}
+details{margin-top:8px}summary{cursor:pointer;font-size:12px;color:#8fc3e9}details pre{max-height:280px;overflow:auto;background:#111923;padding:10px;border-radius:6px}
+.panel-foot{padding:10px 14px;border-top:1px solid #2b3542;color:#8f9eaf;font-size:11px;line-height:1.6}
+body.recording main{max-width:none;margin:18px auto;padding:0 26px;height:calc(100dvh - 36px)}
+body.recording .layout{grid-template-columns:minmax(0,1fr) 480px}
+body.recording .entry pre{font-size:14px}body.recording .entry .message{font-size:15px}
+body.recording .entry[data-source="robot"] .command-preview{-webkit-line-clamp:5}
+#recording-status{color:#ffbd91;font-weight:600}
+[hidden]{display:none!important}
+@media(max-width:1100px){.layout{grid-template-columns:minmax(0,1fr) 330px;gap:10px}main{padding:0 12px}.grid{gap:8px}.metrics{font-size:11px;margin:6px 8px}h2{font-size:13px;margin:8px}}
+@media(max-width:850px){main{height:auto;min-height:calc(100dvh - 32px)}.layout{display:flex;flex-direction:column}.grid{height:70dvh;min-height:460px}.workflow{height:650px}h1{font-size:20px}.top{align-items:flex-start}#status{font-size:12px}}
+</style><main>
+<div class="top"><h1>Astra · 场景与执行流程</h1><div class="view-controls"><label>画面刷新 <select id="display-fps" aria-label="画面刷新频率"><option value="2">2 fps</option><option value="5" selected>5 fps</option><option value="10">10 fps</option></select></label><b id="status">连接中</b></div></div>
+<small>四路画面同步采样 · 右侧同步显示 Astra 可见输出与执行回执 · 实时监看不代表 Astra 此刻已读取图像</small>
+<div class="layout"><div class="grid" id="views"></div>
+<aside class="workflow" aria-label="Astra 实时流程">
+<div class="panel-head"><div class="panel-top"><h2>Astra 实时流程</h2><b id="phase">连接中</b></div>
+<div class="session-meta"><span id="model">尚未启动模型</span><span id="elapsed">—</span></div>
+<div class="controls"><select id="filter" aria-label="筛选流程"><option value="all">全部流程</option><option value="assistant">Astra 输出</option><option value="tool">工具执行</option><option value="robot">机器人回执</option></select>
+<button id="follow" type="button" aria-pressed="true">跟随最新</button></div>
+<div id="workflow-connection">正在连接流程日志…</div></div>
+<div id="timeline" role="log" aria-label="执行时间线"><div class="empty" id="empty">等待流程事件</div></div>
+<div class="panel-foot" id="history-note">显示可见输出、工具调用和回执；等待状态包含模型生成及网络等待。</div>
+</aside></div>
+<footer>画面编号 <b id="frames">—</b> · 全程状态已记录，可在结束后导出第三人称录像 <span id="recording-status"></span></footer><div id="fault"></div>
+</main><script>
+const root=location.pathname.replace(/\/$/,''),$=s=>document.querySelector(s);let last=-1;
+if(new URLSearchParams(location.search).has('recording'))document.body.classList.add('recording');
+const roles=[['third_person','第三人称跟随',960,720],['head','头部相机',640,480],['left_wrist','左腕相机',640,480],['right_wrist','右腕相机',640,480]];
+const surfaces=new Map();let displayed=null;
+for(const [role,label,width,height] of roles){const card=document.createElement('article');card.dataset.camera=role;
+card.innerHTML=`<h2>${label}</h2><canvas id="view-${role}" width="${width}" height="${height}" role="img" aria-label="${label}实时画面"></canvas><div class="metrics"><div><span>采样时间 </span><b id="time-${role}">—</b></div><div><span>画面延迟 </span><b id="age-${role}">—</b></div></div>`;
+$('#views').append(card);const canvas=$('#view-'+role);surfaces.set(role,{canvas,context:canvas.getContext('2d',{alpha:false})});}
+async function loadImage(role,n){
+const response=await fetch(root+'/frame/'+role+'.jpg?n='+n,{cache:'no-store',signal:AbortSignal.timeout(1500)});
+if(!response.ok)throw Error('frame unavailable');return createImageBitmap(await response.blob());}
+async function present(s,received){
+// Decode the whole batch off-screen. Keep every previous surface if any view fails.
+const results=await Promise.allSettled(roles.map(([role])=>loadImage(role,s.frames)));
+try{
+if(results.some(r=>r.status!=='fulfilled'))throw Error('incomplete frame batch');
+const images=results.map(r=>r.value);
+if(images.some((img,i)=>img.width!==roles[i][2]||img.height!==roles[i][3]))throw Error('unexpected frame size');
+// Fixed backing stores: no DOM replacement, canvas resize, or clearing between frames.
+await new Promise((resolve,reject)=>requestAnimationFrame(()=>{try{
+for(let i=0;i<roles.length;i++){const surface=surfaces.get(roles[i][0]);surface.context.drawImage(images[i],0,0);surface.canvas.dataset.frame=String(s.frames);}
+last=s.frames;displayed={status:s,received};$('#frames').textContent=s.frames;resolve();}catch(error){reject(error);}}));
+}finally{for(const r of results)if(r.status==='fulfilled')r.value.close();}}
+function updateMetrics(){if(!displayed)return null;const s=displayed.status,age=s.age_seconds+(performance.now()-displayed.received)/1000;
+for(const [role] of roles){$('#time-'+role).textContent=s.views[role].sim_time.toFixed(2)+' s';$('#age-'+role).textContent=s.lifecycle&&s.lifecycle!=='running'?'最终画面':Math.round(age*1000)+' ms';}return age;}
+async function tick(){const started=performance.now();try{
+const r=await fetch(root+'/status',{cache:'no-store',signal:AbortSignal.timeout(2000)});
+if(!r.ok)throw Error();const s=await r.json(),received=performance.now();
+if(s.frames!==last)await present(s,received);
+else if(displayed)displayed={status:s,received};
+const age=updateMetrics();
+const stale=age>1,closed=s.lifecycle==='closing'||s.lifecycle==='completed';
+const outcome=s.physical_result?(s.physical_result.physical_success?'机器人任务成功':'机器人任务结束'):'';
+$('#status').textContent=closed?outcome+(s.lifecycle==='closing'?' · Astra 正在收尾':' · 本轮会话已结束'):s.error?'画面故障':stale?'画面已停滞':'画面实时';
+$('#status').style.color=(s.error||(!closed&&stale))?'#ffb36a':'#69d6b0';$('#fault').textContent=s.fault?'保护停机：'+s.fault:'';
+$('#recording-status').textContent=({starting:' · 网页录像准备中',recording:' · ● 网页自动录像中',saving:' · 网页录像正在保存',saved:' · 网页录像已保存'})[s.recording]||'';
+}catch(e){updateMetrics();if(displayed?.status?.lifecycle==='completed'){$('#status').textContent='本轮会话已结束 · 网页录制已停止';$('#recording-status').textContent=' · 视频保存进度请看启动终端';return;}$('#status').textContent=last<0?'画面尚未连接':'画面暂未更新 · 保留上一帧';$('#status').style.color='#ffb36a';}
+setTimeout(tick,Math.max(0,1000/Number($('#display-fps').value)-(performance.now()-started)))}tick();
+
+const phases={preview:'预览模式',starting:'正在启动',waiting:'等待模型输出',assistant:'正在输出',tool:'执行工具中',reading:'读取图像中',compacting:'整理上下文',completed:'会话完成',ended:'会话结束',error:'会话异常'};
+const sources={assistant:'ASTRA',tool:'工具',robot:'机器人',session:'会话'};
+let revision=-1,following=true,lastPhase=null;const nodes=new Map(),timeline=$('#timeline');
+function follow(value){following=value;$('#follow').setAttribute('aria-pressed',String(value));$('#follow').textContent=value?'跟随最新':'继续跟随';if(value)timeline.scrollTop=timeline.scrollHeight;}
+$('#follow').onclick=()=>follow(!following);
+timeline.addEventListener('wheel',e=>{if(e.deltaY<0)follow(false)},{passive:true});
+timeline.addEventListener('touchstart',()=>follow(false),{passive:true});
+timeline.addEventListener('pointerdown',()=>follow(false));
+$('#filter').onchange=()=>{for(const n of nodes.values())n.hidden=$('#filter').value!=='all'&&n.dataset.source!==$('#filter').value;if(following)timeline.scrollTop=timeline.scrollHeight;};
+function timeLabel(seconds){if(seconds==null)return '—';seconds=Math.max(0,seconds);return Math.floor(seconds/60).toString().padStart(2,'0')+':'+Math.floor(seconds%60).toString().padStart(2,'0');}
+function makeEntry(){const n=document.createElement('section');n.className='entry';
+n.innerHTML='<div class="entry-head"><span class="source"></span><span class="stamp"></span></div><div class="entry-title"><strong></strong><span class="entry-status"></span></div><pre class="message"></pre><pre class="command-preview"></pre><details><summary>查看命令与回执</summary><pre class="command"></pre><pre class="output"></pre></details>';return n;}
+function updateEntries(s){const keep=new Set(s.entries.map(e=>e.id));for(const [id,n] of nodes)if(!keep.has(id)){n.remove();nodes.delete(id);}
+let anchor=$('#empty').nextSibling;
+for(const e of s.entries){let n=nodes.get(e.id);if(!n){n=makeEntry();nodes.set(e.id,n);}
+if(n!==anchor)timeline.insertBefore(n,anchor);anchor=n.nextSibling;
+if(n.dataset.revision===String(e.revision))continue;n.dataset.revision=e.revision;n.dataset.source=e.source;
+n.querySelector('.source').textContent=sources[e.source]||e.source;
+const elapsed=s.started_monotonic==null?null:e.monotonic-s.started_monotonic;
+n.querySelector('.stamp').textContent=(elapsed==null?'':timeLabel(elapsed))+(e.sim_time==null?'':' · 仿真 '+e.sim_time.toFixed(2)+' s');
+n.querySelector('strong').textContent=e.title;const state=n.querySelector('.entry-status');state.textContent=e.status;state.dataset.failed=String(['失败','已拒绝','故障','failed','error'].includes(e.status));
+let commandPreview=e.command;if(e.source==='robot'&&e.command){try{const {id,...command}=JSON.parse(e.command);commandPreview=JSON.stringify(command);}catch{}}
+for(const [selector,text] of [['.message',e.text],['.command-preview',commandPreview],['.command',e.command],['.output',(e.output||'')+(e.exit_code==null?'':'\n退出码：'+e.exit_code)]]){const child=n.querySelector(selector);child.textContent=text||'';child.hidden=!text;}
+n.querySelector('details').hidden=!(e.command||e.output||e.exit_code!=null);
+n.hidden=$('#filter').value!=='all'&&e.source!==$('#filter').value;}
+$('#empty').hidden=s.entries.length>0;
+$('#empty').textContent=s.phase==='preview'?'预览模式：Astra 尚未启动。正式运行时，这里会自动显示输出、工具调用和机器人回执。':'等待 Astra 输出或执行工具…';
+$('#history-note').textContent=s.total_entries>s.entry_limit?`页面保留最近 ${s.entry_limit} 项，共 ${s.total_entries} 项；完整记录保存在实验日志中。`:'显示可见输出、工具调用和回执；等待状态包含模型生成及网络等待。';
+if(following)timeline.scrollTop=timeline.scrollHeight;
+}
+async function workflowTick(){try{const r=await fetch(root+'/workflow?since='+revision,{cache:'no-store',signal:AbortSignal.timeout(2000)});if(!r.ok)throw Error();const s=await r.json();
+$('#phase').textContent=phases[s.phase]||s.phase;$('#model').textContent=s.model||'尚未启动模型';$('#elapsed').textContent=s.elapsed_seconds==null?'—':'会话 '+timeLabel(s.elapsed_seconds);
+$('#workflow-connection').textContent=s.error?'流程日志读取异常：'+s.error:s.phase==='preview'?'仅场景预览 · 未调用 Astra':'流程已连接 · 每 0.4 秒更新';
+if(s.entries)updateEntries(s);revision=s.revision;lastPhase=s.phase;
+}catch(e){if(['completed','ended','error'].includes(lastPhase)){$('#workflow-connection').textContent='会话已结束 · 保留最终流程';return;}$('#workflow-connection').textContent='流程连接已断开 · 保留最后收到的内容';}
+setTimeout(workflowTick,400)}workflowTick();
+</script></html>

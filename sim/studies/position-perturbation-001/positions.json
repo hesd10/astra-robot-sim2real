@@ -1,0 +1,342 @@
+{
+  "study": "position-perturbation-001",
+  "status": "positions_selected_experiments_not_started",
+  "seed": 20260920,
+  "algorithm": "Python random.Random; independent full triplets uniform angles; reject entire triplet if pairwise separation <60deg or geometric check fails",
+  "origin_world_xy_m": [
+    7.60250099699237,
+    1.5999995061084804
+  ],
+  "angles": "world +X =0deg, +Y =90deg; +Y points toward elevator wall",
+  "radii_m": [
+    0.1,
+    0.5,
+    1.0
+  ],
+  "yaw_deg_unchanged": 8.0,
+  "joint_posture_unchanged": true,
+  "geometry_check": "MuJoCo static collision at translated settled baseline, floor support excluded; straight return corridor sampled at <=1cm, not a dynamic execution or real-hardware clearance certification",
+  "source_sha256": {
+    "studies/body-experience-001/private-initial-reference.json": "cfba25b513c9da252252b83846b016cc39b2d4b741cb2e6ffe65e5afc21e6465",
+    "models/elevator_four_mecanum.xml": "cd4bef986f42e547051412aa9884649bc8124402644a1bd628d8ebbcb30be7ff"
+  },
+  "points": [
+    {
+      "id": "R010-P1",
+      "radius_m": 0.1,
+      "angle_world_deg": 324.341969885133,
+      "offset_world_xy_m": [
+        0.08125107603197358,
+        -0.05829461933700613
+      ],
+      "offset_initial_body_forward_left_m": [
+        -0.06903525850395985,
+        -0.07234730874892051
+      ],
+      "world_xy_m": [
+        7.683752073024343,
+        1.5417048867714742
+      ],
+      "min_group_separation_deg": 60.74245169809549,
+      "min_group_chord_m": 0.10112010855863317,
+      "initial_penetrating_environment_contacts": [],
+      "return_corridor_sample_spacing_max_m": 0.01,
+      "return_corridor_penetrating_environment_contacts": []
+    },
+    {
+      "id": "R010-P2",
+      "radius_m": 0.1,
+      "angle_world_deg": 147.5932002424266,
+      "offset_world_xy_m": [
+        -0.08442643286191623,
+        0.053592699448827476
+      ],
+      "offset_initial_body_forward_left_m": [
+        0.06482102132839404,
+        0.07614614365720378
+      ],
+      "world_xy_m": [
+        7.518074564130453,
+        1.6535922055573078
+      ],
+      "min_group_separation_deg": 60.74245169809549,
+      "min_group_chord_m": 0.10112010855863317,
+      "initial_penetrating_environment_contacts": [],
+      "return_corridor_sample_spacing_max_m": 0.01,
+      "return_corridor_penetrating_environment_contacts": []
+    },
+    {
+      "id": "R010-P3",
+      "radius_m": 0.1,
+      "angle_world_deg": 86.85074854433111,
+      "offset_world_xy_m": [
+        0.00549371350838633,
+        0.09984898152654224
+      ],
+      "offset_initial_body_forward_left_m": [
+        0.09811268251073621,
+        -0.019336533570691504
+      ],
+      "world_xy_m": [
+        7.607994710500756,
+        1.6998484876350226
+      ],
+      "min_group_separation_deg": 60.74245169809549,
+      "min_group_chord_m": 0.10112010855863317,
+      "initial_penetrating_environment_contacts": [],
+      "return_corridor_sample_spacing_max_m": 0.01,
+      "return_corridor_penetrating_environment_contacts": []
+    },
+    {
+      "id": "R050-P1",
+      "radius_m": 0.5,
+      "angle_world_deg": 157.73769561106562,
+      "offset_world_xy_m": [
+        -0.4627295835452227,
+        0.18942368519291547
+      ],
+      "offset_initial_body_forward_left_m": [
+        0.2519797032606702,
+        0.4318636696258375
+      ],
+      "world_xy_m": [
+        7.139771413447147,
+        1.7894231913013958
+      ],
+      "min_group_separation_deg": 102.45347753465535,
+      "min_group_chord_m": 0.7796303032257392,
+      "initial_penetrating_environment_contacts": [],
+      "return_corridor_sample_spacing_max_m": 0.01,
+      "return_corridor_penetrating_environment_contacts": []
+    },
+    {
+      "id": "R050-P2",
+      "radius_m": 0.5,
+      "angle_world_deg": 7.613297742105964,
+      "offset_world_xy_m": [
+        0.495592409125838,
+        0.06624321864800936
+      ],
+      "offset_initial_body_forward_left_m": [
+        -0.0033745480224384866,
+        -0.4999886122947195
+      ],
+      "world_xy_m": [
+        8.098093406118208,
+        1.6662427247564897
+      ],
+      "min_group_separation_deg": 102.45347753465535,
+      "min_group_chord_m": 0.7796303032257392,
+      "initial_penetrating_environment_contacts": [],
+      "return_corridor_sample_spacing_max_m": 0.01,
+      "return_corridor_penetrating_environment_contacts": []
+    },
+    {
+      "id": "R050-P3",
+      "radius_m": 0.5,
+      "angle_world_deg": 260.19117314572094,
+      "offset_world_xy_m": [
+        -0.08518065339509144,
+        -0.49269083235553035
+      ],
+      "offset_initial_body_forward_left_m": [
+        -0.4760411556538207,
+        0.1529209538406145
+      ],
+      "world_xy_m": [
+        7.517320343597278,
+        1.10730867375295
+      ],
+      "min_group_separation_deg": 102.45347753465535,
+      "min_group_chord_m": 0.7796303032257392,
+      "initial_penetrating_environment_contacts": [],
+      "return_corridor_sample_spacing_max_m": 0.01,
+      "return_corridor_penetrating_environment_contacts": []
+    },
+    {
+      "id": "R100-P1",
+      "radius_m": 1.0,
+      "angle_world_deg": 12.329884568727461,
+      "offset_world_xy_m": [
+        0.9769343282711604,
+        0.21353996873039122
+      ],
+      "offset_initial_body_forward_left_m": [
+        0.07549891264650838,
+        -0.9971458841036595
+      ],
+      "world_xy_m": [
+        8.57943532526353,
+        1.8135394748388716
+      ],
+      "min_group_separation_deg": 74.49905606897119,
+      "min_group_chord_m": 1.210574862147052,
+      "initial_penetrating_environment_contacts": [],
+      "return_corridor_sample_spacing_max_m": 0.01,
+      "return_corridor_penetrating_environment_contacts": []
+    },
+    {
+      "id": "R100-P2",
+      "radius_m": 1.0,
+      "angle_world_deg": 128.50928872628657,
+      "offset_world_xy_m": [
+        -0.622641503996317,
+        0.7825072252070292
+      ],
+      "offset_initial_body_forward_left_m": [
+        0.8615468267904867,
+        0.5076781118388192
+      ],
+      "world_xy_m": [
+        6.979859492996052,
+        2.3825067313155097
+      ],
+      "min_group_separation_deg": 74.49905606897119,
+      "min_group_chord_m": 1.210574862147052,
+      "initial_penetrating_environment_contacts": [],
+      "return_corridor_sample_spacing_max_m": 0.01,
+      "return_corridor_penetrating_environment_contacts": []
+    },
+    {
+      "id": "R100-P3",
+      "radius_m": 1.0,
+      "angle_world_deg": 203.00834479525776,
+      "offset_world_xy_m": [
+        -0.9204479359855423,
+        -0.3908651904940563
+      ],
+      "offset_initial_body_forward_left_m": [
+        -0.25895980140642183,
+        0.9658880997572659
+      ],
+      "world_xy_m": [
+        6.682053061006827,
+        1.209134315614424
+      ],
+      "min_group_separation_deg": 74.49905606897119,
+      "min_group_chord_m": 1.210574862147052,
+      "initial_penetrating_environment_contacts": [],
+      "return_corridor_sample_spacing_max_m": 0.01,
+      "return_corridor_penetrating_environment_contacts": []
+    }
+  ],
+  "sampling_attempts": [
+    {
+      "radius_m": 0.1,
+      "attempt": 1,
+      "angles_deg": [
+        211.10480716578917,
+        255.53194806645692,
+        45.98114790755112
+      ],
+      "min_separation_deg": 44.42714090066775,
+      "accepted": false,
+      "reason": "pairwise angular separation below 60 degrees"
+    },
+    {
+      "radius_m": 0.1,
+      "attempt": 2,
+      "angles_deg": [
+        324.341969885133,
+        147.5932002424266,
+        86.85074854433111
+      ],
+      "min_separation_deg": 60.74245169809549,
+      "accepted": true
+    },
+    {
+      "radius_m": 0.5,
+      "attempt": 1,
+      "angles_deg": [
+        157.73769561106562,
+        7.613297742105964,
+        260.19117314572094
+      ],
+      "min_separation_deg": 102.45347753465535,
+      "accepted": true
+    },
+    {
+      "radius_m": 1.0,
+      "attempt": 1,
+      "angles_deg": [
+        183.94467628499763,
+        169.36795917823449,
+        346.2192762940584
+      ],
+      "min_separation_deg": 14.576717106763141,
+      "accepted": false,
+      "reason": "pairwise angular separation below 60 degrees"
+    },
+    {
+      "radius_m": 1.0,
+      "attempt": 2,
+      "angles_deg": [
+        312.053519350862,
+        44.78827465109024,
+        67.54159905336454
+      ],
+      "min_separation_deg": 22.753324402274302,
+      "accepted": false,
+      "reason": "pairwise angular separation below 60 degrees"
+    },
+    {
+      "radius_m": 1.0,
+      "attempt": 3,
+      "angles_deg": [
+        154.5776389722785,
+        66.60998237290174,
+        177.57071503940244
+      ],
+      "min_separation_deg": 22.99307606712395,
+      "accepted": false,
+      "reason": "pairwise angular separation below 60 degrees"
+    },
+    {
+      "radius_m": 1.0,
+      "attempt": 4,
+      "angles_deg": [
+        171.9983309628512,
+        323.55795591528585,
+        116.27922095167533
+      ],
+      "min_separation_deg": 55.719110011175886,
+      "accepted": false,
+      "reason": "pairwise angular separation below 60 degrees"
+    },
+    {
+      "radius_m": 1.0,
+      "attempt": 5,
+      "angles_deg": [
+        235.37799720864393,
+        188.34643315012352,
+        179.95740211112292
+      ],
+      "min_separation_deg": 8.3890310390006,
+      "accepted": false,
+      "reason": "pairwise angular separation below 60 degrees"
+    },
+    {
+      "radius_m": 1.0,
+      "attempt": 6,
+      "angles_deg": [
+        168.053071515298,
+        197.0704134610833,
+        223.23395638226896
+      ],
+      "min_separation_deg": 26.163542921185666,
+      "accepted": false,
+      "reason": "pairwise angular separation below 60 degrees"
+    },
+    {
+      "radius_m": 1.0,
+      "attempt": 7,
+      "angles_deg": [
+        12.329884568727461,
+        128.50928872628657,
+        203.00834479525776
+      ],
+      "min_separation_deg": 74.49905606897119,
+      "accepted": true
+    }
+  ]
+}

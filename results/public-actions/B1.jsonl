@@ -1,0 +1,12 @@
+{"seconds": 59.88250946998596, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 102.88832473754883, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 121.47199892997742, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 144.8571708202362, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 175.0603151321411, "request": {"op": "move", "targets": {"right_2": 2.0, "right_4": 0.4292}, "duration": 10}}
+{"seconds": 175.07409000396729, "request": {"op": "base", "vx": 0.08, "vy": 0.015, "wz": 0, "duration": 5}}
+{"seconds": 216.04179000854492, "request": {"op": "move", "targets": {"right_2": 1.65, "right_3": 1.22, "head_2": 0.23}, "duration": 3.2}}
+{"seconds": 216.05516028404236, "request": {"op": "base", "vx": 0.05, "vy": 0.025, "wz": 0, "duration": 4}}
+{"seconds": 236.28785109519958, "request": {"op": "base", "vx": 0.04, "vy": 0, "wz": 0, "duration": 4}}
+{"seconds": 262.4371223449707, "request": {"op": "move", "targets": {"right_3": 1.14, "right_4": 0.5092}, "duration": 1.2}}
+{"seconds": 262.45975136756897, "request": {"op": "base", "vx": 0.015, "vy": 0.0175, "wz": 0, "duration": 2}}
+{"seconds": 278.72856616973877, "request": {"op": "base", "vx": 0.01, "vy": 0, "wz": 0, "duration": 2}}

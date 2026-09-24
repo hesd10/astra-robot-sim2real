@@ -1,0 +1,458 @@
+{
+  "study": "body-experience-001",
+  "created_unix": 1789877794.272386,
+  "effort": "xhigh",
+  "model": "gpt-6-astra",
+  "task_seconds": 1800,
+  "source_runs": [
+    "be001-source-1",
+    "be001-source-2",
+    "be001-source-3"
+  ],
+  "source_condition": "I0E0",
+  "selection": "fastest valid success by sim_seconds to accepted finish; tie by source ID",
+  "batches": [
+    {
+      "id": "r1-body",
+      "trials": [
+        {
+          "condition": "I3E0",
+          "run": "be001-r1-i3e0",
+          "replicate": 1
+        },
+        {
+          "condition": "I1E0",
+          "run": "be001-r1-i1e0",
+          "replicate": 1
+        },
+        {
+          "condition": "I0E0",
+          "run": "be001-r1-i0e0",
+          "replicate": 1
+        },
+        {
+          "condition": "I2E0",
+          "run": "be001-r1-i2e0",
+          "replicate": 1
+        }
+      ]
+    },
+    {
+      "id": "r1-experience-I0",
+      "trials": [
+        {
+          "condition": "I0E1",
+          "run": "be001-r1-i0e1",
+          "replicate": 1
+        },
+        {
+          "condition": "I0E3",
+          "run": "be001-r1-i0e3",
+          "replicate": 1
+        },
+        {
+          "condition": "I0E2",
+          "run": "be001-r1-i0e2",
+          "replicate": 1
+        }
+      ]
+    },
+    {
+      "id": "r1-experience-I3",
+      "trials": [
+        {
+          "condition": "I3E3",
+          "run": "be001-r1-i3e3",
+          "replicate": 1
+        },
+        {
+          "condition": "I3E2",
+          "run": "be001-r1-i3e2",
+          "replicate": 1
+        },
+        {
+          "condition": "I3E1",
+          "run": "be001-r1-i3e1",
+          "replicate": 1
+        }
+      ]
+    },
+    {
+      "id": "r2-body",
+      "trials": [
+        {
+          "condition": "I1E0",
+          "run": "be001-r2-i1e0",
+          "replicate": 2
+        },
+        {
+          "condition": "I0E0",
+          "run": "be001-r2-i0e0",
+          "replicate": 2
+        },
+        {
+          "condition": "I2E0",
+          "run": "be001-r2-i2e0",
+          "replicate": 2
+        },
+        {
+          "condition": "I3E0",
+          "run": "be001-r2-i3e0",
+          "replicate": 2
+        }
+      ]
+    },
+    {
+      "id": "r2-experience-I0",
+      "trials": [
+        {
+          "condition": "I0E3",
+          "run": "be001-r2-i0e3",
+          "replicate": 2
+        },
+        {
+          "condition": "I0E2",
+          "run": "be001-r2-i0e2",
+          "replicate": 2
+        },
+        {
+          "condition": "I0E1",
+          "run": "be001-r2-i0e1",
+          "replicate": 2
+        }
+      ]
+    },
+    {
+      "id": "r2-experience-I3",
+      "trials": [
+        {
+          "condition": "I3E2",
+          "run": "be001-r2-i3e2",
+          "replicate": 2
+        },
+        {
+          "condition": "I3E1",
+          "run": "be001-r2-i3e1",
+          "replicate": 2
+        },
+        {
+          "condition": "I3E3",
+          "run": "be001-r2-i3e3",
+          "replicate": 2
+        }
+      ]
+    },
+    {
+      "id": "r3-body",
+      "trials": [
+        {
+          "condition": "I0E0",
+          "run": "be001-r3-i0e0",
+          "replicate": 3
+        },
+        {
+          "condition": "I2E0",
+          "run": "be001-r3-i2e0",
+          "replicate": 3
+        },
+        {
+          "condition": "I3E0",
+          "run": "be001-r3-i3e0",
+          "replicate": 3
+        },
+        {
+          "condition": "I1E0",
+          "run": "be001-r3-i1e0",
+          "replicate": 3
+        }
+      ]
+    },
+    {
+      "id": "r3-experience-I0",
+      "trials": [
+        {
+          "condition": "I0E2",
+          "run": "be001-r3-i0e2",
+          "replicate": 3
+        },
+        {
+          "condition": "I0E1",
+          "run": "be001-r3-i0e1",
+          "replicate": 3
+        },
+        {
+          "condition": "I0E3",
+          "run": "be001-r3-i0e3",
+          "replicate": 3
+        }
+      ]
+    },
+    {
+      "id": "r3-experience-I3",
+      "trials": [
+        {
+          "condition": "I3E1",
+          "run": "be001-r3-i3e1",
+          "replicate": 3
+        },
+        {
+          "condition": "I3E3",
+          "run": "be001-r3-i3e3",
+          "replicate": 3
+        },
+        {
+          "condition": "I3E2",
+          "run": "be001-r3-i3e2",
+          "replicate": 3
+        }
+      ]
+    }
+  ],
+  "common_sha256": {
+    "API.md": "f5b7a4abb851d2f88178dd746b13f77925c1b456ea494d9bea55f207f9e70a98",
+    "MEDIA.md": "18a5f823a3ec2472bf7485f8058697a3f82044e66391defd03bc97862efe147e",
+    "PROMPT.md": "cf1c995efb154685b00da2c8110aaf2c5918a1b0fd4abf410c84c0c12586ed5f",
+    "media.py": "dd37740ed74b2fa4120ef5da964370711c10f39c5b24039664b81ac3a1e0645b",
+    "robot.py": "00ebc6d5dd9f09986ca860b453a85c28207907c10e7b733ae8ae1f553b4137c4"
+  },
+  "body_sha256": {
+    "I1/STRUCTURE.md": "25c73b1a84074f1f72657603302b658f8b90fb1f2b7a0418d5aeb057653d7c87",
+    "I2/STRUCTURE.md": "25c73b1a84074f1f72657603302b658f8b90fb1f2b7a0418d5aeb057653d7c87",
+    "I2/robot/README.md": "6e82e2d4b98aeed2672de19d88495c3d8968676286efd010ab5ce6ed43993ebf",
+    "I2/robot/interface_mapping.json": "49fcb524e4242192bc1c6ec6f57df13c415b1681ac13e83d9a54a845f59d4300",
+    "I2/robot/meshes/0321bfb902d5a119_Fixed_Jaw_Motor.stl": "0321bfb902d5a119c4f2a934ab4be7e9ea8c93a02e1685f066f99c24a5ca3ecf",
+    "I2/robot/meshes/07368fa4c50dea70_Lower_Arm_Motor.stl": "07368fa4c50dea70e8157accee71072120c0cb374f672c85aba1d081702bc476",
+    "I2/robot/meshes/27ec489b526b7842_topbase1.stl": "27ec489b526b78423feccfc8aacf4096b44951bd3d496771db07172700029bd6",
+    "I2/robot/meshes/3646936db777b61f_tophead6.stl": "3646936db777b61f57b6150cded1894b696e519d99071425fc3911458bb11c95",
+    "I2/robot/meshes/421a34db4d1426b1_Moving_Jaw_part2.ply.convex.stl": "421a34db4d1426b1abe1f30ed73525f07674645130df94d2935b2ac2084e37e1",
+    "I2/robot/meshes/4a1476f57d28d2c0_Rotation_Pitch.stl": "4a1476f57d28d2c065bc0ede6a674cb3ebacf1193372916ef1e0ff32eeb92cf0",
+    "I2/robot/meshes/54bda4db70209c44_tophead5.stl": "54bda4db70209c444aff603267209e6b382ec11729ec2bde38989e360cbc7985",
+    "I2/robot/meshes/5528867073033eaa_Fixed_Jaw.stl": "5528867073033eaa4c27a8087180954f3f0635bd69d517d5cace92f01dd266b2",
+    "I2/robot/meshes/58e83ce1c8b24e1f_Wrist_Pitch_Roll.stl": "58e83ce1c8b24e1fa3a79672ea965ea4143986c81a21386dcd6da1cbcfdc94bb",
+    "I2/robot/meshes/6d9c923024c75e6f_Moving_Jaw.stl": "6d9c923024c75e6f0a8d8300317c4d8a17dd49880260cbc60b7fe5e0c6dadfa8",
+    "I2/robot/meshes/866c172149e274ff_topbase2.stl": "866c172149e274ffad3fbb9a98c2dcd348eb3556a8227b73e2c0c09d9ce2bbef",
+    "I2/robot/meshes/89ac3fb1d2536fa4_Wrist_Pitch_Roll_Motor.stl": "89ac3fb1d2536fa4f7c40e7449be4b934d7d776f9cd0453c842767f980ff6c18",
+    "I2/robot/meshes/95154bef44deeb71_XLeRobot_camera2.stl": "95154bef44deeb7138f6914ac23250189100df17be1433c70b297eab7398a109",
+    "I2/robot/meshes/a04511bc65cbb702_Lower_Arm.stl": "a04511bc65cbb702b2d6023764de947888b06a09fbf272803f39c22724329a3e",
+    "I2/robot/meshes/a0d92ac9c477f283_Moving_Jaw_part3.ply.convex.stl": "a0d92ac9c477f283211d3b5b925f184d7f031a2001853abfabba3c00a0a3c6b4",
+    "I2/robot/meshes/a427b70481f89f5f_tophead4.stl": "a427b70481f89f5fe41480613a8f1470e1e0ae18fd085142c0bee5cd5ad9254d",
+    "I2/robot/meshes/a91f823092866cb5_Fixed_Jaw_part1.ply.convex.stl": "a91f823092866cb519ff8b2590d6ca7ded921c70c06d64f9524fad2c244a6c62",
+    "I2/robot/meshes/aac4485d448eca41_Base_Motor.stl": "aac4485d448eca418d2a93df3f78f449bd59b21ec1af2a579171819fd44ea576",
+    "I2/robot/meshes/b208f31d48329e6c_raskogbody.stl": "b208f31d48329e6c68b89a27ce25dade6a26ceeed155989b216ee4e068c702cb",
+    "I2/robot/meshes/bafdb2cb9e9a884e_Upper_Arm_Motor.stl": "bafdb2cb9e9a884e62b5fbf15b1f706a65771da82764dbe703df128d9f34d723",
+    "I2/robot/meshes/bb8afb0303c0125f_Base.stl": "bb8afb0303c0125f265a797625cfaf646ac214d5d2dc9c986348c415755e2a74",
+    "I2/robot/meshes/bee7ae0af47d25b7_tophead1.stl": "bee7ae0af47d25b7d4d48675873f7943702535c470e25e9ffa4015441c4ff49d",
+    "I2/robot/meshes/c331a7c7b7a4cddd_Moving_Jaw_part1.ply.convex.stl": "c331a7c7b7a4cdddeb894b4f72e897a2a77b549d9f2a335eea77f10a90ec8567",
+    "I2/robot/meshes/d97ad37c90400fe3_Upper_Arm.stl": "d97ad37c90400fe39bb2d5ace8b4290f3d1262e13f1d4f166494421752d5f3b7",
+    "I2/robot/meshes/dd6162eb944dc700_Fixed_Jaw_part2.ply.convex.stl": "dd6162eb944dc700244552de36e723ba4097ccd25688f06a7413b8133f637d92",
+    "I2/robot/meshes/f4fbcf18d8f2e91d_Rotation_Pitch_Motor.stl": "f4fbcf18d8f2e91d12a767c1679430140dce0c81ea1478cc153bfce3a162db61",
+    "I2/robot/meshes/f54fc014701f1772_XLeRobot_camera1.stl": "f54fc014701f1772f1fd1f4699b5a17b8648ccf0d5d34f5af35048101b978de0",
+    "I2/robot/robot.xml": "860144828efd287be31862b5a5cfd52b3de029f0b1aaabae0ee19d6dfd07eaad",
+    "I3/STRUCTURE.md": "25c73b1a84074f1f72657603302b658f8b90fb1f2b7a0418d5aeb057653d7c87",
+    "I3/robot/README.md": "bc8b4e591987db7de9d25816570bf2ddb1c82e381a49453ccc4d6c5d45532692",
+    "I3/robot/interface_mapping.json": "2c931201ac956a80917167e58cce62f9dc7f999181286f9cd80ca40bca3b0ce0",
+    "I3/robot/meshes/0321bfb902d5a119_Fixed_Jaw_Motor.stl": "0321bfb902d5a119c4f2a934ab4be7e9ea8c93a02e1685f066f99c24a5ca3ecf",
+    "I3/robot/meshes/07368fa4c50dea70_Lower_Arm_Motor.stl": "07368fa4c50dea70e8157accee71072120c0cb374f672c85aba1d081702bc476",
+    "I3/robot/meshes/27ec489b526b7842_topbase1.stl": "27ec489b526b78423feccfc8aacf4096b44951bd3d496771db07172700029bd6",
+    "I3/robot/meshes/3646936db777b61f_tophead6.stl": "3646936db777b61f57b6150cded1894b696e519d99071425fc3911458bb11c95",
+    "I3/robot/meshes/421a34db4d1426b1_Moving_Jaw_part2.ply.convex.stl": "421a34db4d1426b1abe1f30ed73525f07674645130df94d2935b2ac2084e37e1",
+    "I3/robot/meshes/4a1476f57d28d2c0_Rotation_Pitch.stl": "4a1476f57d28d2c065bc0ede6a674cb3ebacf1193372916ef1e0ff32eeb92cf0",
+    "I3/robot/meshes/54bda4db70209c44_tophead5.stl": "54bda4db70209c444aff603267209e6b382ec11729ec2bde38989e360cbc7985",
+    "I3/robot/meshes/5528867073033eaa_Fixed_Jaw.stl": "5528867073033eaa4c27a8087180954f3f0635bd69d517d5cace92f01dd266b2",
+    "I3/robot/meshes/58e83ce1c8b24e1f_Wrist_Pitch_Roll.stl": "58e83ce1c8b24e1fa3a79672ea965ea4143986c81a21386dcd6da1cbcfdc94bb",
+    "I3/robot/meshes/6d9c923024c75e6f_Moving_Jaw.stl": "6d9c923024c75e6f0a8d8300317c4d8a17dd49880260cbc60b7fe5e0c6dadfa8",
+    "I3/robot/meshes/866c172149e274ff_topbase2.stl": "866c172149e274ffad3fbb9a98c2dcd348eb3556a8227b73e2c0c09d9ce2bbef",
+    "I3/robot/meshes/89ac3fb1d2536fa4_Wrist_Pitch_Roll_Motor.stl": "89ac3fb1d2536fa4f7c40e7449be4b934d7d776f9cd0453c842767f980ff6c18",
+    "I3/robot/meshes/95154bef44deeb71_XLeRobot_camera2.stl": "95154bef44deeb7138f6914ac23250189100df17be1433c70b297eab7398a109",
+    "I3/robot/meshes/a04511bc65cbb702_Lower_Arm.stl": "a04511bc65cbb702b2d6023764de947888b06a09fbf272803f39c22724329a3e",
+    "I3/robot/meshes/a0d92ac9c477f283_Moving_Jaw_part3.ply.convex.stl": "a0d92ac9c477f283211d3b5b925f184d7f031a2001853abfabba3c00a0a3c6b4",
+    "I3/robot/meshes/a427b70481f89f5f_tophead4.stl": "a427b70481f89f5fe41480613a8f1470e1e0ae18fd085142c0bee5cd5ad9254d",
+    "I3/robot/meshes/a91f823092866cb5_Fixed_Jaw_part1.ply.convex.stl": "a91f823092866cb519ff8b2590d6ca7ded921c70c06d64f9524fad2c244a6c62",
+    "I3/robot/meshes/aac4485d448eca41_Base_Motor.stl": "aac4485d448eca418d2a93df3f78f449bd59b21ec1af2a579171819fd44ea576",
+    "I3/robot/meshes/b208f31d48329e6c_raskogbody.stl": "b208f31d48329e6c68b89a27ce25dade6a26ceeed155989b216ee4e068c702cb",
+    "I3/robot/meshes/bafdb2cb9e9a884e_Upper_Arm_Motor.stl": "bafdb2cb9e9a884e62b5fbf15b1f706a65771da82764dbe703df128d9f34d723",
+    "I3/robot/meshes/bb8afb0303c0125f_Base.stl": "bb8afb0303c0125f265a797625cfaf646ac214d5d2dc9c986348c415755e2a74",
+    "I3/robot/meshes/bee7ae0af47d25b7_tophead1.stl": "bee7ae0af47d25b7d4d48675873f7943702535c470e25e9ffa4015441c4ff49d",
+    "I3/robot/meshes/c331a7c7b7a4cddd_Moving_Jaw_part1.ply.convex.stl": "c331a7c7b7a4cdddeb894b4f72e897a2a77b549d9f2a335eea77f10a90ec8567",
+    "I3/robot/meshes/d97ad37c90400fe3_Upper_Arm.stl": "d97ad37c90400fe39bb2d5ace8b4290f3d1262e13f1d4f166494421752d5f3b7",
+    "I3/robot/meshes/dd6162eb944dc700_Fixed_Jaw_part2.ply.convex.stl": "dd6162eb944dc700244552de36e723ba4097ccd25688f06a7413b8133f637d92",
+    "I3/robot/meshes/f4fbcf18d8f2e91d_Rotation_Pitch_Motor.stl": "f4fbcf18d8f2e91d12a767c1679430140dce0c81ea1478cc153bfce3a162db61",
+    "I3/robot/meshes/f54fc014701f1772_XLeRobot_camera1.stl": "f54fc014701f1772f1fd1f4699b5a17b8648ccf0d5d34f5af35048101b978de0",
+    "I3/robot/robot.xml": "b5786bb6c225659bfc142f9e2bceefcf485b16ab172ad1dc9c958f35dedfca16"
+  },
+  "reference_sha256": "cfba25b513c9da252252b83846b016cc39b2d4b741cb2e6ffe65e5afc21e6465",
+  "inputs": {
+    "I0E0": {
+      "API.md": "f5b7a4abb851d2f88178dd746b13f77925c1b456ea494d9bea55f207f9e70a98",
+      "MEDIA.md": "18a5f823a3ec2472bf7485f8058697a3f82044e66391defd03bc97862efe147e",
+      "PRIOR.md": "48b13bca55078230ea292d2572cf880e52a96b98e9347d2ed75516355adc0fed",
+      "PROMPT.md": "cf1c995efb154685b00da2c8110aaf2c5918a1b0fd4abf410c84c0c12586ed5f",
+      "media.py": "dd37740ed74b2fa4120ef5da964370711c10f39c5b24039664b81ac3a1e0645b",
+      "robot.py": "00ebc6d5dd9f09986ca860b453a85c28207907c10e7b733ae8ae1f553b4137c4"
+    },
+    "I1E0": {
+      "API.md": "f5b7a4abb851d2f88178dd746b13f77925c1b456ea494d9bea55f207f9e70a98",
+      "MEDIA.md": "18a5f823a3ec2472bf7485f8058697a3f82044e66391defd03bc97862efe147e",
+      "PRIOR.md": "e860aa39320698b54c3c33efac4ef70a585bda5cfc3bc553738d5182a5e13a1b",
+      "PROMPT.md": "cf1c995efb154685b00da2c8110aaf2c5918a1b0fd4abf410c84c0c12586ed5f",
+      "media.py": "dd37740ed74b2fa4120ef5da964370711c10f39c5b24039664b81ac3a1e0645b",
+      "prior/body/STRUCTURE.md": "25c73b1a84074f1f72657603302b658f8b90fb1f2b7a0418d5aeb057653d7c87",
+      "robot.py": "00ebc6d5dd9f09986ca860b453a85c28207907c10e7b733ae8ae1f553b4137c4"
+    },
+    "I2E0": {
+      "API.md": "f5b7a4abb851d2f88178dd746b13f77925c1b456ea494d9bea55f207f9e70a98",
+      "MEDIA.md": "18a5f823a3ec2472bf7485f8058697a3f82044e66391defd03bc97862efe147e",
+      "PRIOR.md": "e860aa39320698b54c3c33efac4ef70a585bda5cfc3bc553738d5182a5e13a1b",
+      "PROMPT.md": "cf1c995efb154685b00da2c8110aaf2c5918a1b0fd4abf410c84c0c12586ed5f",
+      "media.py": "dd37740ed74b2fa4120ef5da964370711c10f39c5b24039664b81ac3a1e0645b",
+      "prior/body/STRUCTURE.md": "25c73b1a84074f1f72657603302b658f8b90fb1f2b7a0418d5aeb057653d7c87",
+      "prior/body/robot/README.md": "6e82e2d4b98aeed2672de19d88495c3d8968676286efd010ab5ce6ed43993ebf",
+      "prior/body/robot/interface_mapping.json": "49fcb524e4242192bc1c6ec6f57df13c415b1681ac13e83d9a54a845f59d4300",
+      "prior/body/robot/meshes/0321bfb902d5a119_Fixed_Jaw_Motor.stl": "0321bfb902d5a119c4f2a934ab4be7e9ea8c93a02e1685f066f99c24a5ca3ecf",
+      "prior/body/robot/meshes/07368fa4c50dea70_Lower_Arm_Motor.stl": "07368fa4c50dea70e8157accee71072120c0cb374f672c85aba1d081702bc476",
+      "prior/body/robot/meshes/27ec489b526b7842_topbase1.stl": "27ec489b526b78423feccfc8aacf4096b44951bd3d496771db07172700029bd6",
+      "prior/body/robot/meshes/3646936db777b61f_tophead6.stl": "3646936db777b61f57b6150cded1894b696e519d99071425fc3911458bb11c95",
+      "prior/body/robot/meshes/421a34db4d1426b1_Moving_Jaw_part2.ply.convex.stl": "421a34db4d1426b1abe1f30ed73525f07674645130df94d2935b2ac2084e37e1",
+      "prior/body/robot/meshes/4a1476f57d28d2c0_Rotation_Pitch.stl": "4a1476f57d28d2c065bc0ede6a674cb3ebacf1193372916ef1e0ff32eeb92cf0",
+      "prior/body/robot/meshes/54bda4db70209c44_tophead5.stl": "54bda4db70209c444aff603267209e6b382ec11729ec2bde38989e360cbc7985",
+      "prior/body/robot/meshes/5528867073033eaa_Fixed_Jaw.stl": "5528867073033eaa4c27a8087180954f3f0635bd69d517d5cace92f01dd266b2",
+      "prior/body/robot/meshes/58e83ce1c8b24e1f_Wrist_Pitch_Roll.stl": "58e83ce1c8b24e1fa3a79672ea965ea4143986c81a21386dcd6da1cbcfdc94bb",
+      "prior/body/robot/meshes/6d9c923024c75e6f_Moving_Jaw.stl": "6d9c923024c75e6f0a8d8300317c4d8a17dd49880260cbc60b7fe5e0c6dadfa8",
+      "prior/body/robot/meshes/866c172149e274ff_topbase2.stl": "866c172149e274ffad3fbb9a98c2dcd348eb3556a8227b73e2c0c09d9ce2bbef",
+      "prior/body/robot/meshes/89ac3fb1d2536fa4_Wrist_Pitch_Roll_Motor.stl": "89ac3fb1d2536fa4f7c40e7449be4b934d7d776f9cd0453c842767f980ff6c18",
+      "prior/body/robot/meshes/95154bef44deeb71_XLeRobot_camera2.stl": "95154bef44deeb7138f6914ac23250189100df17be1433c70b297eab7398a109",
+      "prior/body/robot/meshes/a04511bc65cbb702_Lower_Arm.stl": "a04511bc65cbb702b2d6023764de947888b06a09fbf272803f39c22724329a3e",
+      "prior/body/robot/meshes/a0d92ac9c477f283_Moving_Jaw_part3.ply.convex.stl": "a0d92ac9c477f283211d3b5b925f184d7f031a2001853abfabba3c00a0a3c6b4",
+      "prior/body/robot/meshes/a427b70481f89f5f_tophead4.stl": "a427b70481f89f5fe41480613a8f1470e1e0ae18fd085142c0bee5cd5ad9254d",
+      "prior/body/robot/meshes/a91f823092866cb5_Fixed_Jaw_part1.ply.convex.stl": "a91f823092866cb519ff8b2590d6ca7ded921c70c06d64f9524fad2c244a6c62",
+      "prior/body/robot/meshes/aac4485d448eca41_Base_Motor.stl": "aac4485d448eca418d2a93df3f78f449bd59b21ec1af2a579171819fd44ea576",
+      "prior/body/robot/meshes/b208f31d48329e6c_raskogbody.stl": "b208f31d48329e6c68b89a27ce25dade6a26ceeed155989b216ee4e068c702cb",
+      "prior/body/robot/meshes/bafdb2cb9e9a884e_Upper_Arm_Motor.stl": "bafdb2cb9e9a884e62b5fbf15b1f706a65771da82764dbe703df128d9f34d723",
+      "prior/body/robot/meshes/bb8afb0303c0125f_Base.stl": "bb8afb0303c0125f265a797625cfaf646ac214d5d2dc9c986348c415755e2a74",
+      "prior/body/robot/meshes/bee7ae0af47d25b7_tophead1.stl": "bee7ae0af47d25b7d4d48675873f7943702535c470e25e9ffa4015441c4ff49d",
+      "prior/body/robot/meshes/c331a7c7b7a4cddd_Moving_Jaw_part1.ply.convex.stl": "c331a7c7b7a4cdddeb894b4f72e897a2a77b549d9f2a335eea77f10a90ec8567",
+      "prior/body/robot/meshes/d97ad37c90400fe3_Upper_Arm.stl": "d97ad37c90400fe39bb2d5ace8b4290f3d1262e13f1d4f166494421752d5f3b7",
+      "prior/body/robot/meshes/dd6162eb944dc700_Fixed_Jaw_part2.ply.convex.stl": "dd6162eb944dc700244552de36e723ba4097ccd25688f06a7413b8133f637d92",
+      "prior/body/robot/meshes/f4fbcf18d8f2e91d_Rotation_Pitch_Motor.stl": "f4fbcf18d8f2e91d12a767c1679430140dce0c81ea1478cc153bfce3a162db61",
+      "prior/body/robot/meshes/f54fc014701f1772_XLeRobot_camera1.stl": "f54fc014701f1772f1fd1f4699b5a17b8648ccf0d5d34f5af35048101b978de0",
+      "prior/body/robot/robot.xml": "860144828efd287be31862b5a5cfd52b3de029f0b1aaabae0ee19d6dfd07eaad",
+      "robot.py": "00ebc6d5dd9f09986ca860b453a85c28207907c10e7b733ae8ae1f553b4137c4"
+    },
+    "I3E0": {
+      "API.md": "f5b7a4abb851d2f88178dd746b13f77925c1b456ea494d9bea55f207f9e70a98",
+      "MEDIA.md": "18a5f823a3ec2472bf7485f8058697a3f82044e66391defd03bc97862efe147e",
+      "PRIOR.md": "e860aa39320698b54c3c33efac4ef70a585bda5cfc3bc553738d5182a5e13a1b",
+      "PROMPT.md": "cf1c995efb154685b00da2c8110aaf2c5918a1b0fd4abf410c84c0c12586ed5f",
+      "media.py": "dd37740ed74b2fa4120ef5da964370711c10f39c5b24039664b81ac3a1e0645b",
+      "prior/body/STRUCTURE.md": "25c73b1a84074f1f72657603302b658f8b90fb1f2b7a0418d5aeb057653d7c87",
+      "prior/body/robot/README.md": "bc8b4e591987db7de9d25816570bf2ddb1c82e381a49453ccc4d6c5d45532692",
+      "prior/body/robot/interface_mapping.json": "2c931201ac956a80917167e58cce62f9dc7f999181286f9cd80ca40bca3b0ce0",
+      "prior/body/robot/meshes/0321bfb902d5a119_Fixed_Jaw_Motor.stl": "0321bfb902d5a119c4f2a934ab4be7e9ea8c93a02e1685f066f99c24a5ca3ecf",
+      "prior/body/robot/meshes/07368fa4c50dea70_Lower_Arm_Motor.stl": "07368fa4c50dea70e8157accee71072120c0cb374f672c85aba1d081702bc476",
+      "prior/body/robot/meshes/27ec489b526b7842_topbase1.stl": "27ec489b526b78423feccfc8aacf4096b44951bd3d496771db07172700029bd6",
+      "prior/body/robot/meshes/3646936db777b61f_tophead6.stl": "3646936db777b61f57b6150cded1894b696e519d99071425fc3911458bb11c95",
+      "prior/body/robot/meshes/421a34db4d1426b1_Moving_Jaw_part2.ply.convex.stl": "421a34db4d1426b1abe1f30ed73525f07674645130df94d2935b2ac2084e37e1",
+      "prior/body/robot/meshes/4a1476f57d28d2c0_Rotation_Pitch.stl": "4a1476f57d28d2c065bc0ede6a674cb3ebacf1193372916ef1e0ff32eeb92cf0",
+      "prior/body/robot/meshes/54bda4db70209c44_tophead5.stl": "54bda4db70209c444aff603267209e6b382ec11729ec2bde38989e360cbc7985",
+      "prior/body/robot/meshes/5528867073033eaa_Fixed_Jaw.stl": "5528867073033eaa4c27a8087180954f3f0635bd69d517d5cace92f01dd266b2",
+      "prior/body/robot/meshes/58e83ce1c8b24e1f_Wrist_Pitch_Roll.stl": "58e83ce1c8b24e1fa3a79672ea965ea4143986c81a21386dcd6da1cbcfdc94bb",
+      "prior/body/robot/meshes/6d9c923024c75e6f_Moving_Jaw.stl": "6d9c923024c75e6f0a8d8300317c4d8a17dd49880260cbc60b7fe5e0c6dadfa8",
+      "prior/body/robot/meshes/866c172149e274ff_topbase2.stl": "866c172149e274ffad3fbb9a98c2dcd348eb3556a8227b73e2c0c09d9ce2bbef",
+      "prior/body/robot/meshes/89ac3fb1d2536fa4_Wrist_Pitch_Roll_Motor.stl": "89ac3fb1d2536fa4f7c40e7449be4b934d7d776f9cd0453c842767f980ff6c18",
+      "prior/body/robot/meshes/95154bef44deeb71_XLeRobot_camera2.stl": "95154bef44deeb7138f6914ac23250189100df17be1433c70b297eab7398a109",
+      "prior/body/robot/meshes/a04511bc65cbb702_Lower_Arm.stl": "a04511bc65cbb702b2d6023764de947888b06a09fbf272803f39c22724329a3e",
+      "prior/body/robot/meshes/a0d92ac9c477f283_Moving_Jaw_part3.ply.convex.stl": "a0d92ac9c477f283211d3b5b925f184d7f031a2001853abfabba3c00a0a3c6b4",
+      "prior/body/robot/meshes/a427b70481f89f5f_tophead4.stl": "a427b70481f89f5fe41480613a8f1470e1e0ae18fd085142c0bee5cd5ad9254d",
+      "prior/body/robot/meshes/a91f823092866cb5_Fixed_Jaw_part1.ply.convex.stl": "a91f823092866cb519ff8b2590d6ca7ded921c70c06d64f9524fad2c244a6c62",
+      "prior/body/robot/meshes/aac4485d448eca41_Base_Motor.stl": "aac4485d448eca418d2a93df3f78f449bd59b21ec1af2a579171819fd44ea576",
+      "prior/body/robot/meshes/b208f31d48329e6c_raskogbody.stl": "b208f31d48329e6c68b89a27ce25dade6a26ceeed155989b216ee4e068c702cb",
+      "prior/body/robot/meshes/bafdb2cb9e9a884e_Upper_Arm_Motor.stl": "bafdb2cb9e9a884e62b5fbf15b1f706a65771da82764dbe703df128d9f34d723",
+      "prior/body/robot/meshes/bb8afb0303c0125f_Base.stl": "bb8afb0303c0125f265a797625cfaf646ac214d5d2dc9c986348c415755e2a74",
+      "prior/body/robot/meshes/bee7ae0af47d25b7_tophead1.stl": "bee7ae0af47d25b7d4d48675873f7943702535c470e25e9ffa4015441c4ff49d",
+      "prior/body/robot/meshes/c331a7c7b7a4cddd_Moving_Jaw_part1.ply.convex.stl": "c331a7c7b7a4cdddeb894b4f72e897a2a77b549d9f2a335eea77f10a90ec8567",
+      "prior/body/robot/meshes/d97ad37c90400fe3_Upper_Arm.stl": "d97ad37c90400fe39bb2d5ace8b4290f3d1262e13f1d4f166494421752d5f3b7",
+      "prior/body/robot/meshes/dd6162eb944dc700_Fixed_Jaw_part2.ply.convex.stl": "dd6162eb944dc700244552de36e723ba4097ccd25688f06a7413b8133f637d92",
+      "prior/body/robot/meshes/f4fbcf18d8f2e91d_Rotation_Pitch_Motor.stl": "f4fbcf18d8f2e91d12a767c1679430140dce0c81ea1478cc153bfce3a162db61",
+      "prior/body/robot/meshes/f54fc014701f1772_XLeRobot_camera1.stl": "f54fc014701f1772f1fd1f4699b5a17b8648ccf0d5d34f5af35048101b978de0",
+      "prior/body/robot/robot.xml": "b5786bb6c225659bfc142f9e2bceefcf485b16ab172ad1dc9c958f35dedfca16",
+      "robot.py": "00ebc6d5dd9f09986ca860b453a85c28207907c10e7b733ae8ae1f553b4137c4"
+    }
+  },
+  "legacy_manifest_sha256": "0162c40e56a665538a7a9c70909b429aac1a6a45f15908658b7faf17304e103c",
+  "runtime_sha256": {
+    "assets/files/0321bfb902d5a119_Fixed_Jaw_Motor.stl": "0321bfb902d5a119c4f2a934ab4be7e9ea8c93a02e1685f066f99c24a5ca3ecf",
+    "assets/files/07368fa4c50dea70_Lower_Arm_Motor.stl": "07368fa4c50dea70e8157accee71072120c0cb374f672c85aba1d081702bc476",
+    "assets/files/27ec489b526b7842_topbase1.stl": "27ec489b526b78423feccfc8aacf4096b44951bd3d496771db07172700029bd6",
+    "assets/files/3646936db777b61f_tophead6.stl": "3646936db777b61f57b6150cded1894b696e519d99071425fc3911458bb11c95",
+    "assets/files/41adfd45c9b9fde0_marble_floor_basecolor_2k.png": "41adfd45c9b9fde022a3dcbb04f39c5d937244d8fda206758fe87ddbd0582df9",
+    "assets/files/421a34db4d1426b1_Moving_Jaw_part2.ply.convex.stl": "421a34db4d1426b1abe1f30ed73525f07674645130df94d2935b2ac2084e37e1",
+    "assets/files/4a1476f57d28d2c0_Rotation_Pitch.stl": "4a1476f57d28d2c065bc0ede6a674cb3ebacf1193372916ef1e0ff32eeb92cf0",
+    "assets/files/54bda4db70209c44_tophead5.stl": "54bda4db70209c444aff603267209e6b382ec11729ec2bde38989e360cbc7985",
+    "assets/files/5528867073033eaa_Fixed_Jaw.stl": "5528867073033eaa4c27a8087180954f3f0635bd69d517d5cace92f01dd266b2",
+    "assets/files/58e83ce1c8b24e1f_Wrist_Pitch_Roll.stl": "58e83ce1c8b24e1fa3a79672ea965ea4143986c81a21386dcd6da1cbcfdc94bb",
+    "assets/files/68568b9453e055dd_elevator_metal_basecolor_2k.png": "68568b9453e055dd3cb5204bdbd58f7ec122c6ece82e3a9e01e7f7095c21d748",
+    "assets/files/6d9c923024c75e6f_Moving_Jaw.stl": "6d9c923024c75e6f0a8d8300317c4d8a17dd49880260cbc60b7fe5e0c6dadfa8",
+    "assets/files/719d4d1ec811f54a_raskogwheel2.stl": "719d4d1ec811f54af6bdadab64dcec5411ed356d1bce691e7bf19ab685f02edf",
+    "assets/files/866c172149e274ff_topbase2.stl": "866c172149e274ffad3fbb9a98c2dcd348eb3556a8227b73e2c0c09d9ce2bbef",
+    "assets/files/89ac3fb1d2536fa4_Wrist_Pitch_Roll_Motor.stl": "89ac3fb1d2536fa4f7c40e7449be4b934d7d776f9cd0453c842767f980ff6c18",
+    "assets/files/95154bef44deeb71_XLeRobot_camera2.stl": "95154bef44deeb7138f6914ac23250189100df17be1433c70b297eab7398a109",
+    "assets/files/a04511bc65cbb702_Lower_Arm.stl": "a04511bc65cbb702b2d6023764de947888b06a09fbf272803f39c22724329a3e",
+    "assets/files/a0d92ac9c477f283_Moving_Jaw_part3.ply.convex.stl": "a0d92ac9c477f283211d3b5b925f184d7f031a2001853abfabba3c00a0a3c6b4",
+    "assets/files/a427b70481f89f5f_tophead4.stl": "a427b70481f89f5fe41480613a8f1470e1e0ae18fd085142c0bee5cd5ad9254d",
+    "assets/files/a91f823092866cb5_Fixed_Jaw_part1.ply.convex.stl": "a91f823092866cb519ff8b2590d6ca7ded921c70c06d64f9524fad2c244a6c62",
+    "assets/files/aac4485d448eca41_Base_Motor.stl": "aac4485d448eca418d2a93df3f78f449bd59b21ec1af2a579171819fd44ea576",
+    "assets/files/b208f31d48329e6c_raskogbody.stl": "b208f31d48329e6c68b89a27ce25dade6a26ceeed155989b216ee4e068c702cb",
+    "assets/files/bafdb2cb9e9a884e_Upper_Arm_Motor.stl": "bafdb2cb9e9a884e62b5fbf15b1f706a65771da82764dbe703df128d9f34d723",
+    "assets/files/bb8afb0303c0125f_Base.stl": "bb8afb0303c0125f265a797625cfaf646ac214d5d2dc9c986348c415755e2a74",
+    "assets/files/bee7ae0af47d25b7_tophead1.stl": "bee7ae0af47d25b7d4d48675873f7943702535c470e25e9ffa4015441c4ff49d",
+    "assets/files/c331a7c7b7a4cddd_Moving_Jaw_part1.ply.convex.stl": "c331a7c7b7a4cdddeb894b4f72e897a2a77b549d9f2a335eea77f10a90ec8567",
+    "assets/files/cb8330074b23de6a_raskogwheel1.stl": "cb8330074b23de6aba316fb47978b9acd194a8020820255ba2c6b64350781161",
+    "assets/files/d97ad37c90400fe3_Upper_Arm.stl": "d97ad37c90400fe39bb2d5ace8b4290f3d1262e13f1d4f166494421752d5f3b7",
+    "assets/files/dd6162eb944dc700_Fixed_Jaw_part2.ply.convex.stl": "dd6162eb944dc700244552de36e723ba4097ccd25688f06a7413b8133f637d92",
+    "assets/files/f4fbcf18d8f2e91d_Rotation_Pitch_Motor.stl": "f4fbcf18d8f2e91d12a767c1679430140dce0c81ea1478cc153bfce3a162db61",
+    "assets/files/f54fc014701f1772_XLeRobot_camera1.stl": "f54fc014701f1772f1fd1f4699b5a17b8648ccf0d5d34f5af35048101b978de0",
+    "assets/source/button_panel.py": "3913f2015b774f41011d411210e08ed39bc9fafacd1e7924b24b305477032b9a",
+    "assets/source/elevator_scene_robot.xml": "eb8107a0fb282902bb519773ceb16aa40e752865620ec359fa79f0d74b779f25",
+    "assets/source/home_pose.py": "dc36b5e3ad00210090026f1e76b932b83775b9c4c62fa285d3e315970ae13227",
+    "models/elevator_four_mecanum.xml": "cd4bef986f42e547051412aa9884649bc8124402644a1bd628d8ebbcb30be7ff",
+    "scripts/account_preflight.py": "6b5f09ccd13408b313ebe04489dc1c2bf6ee714c0f4f18c1117af18078552bb0",
+    "scripts/check_prior_comparison.py": "ced975b6f64796ec05f5dcdebc4d846458592763439fab842d2ad143e3e90791",
+    "scripts/prior_materials.py": "4cd58082b5406e1af1559b39a03f2254b702a99e97c87c828459cf05214770b2",
+    "scripts/prior_service.py": "72cfd8a0bfe387601ef28cc1006220abcaa445e0c8fe073a34f131c4524894ee",
+    "scripts/run_iterations.py": "64e453fd2ef2434938a46c9ac1128341defb22f166f72a2e48a711728f86cfb4",
+    "scripts/run_prior_comparison.py": "c6641d6f9153e6b380011091a7bfc475b5c990e47b07af148c24bba360549b83",
+    "scripts/run_skill_comparison.py": "7a7c76d16eab60067eaa1861fc314aa062eeb4a2b1d02cf1a029b8b9d8f3f1cd",
+    "scripts/start_prior_experiment.py": "8aa2f67f849772acd7cf36cdeef0750082a14ba34abe7404230ab4112e6fdb3b",
+    "scripts/wheel_contact_model.py": "39ba8806b60eacea1cb86fe16765fe51e92c19f6dffaaa9a809331f6d92e029a",
+    "setups/formal-001.json": "484a0501982c3d3af2759cd712887cdbee4a2cbe8ab56a8a65c8709dd513dbd6",
+    "sim_env/__init__.py": "14c53ac6169117cd610558356bb44a3bbfac8680126f888d0da8ca590b7b1bd6",
+    "sim_env/agent.py": "4678c2b6dd5652b97847c6e3e9bee7b0c0cecbcc48ff2de788c973a56651ec99",
+    "sim_env/core.py": "ce194e853f9be49d1ff7e9c447d03e31f77ca6822e7347ae152bbfbeff0f2f57",
+    "sim_env/dashboard.py": "37fe144299b21f635b976d2596b8fdcd39d2d124846b428a337737ac117ed67e",
+    "sim_env/dashboard_recording.py": "7b3075c245799417c08aa72bad8e1b33d341af00c9696abfc188025f3e32a8fd",
+    "sim_env/isolate.py": "6deed51d48584b7dbbab17ddacfbcee1b60c5e82c5d3fc3ed719aa2ee935d92a",
+    "sim_env/mailbox.py": "536fa73d50c8564d5b8b1bbeddfc4f73176fe9b18266882e64c70aff3ab43d43",
+    "sim_env/model.py": "2f4353eea17952cf0d939093a5b132e025f84f16160dfc331bcaea090cc425cc",
+    "sim_env/monitor.html": "dcfc95115004ea5136bf181601f1b9725bf35792442c9c75373a3d6d71b7c5a1",
+    "sim_env/monitor.py": "c005733b680fb0d788218df169022c192704440b1f55730445aaa62f39bf82cd",
+    "sim_env/progress.py": "8e9ec7cdc1bd88542555f2033853c5a9bef40d88b9f0d849ff5507c39ac9be59",
+    "sim_env/provider_probe.py": "c74b79c43f44734d3a90c01197707a0372678ff5f3f07284df6c618f33a80f59",
+    "sim_env/rendering.py": "3e1263e60e9e0d99d5ab45093da08c2bee7b7cabcdfd051721981c49d729d046",
+    "sim_env/service.py": "efa31fa8837ed3df678a3580e4c4a2252db5df0a098dc668b58de7cbc701cf2a",
+    "sim_env/setup.py": "c3d8b3c557a5815eae30ee1de93e0fdef7c39561af1887de943a91a1f8b2d0d8",
+    "sim_env/subject_tools.py": "dd0c31ca05eb7a2c1d43b167ac5a0a02a2e883f3ef92ca4e3a11f5f16ebc3328",
+    "sim_env/transfer.py": "bcff2709a4a4842f1dfda4a6653aaa2c2d09737c9541a6cebae83d397ce78775",
+    "sim_env/video_timeline.py": "1676fd927c1099ea43c68ebe680bc499de0d8bdc0be37c2d19e81819db7ce580",
+    "sim_env/workflow.py": "7c7683c0df99da20f99fad43aa3f2f558e8808ca1629b911214c18d4579ea8ca",
+    "subject_template/API.md": "bc90906ae6a4c66ab5a3dfa4e9d628b9c227a0e8f4d6d2fac04a4e4a867eb76d",
+    "subject_template/PROMPT.md": "8fb25620d9c9ec23937acc417cbef1d7d6205738fd0230c49308cf6e575c8a71",
+    "subject_template/robot.py": "00ebc6d5dd9f09986ca860b453a85c28207907c10e7b733ae8ae1f553b4137c4"
+  },
+  "codex_binary": "/usr/lib/chatgpt/resources/codex",
+  "codex_binary_sha256": "56ef98ab4032d317ab26e9b5e5a175650717351edb16ed9cde0cb6d1734d62da",
+  "worker_sha256": "c779d2cca12054fbaa4633e04afeaa098fceed4cfed88ba27fcbe24cf3b1ef11",
+  "no_automatic_retries": true,
+  "station": "formal-001 fixed",
+  "phase_two": "Not dispatched: station-variation ranges and conditions require separate freeze",
+  "autonomous_authorization": "User authorizes sources, frozen same-source E1/E2/E3, all 30 fixed-station tests, analysis without routine reports."
+}

@@ -1,0 +1,81 @@
+{
+  "name": "elevator-task-initial-pose",
+  "source": "/home/sida/Documents/ChatGPT/astra-elevator-button/mujoco_astra_local_20260917_final/assets/source/home_pose.py",
+  "source_sha256": "dc36b5e3ad00210090026f1e76b932b83775b9c4c62fa285d3e315970ae13227",
+  "calibration_sha256": "8038d17399599b080e1bfc0514fb60322ffa340929cc876accd0dc09c77661ed",
+  "note": "Simulation HOME via actual-side channel mapping. jaw_min uses measured real closed limit with margin; head stays at current pose. Preparation only, not trial start.",
+  "targets": {
+    "left_1": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61034983-if00:1",
+      "count": 2035,
+      "xml_q_requested": 1.5707963267948966,
+      "q_commanded_rad": 1.5707963267948966
+    },
+    "left_2": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61034983-if00:2",
+      "count": 1063,
+      "xml_q_requested": 3.141592653589793,
+      "q_commanded_rad": 3.141592653589793
+    },
+    "left_3": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61034983-if00:3",
+      "count": 2779,
+      "xml_q_requested": 2.6,
+      "q_commanded_rad": 2.6000974354661617
+    },
+    "left_4": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61034983-if00:4",
+      "count": 3028,
+      "xml_q_requested": 1.5707963267948966,
+      "q_commanded_rad": 1.5707963267948966
+    },
+    "left_5": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61034983-if00:5",
+      "count": 2181,
+      "xml_q_requested": 1.5707963267948966,
+      "q_commanded_rad": 1.5707963267948966
+    },
+    "left_6": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61034983-if00:6",
+      "count": 2052,
+      "xml_q_requested": "jaw_min",
+      "q_commanded_rad": -0.015339807878856412
+    },
+    "right_1": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61033169-if00:1",
+      "count": 2018,
+      "xml_q_requested": -1.5707963267948966,
+      "q_commanded_rad": -1.5707963267948966
+    },
+    "right_2": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61033169-if00:2",
+      "count": 1057,
+      "xml_q_requested": 3.141592653589793,
+      "q_commanded_rad": 3.141373513477238
+    },
+    "right_3": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61033169-if00:3",
+      "count": 2190,
+      "xml_q_requested": 1.5707963267948966,
+      "q_commanded_rad": 1.5707963267948966
+    },
+    "right_4": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61033169-if00:4",
+      "count": 3108,
+      "xml_q_requested": 1.5707963267948966,
+      "q_commanded_rad": 1.5707963267948966
+    },
+    "right_5": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61033169-if00:5",
+      "count": 2146,
+      "xml_q_requested": 1.5707963267948966,
+      "q_commanded_rad": 1.5707963267948966
+    },
+    "right_6": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61033169-if00:6",
+      "count": 2033,
+      "xml_q_requested": "jaw_min",
+      "q_commanded_rad": 0.0030679615757712823
+    }
+  }
+}

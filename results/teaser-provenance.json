@@ -1,0 +1,62 @@
+{
+  "figure": "teaser",
+  "status": "Approved front-page manuscript figure",
+  "images": [
+    {
+      "path": "media/simulation-local-state-S1.png",
+      "role": "Illustrative simulator external view from local state S1, not a fixed-start trial frame",
+      "sha256": "7429db8780d49c761a705b408b1cc6806bccbbf5afdaae12b9168cf07a927cb0"
+    },
+    {
+      "path": "media/D3-approach.jpg",
+      "role": "Illustrative external D3 video frame, not a frame from A/B/C comparisons",
+      "sha256": "4d3b41fff5f1499b24858ec26a94a69d8d8abab3017317b05911550907e2efee"
+    }
+  ],
+  "main_metrics": {
+    "simulation_assets": {
+      "baseline_seconds": 1024.8836666493432,
+      "condition_seconds": 437.0566666632435,
+      "mean_time_reduction_percent": 57.355485223789856,
+      "n_per_condition": 3
+    },
+    "simulation_experience": {
+      "baseline_seconds": 1024.8836666493432,
+      "condition_seconds": 321.40999999931154,
+      "mean_time_reduction_percent": 68.63936752450172,
+      "n_per_condition": 3
+    },
+    "real_assets": {
+      "baseline_seconds": 740.1399057706197,
+      "condition_seconds": 348.007689555486,
+      "mean_time_reduction_percent": 52.98082337647407,
+      "n_per_condition": 3
+    },
+    "real_experience": {
+      "baseline_seconds": 740.1399057706197,
+      "condition_seconds": 370.6972387631734,
+      "mean_time_reduction_percent": 49.915247661560635,
+      "n_per_condition": 3
+    },
+    "local_STEP": {
+      "baseline_seconds": 169.35480651633893,
+      "condition_seconds": 120.24201089100097,
+      "mean_time_reduction_percent": 28.999941977200205,
+      "n_per_condition": 9
+    },
+    "local_LOOP": {
+      "baseline_seconds": 169.35480651633893,
+      "condition_seconds": 117.592134837889,
+      "mean_time_reduction_percent": 30.564630991713827,
+      "n_per_condition": 9
+    }
+  },
+  "skills": {
+    "baseline_seconds": 169.35480651633893,
+    "STEP_seconds": 120.24201089100097,
+    "LOOP_seconds": 117.592134837889,
+    "STEP_reduction_percent": 28.999941977200205,
+    "LOOP_reduction_percent": 30.564630991713827,
+    "n_per_condition": 9
+  }
+}

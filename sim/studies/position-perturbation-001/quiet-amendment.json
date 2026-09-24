@@ -1,0 +1,9 @@
+{
+  "created_unix": 1789910495.2199242,
+  "reason": "User cancels quota-budget calibration and progress reports; continue trials and compact analysis",
+  "worker_sha256": "69203de54560f7421437651e7e5425bac33b8ac93d1da1d4cf9a9f3e0994f7a5",
+  "original_manifest_unchanged": true,
+  "subject_inputs_and_order_unchanged": true,
+  "quota_budget_projection_removed": true,
+  "quota_availability_and_reserve_checks_retained": true
+}

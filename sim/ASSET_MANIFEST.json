@@ -1,0 +1,450 @@
+[
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "marble_floor_pbr_2k/marble_floor_basecolor_2k.png",
+    "bundled": "assets/files/41adfd45c9b9fde0_marble_floor_basecolor_2k.png",
+    "sha256": "41adfd45c9b9fde022a3dcbb04f39c5d937244d8fda206758fe87ddbd0582df9",
+    "bytes": 7091404
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "marble_floor_pbr_2k/marble_floor_basecolor_2k.png",
+    "bundled": "assets/files/41adfd45c9b9fde0_marble_floor_basecolor_2k.png",
+    "sha256": "41adfd45c9b9fde022a3dcbb04f39c5d937244d8fda206758fe87ddbd0582df9",
+    "bytes": 7091404
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "elevator_metal_pbr_2k/elevator_metal_basecolor_2k.png",
+    "bundled": "assets/files/68568b9453e055dd_elevator_metal_basecolor_2k.png",
+    "sha256": "68568b9453e055dd3cb5204bdbd58f7ec122c6ece82e3a9e01e7f7095c21d748",
+    "bytes": 2611872
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/raskogbody.stl",
+    "bundled": "assets/files/b208f31d48329e6c_raskogbody.stl",
+    "sha256": "b208f31d48329e6c68b89a27ce25dade6a26ceeed155989b216ee4e068c702cb",
+    "bytes": 629384
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/raskogwheel1.stl",
+    "bundled": "assets/files/cb8330074b23de6a_raskogwheel1.stl",
+    "sha256": "cb8330074b23de6aba316fb47978b9acd194a8020820255ba2c6b64350781161",
+    "bytes": 91884
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/raskogwheel2.stl",
+    "bundled": "assets/files/719d4d1ec811f54a_raskogwheel2.stl",
+    "sha256": "719d4d1ec811f54af6bdadab64dcec5411ed356d1bce691e7bf19ab685f02edf",
+    "bytes": 114884
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Base.stl",
+    "bundled": "assets/files/bb8afb0303c0125f_Base.stl",
+    "sha256": "bb8afb0303c0125f265a797625cfaf646ac214d5d2dc9c986348c415755e2a74",
+    "bytes": 443484
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Base_Motor.stl",
+    "bundled": "assets/files/aac4485d448eca41_Base_Motor.stl",
+    "sha256": "aac4485d448eca418d2a93df3f78f449bd59b21ec1af2a579171819fd44ea576",
+    "bytes": 154284
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Rotation_Pitch.stl",
+    "bundled": "assets/files/4a1476f57d28d2c0_Rotation_Pitch.stl",
+    "sha256": "4a1476f57d28d2c065bc0ede6a674cb3ebacf1193372916ef1e0ff32eeb92cf0",
+    "bytes": 347584
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Rotation_Pitch_Motor.stl",
+    "bundled": "assets/files/f4fbcf18d8f2e91d_Rotation_Pitch_Motor.stl",
+    "sha256": "f4fbcf18d8f2e91d12a767c1679430140dce0c81ea1478cc153bfce3a162db61",
+    "bytes": 154284
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Upper_Arm.stl",
+    "bundled": "assets/files/d97ad37c90400fe3_Upper_Arm.stl",
+    "sha256": "d97ad37c90400fe39bb2d5ace8b4290f3d1262e13f1d4f166494421752d5f3b7",
+    "bytes": 215184
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Upper_Arm_Motor.stl",
+    "bundled": "assets/files/bafdb2cb9e9a884e_Upper_Arm_Motor.stl",
+    "sha256": "bafdb2cb9e9a884e62b5fbf15b1f706a65771da82764dbe703df128d9f34d723",
+    "bytes": 152284
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Lower_Arm.stl",
+    "bundled": "assets/files/a04511bc65cbb702_Lower_Arm.stl",
+    "sha256": "a04511bc65cbb702b2d6023764de947888b06a09fbf272803f39c22724329a3e",
+    "bytes": 347184
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Lower_Arm_Motor.stl",
+    "bundled": "assets/files/07368fa4c50dea70_Lower_Arm_Motor.stl",
+    "sha256": "07368fa4c50dea70e8157accee71072120c0cb374f672c85aba1d081702bc476",
+    "bytes": 151884
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Wrist_Pitch_Roll.stl",
+    "bundled": "assets/files/58e83ce1c8b24e1f_Wrist_Pitch_Roll.stl",
+    "sha256": "58e83ce1c8b24e1fa3a79672ea965ea4143986c81a21386dcd6da1cbcfdc94bb",
+    "bytes": 341684
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Wrist_Pitch_Roll_Motor.stl",
+    "bundled": "assets/files/89ac3fb1d2536fa4_Wrist_Pitch_Roll_Motor.stl",
+    "sha256": "89ac3fb1d2536fa4f7c40e7449be4b934d7d776f9cd0453c842767f980ff6c18",
+    "bytes": 133684
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Fixed_Jaw.stl",
+    "bundled": "assets/files/5528867073033eaa_Fixed_Jaw.stl",
+    "sha256": "5528867073033eaa4c27a8087180954f3f0635bd69d517d5cace92f01dd266b2",
+    "bytes": 264584
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Fixed_Jaw_part1.ply.convex.stl",
+    "bundled": "assets/files/a91f823092866cb5_Fixed_Jaw_part1.ply.convex.stl",
+    "sha256": "a91f823092866cb519ff8b2590d6ca7ded921c70c06d64f9524fad2c244a6c62",
+    "bytes": 684
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Fixed_Jaw_part2.ply.convex.stl",
+    "bundled": "assets/files/dd6162eb944dc700_Fixed_Jaw_part2.ply.convex.stl",
+    "sha256": "dd6162eb944dc700244552de36e723ba4097ccd25688f06a7413b8133f637d92",
+    "bytes": 1284
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Fixed_Jaw_Motor.stl",
+    "bundled": "assets/files/0321bfb902d5a119_Fixed_Jaw_Motor.stl",
+    "sha256": "0321bfb902d5a119c4f2a934ab4be7e9ea8c93a02e1685f066f99c24a5ca3ecf",
+    "bytes": 151884
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Moving_Jaw.stl",
+    "bundled": "assets/files/6d9c923024c75e6f_Moving_Jaw.stl",
+    "sha256": "6d9c923024c75e6f0a8d8300317c4d8a17dd49880260cbc60b7fe5e0c6dadfa8",
+    "bytes": 177184
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Moving_Jaw_part1.ply.convex.stl",
+    "bundled": "assets/files/c331a7c7b7a4cddd_Moving_Jaw_part1.ply.convex.stl",
+    "sha256": "c331a7c7b7a4cdddeb894b4f72e897a2a77b549d9f2a335eea77f10a90ec8567",
+    "bytes": 684
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Moving_Jaw_part2.ply.convex.stl",
+    "bundled": "assets/files/421a34db4d1426b1_Moving_Jaw_part2.ply.convex.stl",
+    "sha256": "421a34db4d1426b1abe1f30ed73525f07674645130df94d2935b2ac2084e37e1",
+    "bytes": 684
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Moving_Jaw_part3.ply.convex.stl",
+    "bundled": "assets/files/a0d92ac9c477f283_Moving_Jaw_part3.ply.convex.stl",
+    "sha256": "a0d92ac9c477f283211d3b5b925f184d7f031a2001853abfabba3c00a0a3c6b4",
+    "bytes": 984
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/XLeRobot_camera1.stl",
+    "bundled": "assets/files/f54fc014701f1772_XLeRobot_camera1.stl",
+    "sha256": "f54fc014701f1772f1fd1f4699b5a17b8648ccf0d5d34f5af35048101b978de0",
+    "bytes": 42284
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/XLeRobot_camera2.stl",
+    "bundled": "assets/files/95154bef44deeb71_XLeRobot_camera2.stl",
+    "sha256": "95154bef44deeb7138f6914ac23250189100df17be1433c70b297eab7398a109",
+    "bytes": 120884
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/topbase1.stl",
+    "bundled": "assets/files/27ec489b526b7842_topbase1.stl",
+    "sha256": "27ec489b526b78423feccfc8aacf4096b44951bd3d496771db07172700029bd6",
+    "bytes": 213284
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/topbase2.stl",
+    "bundled": "assets/files/866c172149e274ff_topbase2.stl",
+    "sha256": "866c172149e274ffad3fbb9a98c2dcd348eb3556a8227b73e2c0c09d9ce2bbef",
+    "bytes": 83284
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/tophead1.stl",
+    "bundled": "assets/files/bee7ae0af47d25b7_tophead1.stl",
+    "sha256": "bee7ae0af47d25b7d4d48675873f7943702535c470e25e9ffa4015441c4ff49d",
+    "bytes": 115384
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/tophead4.stl",
+    "bundled": "assets/files/a427b70481f89f5f_tophead4.stl",
+    "sha256": "a427b70481f89f5fe41480613a8f1470e1e0ae18fd085142c0bee5cd5ad9254d",
+    "bytes": 119284
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/tophead5.stl",
+    "bundled": "assets/files/54bda4db70209c44_tophead5.stl",
+    "sha256": "54bda4db70209c444aff603267209e6b382ec11729ec2bde38989e360cbc7985",
+    "bytes": 70084
+  },
+  {
+    "model": "models/elevator_four_mecanum.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/tophead6.stl",
+    "bundled": "assets/files/3646936db777b61f_tophead6.stl",
+    "sha256": "3646936db777b61f57b6150cded1894b696e519d99071425fc3911458bb11c95",
+    "bytes": 313384
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "marble_floor_pbr_2k/marble_floor_basecolor_2k.png",
+    "bundled": "assets/files/41adfd45c9b9fde0_marble_floor_basecolor_2k.png",
+    "sha256": "41adfd45c9b9fde022a3dcbb04f39c5d937244d8fda206758fe87ddbd0582df9",
+    "bytes": 7091404
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "marble_floor_pbr_2k/marble_floor_basecolor_2k.png",
+    "bundled": "assets/files/41adfd45c9b9fde0_marble_floor_basecolor_2k.png",
+    "sha256": "41adfd45c9b9fde022a3dcbb04f39c5d937244d8fda206758fe87ddbd0582df9",
+    "bytes": 7091404
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "elevator_metal_pbr_2k/elevator_metal_basecolor_2k.png",
+    "bundled": "assets/files/68568b9453e055dd_elevator_metal_basecolor_2k.png",
+    "sha256": "68568b9453e055dd3cb5204bdbd58f7ec122c6ece82e3a9e01e7f7095c21d748",
+    "bytes": 2611872
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/raskogbody.stl",
+    "bundled": "assets/files/b208f31d48329e6c_raskogbody.stl",
+    "sha256": "b208f31d48329e6c68b89a27ce25dade6a26ceeed155989b216ee4e068c702cb",
+    "bytes": 629384
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/raskogwheel1.stl",
+    "bundled": "assets/files/cb8330074b23de6a_raskogwheel1.stl",
+    "sha256": "cb8330074b23de6aba316fb47978b9acd194a8020820255ba2c6b64350781161",
+    "bytes": 91884
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/raskogwheel2.stl",
+    "bundled": "assets/files/719d4d1ec811f54a_raskogwheel2.stl",
+    "sha256": "719d4d1ec811f54af6bdadab64dcec5411ed356d1bce691e7bf19ab685f02edf",
+    "bytes": 114884
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Base.stl",
+    "bundled": "assets/files/bb8afb0303c0125f_Base.stl",
+    "sha256": "bb8afb0303c0125f265a797625cfaf646ac214d5d2dc9c986348c415755e2a74",
+    "bytes": 443484
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Base_Motor.stl",
+    "bundled": "assets/files/aac4485d448eca41_Base_Motor.stl",
+    "sha256": "aac4485d448eca418d2a93df3f78f449bd59b21ec1af2a579171819fd44ea576",
+    "bytes": 154284
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Rotation_Pitch.stl",
+    "bundled": "assets/files/4a1476f57d28d2c0_Rotation_Pitch.stl",
+    "sha256": "4a1476f57d28d2c065bc0ede6a674cb3ebacf1193372916ef1e0ff32eeb92cf0",
+    "bytes": 347584
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Rotation_Pitch_Motor.stl",
+    "bundled": "assets/files/f4fbcf18d8f2e91d_Rotation_Pitch_Motor.stl",
+    "sha256": "f4fbcf18d8f2e91d12a767c1679430140dce0c81ea1478cc153bfce3a162db61",
+    "bytes": 154284
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Upper_Arm.stl",
+    "bundled": "assets/files/d97ad37c90400fe3_Upper_Arm.stl",
+    "sha256": "d97ad37c90400fe39bb2d5ace8b4290f3d1262e13f1d4f166494421752d5f3b7",
+    "bytes": 215184
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Upper_Arm_Motor.stl",
+    "bundled": "assets/files/bafdb2cb9e9a884e_Upper_Arm_Motor.stl",
+    "sha256": "bafdb2cb9e9a884e62b5fbf15b1f706a65771da82764dbe703df128d9f34d723",
+    "bytes": 152284
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Lower_Arm.stl",
+    "bundled": "assets/files/a04511bc65cbb702_Lower_Arm.stl",
+    "sha256": "a04511bc65cbb702b2d6023764de947888b06a09fbf272803f39c22724329a3e",
+    "bytes": 347184
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Lower_Arm_Motor.stl",
+    "bundled": "assets/files/07368fa4c50dea70_Lower_Arm_Motor.stl",
+    "sha256": "07368fa4c50dea70e8157accee71072120c0cb374f672c85aba1d081702bc476",
+    "bytes": 151884
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Wrist_Pitch_Roll.stl",
+    "bundled": "assets/files/58e83ce1c8b24e1f_Wrist_Pitch_Roll.stl",
+    "sha256": "58e83ce1c8b24e1fa3a79672ea965ea4143986c81a21386dcd6da1cbcfdc94bb",
+    "bytes": 341684
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Wrist_Pitch_Roll_Motor.stl",
+    "bundled": "assets/files/89ac3fb1d2536fa4_Wrist_Pitch_Roll_Motor.stl",
+    "sha256": "89ac3fb1d2536fa4f7c40e7449be4b934d7d776f9cd0453c842767f980ff6c18",
+    "bytes": 133684
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Fixed_Jaw.stl",
+    "bundled": "assets/files/5528867073033eaa_Fixed_Jaw.stl",
+    "sha256": "5528867073033eaa4c27a8087180954f3f0635bd69d517d5cace92f01dd266b2",
+    "bytes": 264584
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Fixed_Jaw_part1.ply.convex.stl",
+    "bundled": "assets/files/a91f823092866cb5_Fixed_Jaw_part1.ply.convex.stl",
+    "sha256": "a91f823092866cb519ff8b2590d6ca7ded921c70c06d64f9524fad2c244a6c62",
+    "bytes": 684
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Fixed_Jaw_part2.ply.convex.stl",
+    "bundled": "assets/files/dd6162eb944dc700_Fixed_Jaw_part2.ply.convex.stl",
+    "sha256": "dd6162eb944dc700244552de36e723ba4097ccd25688f06a7413b8133f637d92",
+    "bytes": 1284
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Fixed_Jaw_Motor.stl",
+    "bundled": "assets/files/0321bfb902d5a119_Fixed_Jaw_Motor.stl",
+    "sha256": "0321bfb902d5a119c4f2a934ab4be7e9ea8c93a02e1685f066f99c24a5ca3ecf",
+    "bytes": 151884
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Moving_Jaw.stl",
+    "bundled": "assets/files/6d9c923024c75e6f_Moving_Jaw.stl",
+    "sha256": "6d9c923024c75e6f0a8d8300317c4d8a17dd49880260cbc60b7fe5e0c6dadfa8",
+    "bytes": 177184
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Moving_Jaw_part1.ply.convex.stl",
+    "bundled": "assets/files/c331a7c7b7a4cddd_Moving_Jaw_part1.ply.convex.stl",
+    "sha256": "c331a7c7b7a4cdddeb894b4f72e897a2a77b549d9f2a335eea77f10a90ec8567",
+    "bytes": 684
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Moving_Jaw_part2.ply.convex.stl",
+    "bundled": "assets/files/421a34db4d1426b1_Moving_Jaw_part2.ply.convex.stl",
+    "sha256": "421a34db4d1426b1abe1f30ed73525f07674645130df94d2935b2ac2084e37e1",
+    "bytes": 684
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/Moving_Jaw_part3.ply.convex.stl",
+    "bundled": "assets/files/a0d92ac9c477f283_Moving_Jaw_part3.ply.convex.stl",
+    "sha256": "a0d92ac9c477f283211d3b5b925f184d7f031a2001853abfabba3c00a0a3c6b4",
+    "bytes": 984
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/XLeRobot_camera1.stl",
+    "bundled": "assets/files/f54fc014701f1772_XLeRobot_camera1.stl",
+    "sha256": "f54fc014701f1772f1fd1f4699b5a17b8648ccf0d5d34f5af35048101b978de0",
+    "bytes": 42284
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/XLeRobot_camera2.stl",
+    "bundled": "assets/files/95154bef44deeb71_XLeRobot_camera2.stl",
+    "sha256": "95154bef44deeb7138f6914ac23250189100df17be1433c70b297eab7398a109",
+    "bytes": 120884
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/topbase1.stl",
+    "bundled": "assets/files/27ec489b526b7842_topbase1.stl",
+    "sha256": "27ec489b526b78423feccfc8aacf4096b44951bd3d496771db07172700029bd6",
+    "bytes": 213284
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/topbase2.stl",
+    "bundled": "assets/files/866c172149e274ff_topbase2.stl",
+    "sha256": "866c172149e274ffad3fbb9a98c2dcd348eb3556a8227b73e2c0c09d9ce2bbef",
+    "bytes": 83284
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/tophead1.stl",
+    "bundled": "assets/files/bee7ae0af47d25b7_tophead1.stl",
+    "sha256": "bee7ae0af47d25b7d4d48675873f7943702535c470e25e9ffa4015441c4ff49d",
+    "bytes": 115384
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/tophead4.stl",
+    "bundled": "assets/files/a427b70481f89f5f_tophead4.stl",
+    "sha256": "a427b70481f89f5fe41480613a8f1470e1e0ae18fd085142c0bee5cd5ad9254d",
+    "bytes": 119284
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/tophead5.stl",
+    "bundled": "assets/files/54bda4db70209c44_tophead5.stl",
+    "sha256": "54bda4db70209c444aff603267209e6b382ec11729ec2bde38989e360cbc7985",
+    "bytes": 70084
+  },
+  {
+    "model": "assets/source/elevator_scene_robot.xml",
+    "original_reference": "../../Office/mujoco_deploy/robot/meshes/xlerobot/assets/tophead6.stl",
+    "bundled": "assets/files/3646936db777b61f_tophead6.stl",
+    "sha256": "3646936db777b61f57b6150cded1894b696e519d99071425fc3911458bb11c95",
+    "bytes": 313384
+  }
+]

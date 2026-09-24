@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "mechanical_arrays_exactly_equal_I2_I3": true,
+  "I2_cameras": 0,
+  "I3_cameras": 3,
+  "common_files_identical": true,
+  "real_simulation_and_video_fixture": "/home/sida/Documents/ChatGPT/astra-elevator-button/mujoco_astra_local_20260917_final/experiments/verification-body-cd52be0d",
+  "model_calls": 0,
+  "earlier_fixture_issue": "stdin multiprocessing spawn; corrected by executable file with main guard; no subject model was called"
+}

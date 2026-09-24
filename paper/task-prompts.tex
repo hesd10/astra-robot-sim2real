@@ -1,0 +1,43 @@
+% Generated from archived PROMPT.md files. Do not edit this transcription.
+\par\noindent\begin{minipage}{\linewidth}
+\subsection{Simulation approach and pressing}\label{app:prompt-sim}
+The fixed-start and displaced-start studies use this common task prompt. The condition-specific \texttt{PRIOR.md} lists the authorized materials defined in Table~\ref{tab:design}.
+\begin{list}{}{\leftmargin=1em\rightmargin=1em}\item[]\small
+Physically control XLeRobot to approach the middle elevator and press only its UP call button. Verify from fresh observations that the target button has turned red before declaring success. Work alone without questions; minimize time and online decisions without damage.
+
+Read API.md and PRIOR.md. Use the shared low-level interface, explicitly supplied information, installed dependencies and code you write. Choose your observation and action strategy freely; no exploration or model-building phase is required. Keep head pan within $\pm$90 degrees of its fresh initial orientation and use the permitted tilt range.
+
+Only the historical material explicitly listed in PRIOR.md is authorized. No other conversations, workspaces, skills, prior Git history, external controllers/information, unprovided simulation internals/assets, datasets, demonstrations, pretrained policies or hidden evaluation. Historical observations are not current observations; verify action results through current feedback. Stop on contamination or unavailable essential capabilities. Never bypass protections or reset; the whole session is one attempt.
+
+On termination, stop safely and call finish. Then save a brief report in evidence/ describing outcome, fresh visual verification, final state, elapsed time, motion commands, decision points and which supplied information was used. Do not produce a skill for another attempt.
+\end{list}
+\end{minipage}\par\addvspace{1em}
+
+\par\noindent\begin{minipage}{\linewidth}
+\subsection{Local-skill evaluation}\label{app:prompt-local}
+FREE, STEP, and LOOP use identical task prompts. In STEP and LOOP, \texttt{PRIOR.md} additionally points to \path{skill/local-press/SKILL.md}; the agent can read the supplied routine or write its own code.
+\begin{list}{}{\leftmargin=1em\rightmargin=1em}\item[]\small
+Complete only the final pressing stage for the middle elevator UP button. The robot is already near the correct panel with its right gripper in a working pose; no row-identification tour or arm deployment is required. Use fresh images to judge alignment and choose bounded motion. Only the UP button may be activated. In this simulation activation is indicated by a red border. Verify a fresh image, stop, then finish(success). Minimize task time and online decisions without damage.
+
+Read API.md and PRIOR.md. Work alone. You may freely write programs, including image-processing feedback loops. Keep head pan within $\pm$90 degrees of its fresh initial orientation. All groups have the same public interface and joint position/limit feedback, with no geometry model or target coordinates. Do not assume commanded velocity times duration equals actual displacement.
+
+Use only the provided interface, installed dependencies, explicitly supplied skill if any, and code written in this workspace. Do not access other experiments, conversations, Git history, hidden state/assets, external information or controllers. Never reset or bypass protections. Keep supplied files unchanged. Stop on unavailable essential capabilities or contamination. At termination stop safely, call finish, and write a brief evidence/report.md with images, actions, decisions and outcome. Do not create a transfer artifact for another trial.
+\end{list}
+\end{minipage}\par\addvspace{1em}
+
+\par\noindent\begin{minipage}{\linewidth}
+\subsection{Real-robot evaluation}\label{app:prompt-real}
+Conditions A--D share this task prompt; their authorized materials differ as in Table~\ref{tab:design}. The prompt below requests physical button depression. In the executed hardware trials, the button's stiffness led the operator to accept gripper-tip contact with the target button as success. The reported real-robot results use that contact criterion; the original prompt is reproduced unchanged.
+\begin{list}{}{\leftmargin=1em\rightmargin=1em}\item[]\small
+Physically control XLeRobot to press the DOWN call button between the two elevators on the side opposite its initial position, not the button on its starting side. Continue if the button is already lit or people pass through. Minimize time and online decisions without damage.
+
+The operator proactively reports success through API.md. Success requires physically depressing the target button; visual overlap or initial contact alone is insufficient. Unless the operator reports success, treat the press as unsuccessful and continue adjusting without requesting confirmation. On success, a wrong-button report or a stop request, stop safely and end the attempt.
+
+Read API.md and PRIOR.md. Use the shared low-level interface, explicitly supplied information, installed dependencies and code you write. Choose your observation and action strategy freely; no exploration or model-building phase is required. Keep head pan within $\pm$90 degrees of its fresh initial orientation and within the real interface limits; use the permitted tilt range. Decide and act independently without requesting hints; operator outcome and stop events are authorized feedback.
+
+Only the historical material explicitly listed in PRIOR.md is authorized. No other conversations, workspaces, skills, prior Git history, external controllers/information, unprovided simulation internals/assets, datasets, demonstrations, pretrained policies or hidden evaluation. Supplied models and historical experience retain the provenance stated in PRIOR.md; camera calibration applies only to its documented configuration. The current task definition, real API, current observations and current operator outcome events take precedence over historical scene descriptions and action values. Historical observations are not current observations; verify action results through current feedback. Stop on contamination or unavailable essential capabilities. Never bypass protections or reset; the whole session is one attempt.
+
+On termination, stop safely and end the attempt using the procedure in API.md. Then save a brief report in evidence/ describing outcome, operator confirmation event and its timestamp, final state, elapsed time, motion commands, decision points and which supplied information was used. Do not produce a skill for another attempt.
+\end{list}
+\end{minipage}\par\addvspace{1em}
+

@@ -1,0 +1,204 @@
+{
+  "created_unix": 1789886624.1614692,
+  "reason": "User corrects schedule: finish all three repeats of I0E0-I3E0 before any experience conditions",
+  "batches": [
+    {
+      "id": "r1-body",
+      "trials": [
+        {
+          "condition": "I3E0",
+          "run": "be001-r1-i3e0",
+          "replicate": 1
+        },
+        {
+          "condition": "I1E0",
+          "run": "be001-r1-i1e0",
+          "replicate": 1
+        },
+        {
+          "condition": "I0E0",
+          "run": "be001-r1-i0e0",
+          "replicate": 1
+        },
+        {
+          "condition": "I2E0",
+          "run": "be001-r1-i2e0",
+          "replicate": 1
+        }
+      ]
+    },
+    {
+      "id": "r2-body",
+      "trials": [
+        {
+          "condition": "I1E0",
+          "run": "be001-r2-i1e0",
+          "replicate": 2
+        },
+        {
+          "condition": "I0E0",
+          "run": "be001-r2-i0e0",
+          "replicate": 2
+        },
+        {
+          "condition": "I2E0",
+          "run": "be001-r2-i2e0",
+          "replicate": 2
+        },
+        {
+          "condition": "I3E0",
+          "run": "be001-r2-i3e0",
+          "replicate": 2
+        }
+      ]
+    },
+    {
+      "id": "r3-body",
+      "trials": [
+        {
+          "condition": "I0E0",
+          "run": "be001-r3-i0e0",
+          "replicate": 3
+        },
+        {
+          "condition": "I2E0",
+          "run": "be001-r3-i2e0",
+          "replicate": 3
+        },
+        {
+          "condition": "I3E0",
+          "run": "be001-r3-i3e0",
+          "replicate": 3
+        },
+        {
+          "condition": "I1E0",
+          "run": "be001-r3-i1e0",
+          "replicate": 3
+        }
+      ]
+    },
+    {
+      "id": "r1-experience-I0",
+      "trials": [
+        {
+          "condition": "I0E1",
+          "run": "be001-r1-i0e1-rescheduled",
+          "replicate": 1
+        },
+        {
+          "condition": "I0E3",
+          "run": "be001-r1-i0e3",
+          "replicate": 1
+        },
+        {
+          "condition": "I0E2",
+          "run": "be001-r1-i0e2",
+          "replicate": 1
+        }
+      ]
+    },
+    {
+      "id": "r2-experience-I0",
+      "trials": [
+        {
+          "condition": "I0E3",
+          "run": "be001-r2-i0e3",
+          "replicate": 2
+        },
+        {
+          "condition": "I0E2",
+          "run": "be001-r2-i0e2",
+          "replicate": 2
+        },
+        {
+          "condition": "I0E1",
+          "run": "be001-r2-i0e1",
+          "replicate": 2
+        }
+      ]
+    },
+    {
+      "id": "r3-experience-I0",
+      "trials": [
+        {
+          "condition": "I0E2",
+          "run": "be001-r3-i0e2",
+          "replicate": 3
+        },
+        {
+          "condition": "I0E1",
+          "run": "be001-r3-i0e1",
+          "replicate": 3
+        },
+        {
+          "condition": "I0E3",
+          "run": "be001-r3-i0e3",
+          "replicate": 3
+        }
+      ]
+    },
+    {
+      "id": "r1-experience-I3",
+      "trials": [
+        {
+          "condition": "I3E3",
+          "run": "be001-r1-i3e3",
+          "replicate": 1
+        },
+        {
+          "condition": "I3E2",
+          "run": "be001-r1-i3e2",
+          "replicate": 1
+        },
+        {
+          "condition": "I3E1",
+          "run": "be001-r1-i3e1",
+          "replicate": 1
+        }
+      ]
+    },
+    {
+      "id": "r2-experience-I3",
+      "trials": [
+        {
+          "condition": "I3E2",
+          "run": "be001-r2-i3e2",
+          "replicate": 2
+        },
+        {
+          "condition": "I3E1",
+          "run": "be001-r2-i3e1",
+          "replicate": 2
+        },
+        {
+          "condition": "I3E3",
+          "run": "be001-r2-i3e3",
+          "replicate": 2
+        }
+      ]
+    },
+    {
+      "id": "r3-experience-I3",
+      "trials": [
+        {
+          "condition": "I3E1",
+          "run": "be001-r3-i3e1",
+          "replicate": 3
+        },
+        {
+          "condition": "I3E3",
+          "run": "be001-r3-i3e3",
+          "replicate": 3
+        },
+        {
+          "condition": "I3E2",
+          "run": "be001-r3-i3e2",
+          "replicate": 3
+        }
+      ]
+    }
+  ],
+  "original_manifest_unchanged": true,
+  "premature_attempt": "be001-r1-i0e1",
+  "premature_attempt_treatment": "operator interrupted for schedule correction; preserve outside formal comparison, independently reschedule after all E0 repeats"
+}

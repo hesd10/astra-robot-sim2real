@@ -1,0 +1,27 @@
+{
+  "source": "be001-source-3",
+  "reviewed": true,
+  "summary_sha256": "71d0c700c31a5c2a4cb1e362f71258b25ec041bf558b4b110a449757ddd04fd9",
+  "media_visually_checked": true,
+  "success_visually_checked": true,
+  "source_finish_seconds": 638.3519999918169,
+  "selection_verified": true,
+  "observation_count": 22,
+  "all_observation_indices_matched": true,
+  "public_api_records_exactly_equal": true,
+  "head_constraint_verified": true,
+  "command_boundary_review": "All completed commandExecution entries checked; reads limited to API/PRIOR/current workspace, robot API, fresh observations. No source controller or private reasoning enters package.",
+  "visual_checks": [
+    "source success right_wrist 53c86d2a65014abb88d7c0d22ab46a84: red upper border",
+    "decoded demonstration initial index 0: three correct camera roles",
+    "decoded demonstration middle index 11: unlit panel and arm",
+    "decoded demonstration final index 21: head and wrist show red UP; no red DOWN visible"
+  ],
+  "summary_evidence": [
+    "subject/evidence/report.md",
+    "subject/control.py",
+    "public agentMessage workflow lines 116,215,295,379,473,553,592",
+    "public commandExecution entries 146,161,222,313,327,384,478,486,496,508,555,594"
+  ],
+  "qualification": "single selected source, qualitative condensation; no measurements or trajectories transferred in text"
+}

@@ -1,0 +1,268 @@
+{
+  "initial_reference_checks": [
+    {
+      "point": "R010-P1",
+      "audit": {
+        "passed": true,
+        "reference_sha256": "fad4b5e38011f081f504fbd53361375deed2841c1c91351584939b74c3d262f8",
+        "initial_measurement": {
+          "target": "middle elevator UP call button",
+          "frame": "initial chassis frame; +X forward, +Y left, +Z up",
+          "origin": "chassis body-frame origin, not the floor projection or a hand",
+          "length_unit": "metre",
+          "capture_sim_seconds": 0.0,
+          "reference_time": "after initial settling, before the realtime task clock starts",
+          "button_face_center_m": [
+            2.5361964490117335,
+            0.48298391332546786,
+            0.6556231113587365
+          ],
+          "button_outward_unit_normal": [
+            -0.9902680799219781,
+            0.13917302139985305,
+            1.4400560770753618e-06
+          ],
+          "update_policy": "one initial measurement only; coordinates remain in the initial frame"
+        },
+        "all_initial_joint_and_base_states_match": true,
+        "private_only": true,
+        "no_online_localization_exposed": true
+      }
+    },
+    {
+      "point": "R010-P2",
+      "audit": {
+        "passed": true,
+        "reference_sha256": "88393a4f6b9e060b7dbc3b03e33c0b5b580e129dc0d9c73ff1be96e12d0d2664",
+        "initial_measurement": {
+          "target": "middle elevator UP call button",
+          "frame": "initial chassis frame; +X forward, +Y left, +Z up",
+          "origin": "chassis body-frame origin, not the floor projection or a hand",
+          "length_unit": "metre",
+          "capture_sim_seconds": 0.0,
+          "reference_time": "after initial settling, before the realtime task clock starts",
+          "button_face_center_m": [
+            2.402340169179927,
+            0.33449046091885065,
+            0.6556236773422536
+          ],
+          "button_outward_unit_normal": [
+            -0.9902680799219783,
+            0.13917302139985294,
+            1.4400560770695683e-06
+          ],
+          "update_policy": "one initial measurement only; coordinates remain in the initial frame"
+        },
+        "all_initial_joint_and_base_states_match": true,
+        "private_only": true,
+        "no_online_localization_exposed": true
+      }
+    },
+    {
+      "point": "R010-P3",
+      "audit": {
+        "passed": true,
+        "reference_sha256": "df4fc4b4060a9e356d04eb923eb8a36cf746943d4df3a3b8ecfb90015922e221",
+        "initial_measurement": {
+          "target": "middle elevator UP call button",
+          "frame": "initial chassis frame; +X forward, +Y left, +Z up",
+          "origin": "chassis body-frame origin, not the floor projection or a hand",
+          "length_unit": "metre",
+          "capture_sim_seconds": 0.0,
+          "reference_time": "after initial settling, before the realtime task clock starts",
+          "button_face_center_m": [
+            2.3690485079972325,
+            0.42997313814662325,
+            0.6556235242196274
+          ],
+          "button_outward_unit_normal": [
+            -0.9902680799219781,
+            0.13917302139985305,
+            1.4400560770975473e-06
+          ],
+          "update_policy": "one initial measurement only; coordinates remain in the initial frame"
+        },
+        "all_initial_joint_and_base_states_match": true,
+        "private_only": true,
+        "no_online_localization_exposed": true
+      }
+    },
+    {
+      "point": "R050-P1",
+      "audit": {
+        "passed": true,
+        "reference_sha256": "860be2236ab0ce45330b2b4e9f3971de43355966890a5d40c324c678f79798c1",
+        "initial_measurement": {
+          "target": "middle elevator UP call button",
+          "frame": "initial chassis frame; +X forward, +Y left, +Z up",
+          "origin": "chassis body-frame origin, not the floor projection or a hand",
+          "length_unit": "metre",
+          "capture_sim_seconds": 0.0,
+          "reference_time": "after initial settling, before the realtime task clock starts",
+          "button_face_center_m": [
+            2.2151814872489606,
+            -0.02122706505047123,
+            0.6556247973907717
+          ],
+          "button_outward_unit_normal": [
+            -0.9902680799219783,
+            0.13917302139985294,
+            1.4400560770959093e-06
+          ],
+          "update_policy": "one initial measurement only; coordinates remain in the initial frame"
+        },
+        "all_initial_joint_and_base_states_match": true,
+        "private_only": true,
+        "no_online_localization_exposed": true
+      }
+    },
+    {
+      "point": "R050-P2",
+      "audit": {
+        "passed": true,
+        "reference_sha256": "a7b9b2475e009e797121f754c253066b925c0a933f5cd5a6b757ee46add77377",
+        "initial_measurement": {
+          "target": "middle elevator UP call button",
+          "frame": "initial chassis frame; +X forward, +Y left, +Z up",
+          "origin": "chassis body-frame origin, not the floor projection or a hand",
+          "length_unit": "metre",
+          "capture_sim_seconds": 0.0,
+          "reference_time": "after initial settling, before the realtime task clock starts",
+          "button_face_center_m": [
+            2.470535738528636,
+            0.9106252168710126,
+            0.6556222781908602
+          ],
+          "button_outward_unit_normal": [
+            -0.9902680799219783,
+            0.13917302139985294,
+            1.4400560770795597e-06
+          ],
+          "update_policy": "one initial measurement only; coordinates remain in the initial frame"
+        },
+        "all_initial_joint_and_base_states_match": true,
+        "private_only": true,
+        "no_online_localization_exposed": true
+      }
+    },
+    {
+      "point": "R050-P3",
+      "audit": {
+        "passed": true,
+        "reference_sha256": "a60ba5b065a3db22f11e0f9ffd16406a4fb7b0488df49013c3e4abcb34c423bd",
+        "initial_measurement": {
+          "target": "middle elevator UP call button",
+          "frame": "initial chassis frame; +X forward, +Y left, +Z up",
+          "origin": "chassis body-frame origin, not the floor projection or a hand",
+          "length_unit": "metre",
+          "capture_sim_seconds": 0.0,
+          "reference_time": "after initial settling, before the realtime task clock starts",
+          "button_face_center_m": [
+            2.943202346162424,
+            0.2577156507374318,
+            0.655622892506392
+          ],
+          "button_outward_unit_normal": [
+            -0.9902680799219781,
+            0.13917302139985305,
+            1.4400560770973277e-06
+          ],
+          "update_policy": "one initial measurement only; coordinates remain in the initial frame"
+        },
+        "all_initial_joint_and_base_states_match": true,
+        "private_only": true,
+        "no_online_localization_exposed": true
+      }
+    },
+    {
+      "point": "R100-P1",
+      "audit": {
+        "passed": true,
+        "reference_sha256": "519e69b8bfbba84f5a10dddef6c081e4e4d6b697e3683d6be8a07ae47b0abccd",
+        "initial_measurement": {
+          "target": "middle elevator UP call button",
+          "frame": "initial chassis frame; +X forward, +Y left, +Z up",
+          "origin": "chassis body-frame origin, not the floor projection or a hand",
+          "length_unit": "metre",
+          "capture_sim_seconds": 0.0,
+          "reference_time": "after initial settling, before the realtime task clock starts",
+          "button_face_center_m": [
+            2.391662277857859,
+            1.4077824886796617,
+            0.6556213140704402
+          ],
+          "button_outward_unit_normal": [
+            -0.9902680799219783,
+            0.13917302139985294,
+            1.440056077089738e-06
+          ],
+          "update_policy": "one initial measurement only; coordinates remain in the initial frame"
+        },
+        "all_initial_joint_and_base_states_match": true,
+        "private_only": true,
+        "no_online_localization_exposed": true
+      }
+    },
+    {
+      "point": "R100-P2",
+      "audit": {
+        "passed": true,
+        "reference_sha256": "752e9b80035213c1a69e5d9dad29fb839f617ba2925f270529b1c33dffeb5191",
+        "initial_measurement": {
+          "target": "middle elevator UP call button",
+          "frame": "initial chassis frame; +X forward, +Y left, +Z up",
+          "origin": "chassis body-frame origin, not the floor projection or a hand",
+          "length_unit": "metre",
+          "capture_sim_seconds": 0.0,
+          "reference_time": "after initial settling, before the realtime task clock starts",
+          "button_face_center_m": [
+            1.6056143637194147,
+            -0.09704150726569755,
+            0.655626042234693
+          ],
+          "button_outward_unit_normal": [
+            -0.990268079921978,
+            0.13917302139985321,
+            1.4400560770951555e-06
+          ],
+          "update_policy": "one initial measurement only; coordinates remain in the initial frame"
+        },
+        "all_initial_joint_and_base_states_match": true,
+        "private_only": true,
+        "no_online_localization_exposed": true
+      }
+    },
+    {
+      "point": "R100-P3",
+      "audit": {
+        "passed": true,
+        "reference_sha256": "7062707cc592cf45905ef37c1bb39625fda78d83e70af37a702e602bb40b25cd",
+        "initial_measurement": {
+          "target": "middle elevator UP call button",
+          "frame": "initial chassis frame; +X forward, +Y left, +Z up",
+          "origin": "chassis body-frame origin, not the floor projection or a hand",
+          "length_unit": "metre",
+          "capture_sim_seconds": 0.0,
+          "reference_time": "after initial settling, before the realtime task clock starts",
+          "button_face_center_m": [
+            2.726120991918018,
+            -0.5552514951800196,
+            0.6556250802502843
+          ],
+          "button_outward_unit_normal": [
+            -0.990268079921978,
+            0.13917302139985321,
+            1.440056077083682e-06
+          ],
+          "update_policy": "one initial measurement only; coordinates remain in the initial frame"
+        },
+        "all_initial_joint_and_base_states_match": true,
+        "private_only": true,
+        "no_online_localization_exposed": true
+      }
+    }
+  ],
+  "inputs_reused_exactly": true,
+  "original_trials_unchanged": true,
+  "no_subjects_launched": true
+}

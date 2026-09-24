@@ -1,0 +1,19 @@
+{"seconds": 52.48408484458923, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 66.8832778930664, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 102.84013867378235, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 130.26488876342773, "request": {"op": "move", "targets": {"right_2": 2.1, "right_3": 1.35, "right_4": 0.35}, "duration": 10}}
+{"seconds": 130.2764070034027, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 161.92106533050537, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 195.12029695510864, "request": {"op": "base", "vx": 0.07, "vy": -0.02, "wz": 0, "duration": 3}}
+{"seconds": 232.99788999557495, "request": {"op": "move", "targets": {"right_2": 2.0, "right_4": 0.25}, "duration": 1.8}}
+{"seconds": 233.01157116889954, "request": {"op": "base", "vx": 0, "vy": -0.025, "wz": 0, "duration": 1.4}}
+{"seconds": 247.85875535011292, "request": {"op": "base", "vx": 0.025, "vy": 0, "wz": 0, "duration": 2}}
+{"seconds": 275.24794936180115, "request": {"op": "move", "targets": {"right_4": 0.5}, "duration": 2}}
+{"seconds": 299.77778816223145, "request": {"op": "base", "vx": 0.025, "vy": -0.01, "wz": 0, "duration": 1.0}}
+{"seconds": 316.2833182811737, "request": {"op": "base", "vx": 0.015, "vy": 0, "wz": 0, "duration": 1.5}}
+{"seconds": 340.2054343223572, "request": {"op": "move", "targets": {"right_4": 0.61}, "duration": 1.2}}
+{"seconds": 352.16993021965027, "request": {"op": "base", "vx": 0.01, "vy": 0, "wz": 0, "duration": 1.5}}
+{"seconds": 372.3082871437073, "request": {"op": "move", "targets": {"right_4": 0.68}, "duration": 1}}
+{"seconds": 373.6231281757355, "request": {"op": "base", "vx": 0.008, "vy": 0, "wz": 0, "duration": 1}}
+{"seconds": 389.6562213897705, "request": {"op": "move", "targets": {"right_4": 0.73}, "duration": 1}}
+{"seconds": 403.6677551269531, "request": {"op": "base", "vx": 0.008, "vy": 0, "wz": 0, "duration": 1.25}}

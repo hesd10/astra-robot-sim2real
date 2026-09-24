@@ -1,0 +1,162 @@
+{
+  "reviewed_on": "2026-09-24",
+  "status": "Reviewed manuscript; no unresolved issue found in the reviewed scope; not submitted to arXiv",
+  "scope": [
+    "English main text and all appendices",
+    "Trial counts, means, sample SDs, time reductions and paired comparisons",
+    "Bibliographic metadata, first-use order and all figure/table cross-references",
+    "Methods versus supplied APIs and STEP/LOOP implementations",
+    "Success protocols, timing endpoints, source provenance and limits on transfer claims",
+    "All 23 rendered pages and independently compiled arXiv source package"
+  ],
+  "editorial_corrections": [
+    "Specify that the common agent and low-level interface are held fixed within each evaluation block.",
+    "Correct the E2 description: written summary augmented with sampled images, not image-only material.",
+    "Express percentage improvements as reductions in task time.",
+    "Distinguish agent-declared simulation completion from accepted operator feedback on hardware.",
+    "Describe continuous real base-velocity updates and expiry/explicit stopping accurately.",
+    "Distinguish shared STEP/LOOP motion arguments from LOOP-specific image regions and budgets.",
+    "State that LOOP checks the image after each motion pulse.",
+    "Add missing references to the real-results, local-state and S3-diagnostic tables.",
+    "Specify the execution clock used in the supplementary compression/reflection comparison.",
+    "Clarify speed units and the location of sample standard deviations."
+  ],
+  "primary_trial_counts": {
+    "fixed_start": 30,
+    "displaced_start": 18,
+    "local_skills": 27,
+    "real": 12
+  },
+  "time_reductions_percent": {
+    "sim_mechanical": 43.428798910542845,
+    "sim_complete": 57.355485223789856,
+    "sim_experience": 68.63936752450172,
+    "sim_experience_I3": 33.889198196494185,
+    "real_assets": 52.98082337647407,
+    "real_experience": 49.915247661560635,
+    "STEP": 28.999941977200205,
+    "LOOP": 30.564630991713827,
+    "LOOP_vs_STEP": 2.2037855434021925
+  },
+  "displaced_start_time_reductions_percent": {
+    "0.1": 62.77935335811207,
+    "0.5": 58.22457027853747,
+    "1.0": 60.37425229098204
+  },
+  "skill_paired_wins": {
+    "STEP_vs_FREE": 9,
+    "LOOP_vs_FREE": 8,
+    "LOOP_vs_STEP": 4
+  },
+  "supplementary_comparison": {
+    "source_sha256": "c68d5319528f102d375ef98347196df03cb3bf810ac6e309298bc21b9c1489df",
+    "means_seconds": {
+      "1": {
+        "E3": 370.3475464171667,
+        "C": 384.5324637328328,
+        "R": 404.304420941
+      },
+      "2": {
+        "E3": 354.4727178576674,
+        "C": 325.63201280383026,
+        "R": 413.67212748633756
+      }
+    },
+    "compact_over_reflection_wins": 10,
+    "compact_over_E3_wins_per_measurement": [
+      3,
+      3
+    ]
+  },
+  "structure_checks": {
+    "reference_count": 19,
+    "first_citation_order": [
+      "suntzu1910",
+      "ahn2022saycan",
+      "huang2022inner",
+      "liang2022code",
+      "huang2023voxposer",
+      "driess2023palme",
+      "brohan2023rt2",
+      "openx2023",
+      "octo2024",
+      "yao2023react",
+      "shinn2023reflexion",
+      "wang2023voyager",
+      "ha2023scaling",
+      "chaumette2006visual",
+      "zhao2020sim2real",
+      "tobin2017domain",
+      "peng2018dynamics",
+      "xlerobot",
+      "todorov2012mujoco"
+    ],
+    "reference_numbering": "1–19 in first-use order",
+    "figures": 10,
+    "tables": 6,
+    "undefined_references": 0,
+    "duplicate_labels": 0,
+    "pages": 23,
+    "appendix_start_page": 19,
+    "references_end_page": 18,
+    "source_files": 16,
+    "prompt_hashes": "all unchanged",
+    "all_figures_and_tables_cited": true
+  },
+  "preserved": [
+    "All original trial results and numerical conclusions",
+    "Three frozen English task prompts and their source hashes",
+    "Operator-confirmed gripper-tip contact criterion, with prompt/protocol distinction in Appendix D.3",
+    "D1 shared start and D2/D3 new starts; pooled D mean remains descriptive",
+    "One-paragraph limitations and two-sentence S3 explanation"
+  ],
+  "latex_validation": "No undefined references, missing characters, overfull/underfull boxes or LaTeX warnings in either final main.log.",
+  "compiler_note": "Built with Tectonic and cached TeX resources; independently compiled page text and bibliography match exactly.",
+  "independent_arxiv_compile": {
+    "passed": true,
+    "pages": 23,
+    "files": 16,
+    "all_page_text_matches": true,
+    "bibliography_matches": true
+  },
+  "visual_review": {
+    "pages_reviewed": 23,
+    "overlap_or_clipping_found": false
+  },
+  "chinese_review_copy": "The UTF-8 manuscript-zh.txt outside this repository preserves the earlier reviewed translation; the GPT-6-Astra title, abstract, and expanded introduction revision is in the English manuscript.",
+  "artifact_sha256": {
+    "paper/main.tex": "836ef1e8c70efcc0ce0c1352c028500296332fd7195d41ca64140cf00ee05256",
+    "paper/main.pdf": "598dd7a4446a2edb8bf357ee622a1dc067c066b24d27d213cc5c19b4efec4cec",
+    "paper/arxiv-source.tar.gz": "1c630561eb8a573d579d0401c175c650370ae328d4c5eabaa2d8b5514b3fc5b2"
+  },
+  "hardware_accessed": false,
+  "new_model_trials_run": false,
+  "latest_editorial_revision": {
+    "model_naming": "GPT-6-Astra in the title, abstract, opening captions, overview figure, discussion, conclusion, and repository descriptions; Astra is defined as a short form.",
+    "abstract_conclusion": "Practical deployment guidance for general-purpose manipulation experiments built around GPT-6-Astra.",
+    "abstract_materials": "Repository link with all task prompts, trial-level experimental data, and acquired skill implementations.",
+    "introduction": "Expanded setup, I0-I3 and E0-E3 definitions, and the fixed-start, displaced-start, local-skill, and physical transfer sequence.",
+    "frozen_prompts_and_primary_results_unchanged": true,
+    "overleaf": {
+      "project_url": "https://www.overleaf.com/project/6ab4fd5284a4fdcb99417aeb",
+      "source_and_figures_match": true,
+      "pages": 23,
+      "errors": 0,
+      "warnings": 0
+    },
+    "repository_visibility": "private; unchanged"
+  },
+  "opening_wording_cleanup": {
+    "removed": [
+      "Opening caption sentence beginning Real trials use operator-confirmed",
+      "Introduction clause beginning that connection does not automatically"
+    ],
+    "adjacent_sentence": "Describes the body information varied across conditions directly.",
+    "text_changed_pages": [
+      1,
+      2
+    ],
+    "visual_review": "Both affected pages rendered and inspected; no clipping or overlap.",
+    "independent_source_compile": "23 pages; all page text and bibliography match the main build."
+  }
+}

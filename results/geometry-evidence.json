@@ -1,0 +1,17 @@
+[
+  {
+    "trial": "B1",
+    "file": "experiments/real-geometry-evidence/B1/reference_fk.py",
+    "source_sha256": "96d5b1fa2d23b75dc6ae5fb1b4d4784e13aadc8702915eec7c7388a1de742405"
+  },
+  {
+    "trial": "B2",
+    "file": "experiments/real-geometry-evidence/B2/kinematics.py",
+    "source_sha256": "0a60588631ec4fa68ed6197b9768851dc83ab132d6594fe401ec0d3457a1b095"
+  },
+  {
+    "trial": "B3",
+    "file": "experiments/real-geometry-evidence/B3/kinematics.py",
+    "source_sha256": "af6919c1d6c170ef918c67a66c1f1c8768231b64827194dfbb7330b89178f8e3"
+  }
+]

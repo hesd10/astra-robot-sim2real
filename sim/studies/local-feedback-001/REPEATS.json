@@ -1,0 +1,115 @@
+{
+  "study": "local-feedback-001",
+  "authorized_additional_trials": 18,
+  "parent_manifest_sha256": "8899e761cc6f2f98d491cabf23f1299f2274bcdb110a9b881d0beb448625e932",
+  "trials": [
+    {
+      "run": "lf001-t010",
+      "state": "S1",
+      "condition": "STEP",
+      "repeat": 2
+    },
+    {
+      "run": "lf001-t011",
+      "state": "S1",
+      "condition": "LOOP",
+      "repeat": 2
+    },
+    {
+      "run": "lf001-t012",
+      "state": "S1",
+      "condition": "FREE",
+      "repeat": 2
+    },
+    {
+      "run": "lf001-t013",
+      "state": "S2",
+      "condition": "LOOP",
+      "repeat": 2
+    },
+    {
+      "run": "lf001-t014",
+      "state": "S2",
+      "condition": "FREE",
+      "repeat": 2
+    },
+    {
+      "run": "lf001-t015",
+      "state": "S2",
+      "condition": "STEP",
+      "repeat": 2
+    },
+    {
+      "run": "lf001-t016",
+      "state": "S3",
+      "condition": "FREE",
+      "repeat": 2
+    },
+    {
+      "run": "lf001-t017",
+      "state": "S3",
+      "condition": "STEP",
+      "repeat": 2
+    },
+    {
+      "run": "lf001-t018",
+      "state": "S3",
+      "condition": "LOOP",
+      "repeat": 2
+    },
+    {
+      "run": "lf001-t019",
+      "state": "S1",
+      "condition": "LOOP",
+      "repeat": 3
+    },
+    {
+      "run": "lf001-t020",
+      "state": "S1",
+      "condition": "FREE",
+      "repeat": 3
+    },
+    {
+      "run": "lf001-t021",
+      "state": "S1",
+      "condition": "STEP",
+      "repeat": 3
+    },
+    {
+      "run": "lf001-t022",
+      "state": "S2",
+      "condition": "FREE",
+      "repeat": 3
+    },
+    {
+      "run": "lf001-t023",
+      "state": "S2",
+      "condition": "STEP",
+      "repeat": 3
+    },
+    {
+      "run": "lf001-t024",
+      "state": "S2",
+      "condition": "LOOP",
+      "repeat": 3
+    },
+    {
+      "run": "lf001-t025",
+      "state": "S3",
+      "condition": "STEP",
+      "repeat": 3
+    },
+    {
+      "run": "lf001-t026",
+      "state": "S3",
+      "condition": "LOOP",
+      "repeat": 3
+    },
+    {
+      "run": "lf001-t027",
+      "state": "S3",
+      "condition": "FREE",
+      "repeat": 3
+    }
+  ]
+}

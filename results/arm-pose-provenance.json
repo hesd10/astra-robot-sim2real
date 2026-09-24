@@ -1,0 +1,67 @@
+{
+  "renderer": "MuJoCo 3.11.0",
+  "snapshots": "results/arm-pose-snapshots.json",
+  "snapshots_sha256": "3d1a931f26189667ec96c2536c87dbeb0812bc3d7c21a48d6d864e0e0b87d258",
+  "simulation_advanced": false,
+  "vertical_fov_degrees": 40,
+  "presentation": "Recorded configurations rendered from the same robot-relative external camera; near wall hidden in memory, reflections disabled.",
+  "images": [
+    {
+      "label": "initial",
+      "episode": "be001-source-3",
+      "time_seconds": 0.0,
+      "path": "media/arm-pose-initial.png",
+      "sha256": "f61c82a6ce51f1dcb9045df709a1310736403b825269793a2270b6241dcd21d8",
+      "lookat": [
+        7.60250099699237,
+        1.5999995061084804,
+        0.9193713374191028
+      ],
+      "distance": 1.35,
+      "azimuth": 177.9999953967432,
+      "elevation": -12.0,
+      "right_gripper_pixel": [
+        449.76071419210314,
+        459.7333734600825
+      ]
+    },
+    {
+      "label": "source",
+      "episode": "be001-source-3",
+      "time_seconds": 480.99999999553773,
+      "path": "media/arm-pose-source.png",
+      "sha256": "f8b49be9342d5c61400471f245af94556ad3a4367f72cdb57df468dbe9e71577",
+      "lookat": [
+        6.781607057995201,
+        3.5511627524814635,
+        0.919537907952129
+      ],
+      "distance": 1.35,
+      "azimuth": 179.8012348511536,
+      "elevation": -12.0,
+      "right_gripper_pixel": [
+        449.4745421717419,
+        459.7748866015927
+      ]
+    },
+    {
+      "label": "reuse",
+      "episode": "be001-r1-i0e3",
+      "time_seconds": 141.0000000003092,
+      "path": "media/arm-pose-reuse.png",
+      "sha256": "1c6b466d88ded56b1488e506a5dab41b0b799c897ce36160c7632a5690042423",
+      "lookat": [
+        7.0222170583785015,
+        2.7055441681850625,
+        0.9195841237394746
+      ],
+      "distance": 1.35,
+      "azimuth": 178.67709244855442,
+      "elevation": -12.0,
+      "right_gripper_pixel": [
+        450.57882202361395,
+        459.6741247088092
+      ]
+    }
+  ]
+}

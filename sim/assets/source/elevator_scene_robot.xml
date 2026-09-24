@@ -1,0 +1,387 @@
+<mujoco model="elevator_scene_robot">
+  <option timestep="0.001" gravity="0 0 -9.80665" integrator="implicitfast" cone="elliptic" impratio="20" />
+  <compiler angle="radian" meshdir="../files" texturedir="../files" autolimits="true" />
+  <visual>
+    <global offwidth="1920" offheight="1440" />
+    <quality shadowsize="8192" offsamples="8" />
+    <map znear="0.00015" zfar="2.0" />
+    <headlight diffuse="0.6 0.6 0.6" ambient="0.4 0.4 0.4" specular="0 0 0" />
+  </visual>
+  <asset>
+    <texture type="skybox" builtin="gradient" rgb1="0.4 0.6 0.8" rgb2="0 0 0" width="512" height="3072" />
+    <texture type="cube" name="tex_marble_cube" file="41adfd45c9b9fde0_marble_floor_basecolor_2k.png" />
+    <texture type="2d" name="tex_marble_2d" file="41adfd45c9b9fde0_marble_floor_basecolor_2k.png" />
+    <material name="mat_wall" texture="tex_marble_cube" specular="0.3" shininess="0.45" reflectance="0.08" />
+    <material name="mat_floor" texture="tex_marble_2d" texrepeat="2 0.67" texuniform="false" specular="0.4" shininess="0.55" reflectance="0.15" />
+    <texture type="cube" name="tex_elevator_metal" file="68568b9453e055dd_elevator_metal_basecolor_2k.png" />
+    <material name="mat_door" texture="tex_elevator_metal" specular="0.9" shininess="0.8" reflectance="0.4" />
+    <material name="mat_door_frame" texture="tex_elevator_metal" specular="0.85" shininess="0.75" reflectance="0.35" />
+    <material name="mat_ceiling" rgba="1 1 1 1" specular="0.1" shininess="0.1" />
+    <material name="mat_seam" rgba="0.06 0.06 0.07 1" specular="0.15" shininess="0.2" />
+    <material name="mat_panel" texture="tex_elevator_metal" specular="0.85" shininess="0.75" reflectance="0.35" />
+    <material name="mat_button_cap" texture="tex_elevator_metal" specular="0.85" shininess="0.75" reflectance="0.35" />
+    <material name="mat_button_glow" rgba="0.55 1.0 1.0 1" emission="0.9" specular="0.2" shininess="0.2" />
+    <material name="mat_glyph" rgba="0.047 0.061 0.09 1" specular="0.15" shininess="0.15" />
+    <mesh name="raskogbody" content_type="model/stl" file="b208f31d48329e6c_raskogbody.stl" scale="0.0009 0.001 0.0009" />
+    <mesh name="raskogwheel1" content_type="model/stl" file="cb8330074b23de6a_raskogwheel1.stl" scale="0.0009 0.001 0.0009" />
+    <mesh name="raskogwheel2" content_type="model/stl" file="719d4d1ec811f54a_raskogwheel2.stl" scale="0.0009 0.001 0.0009" />
+    <mesh name="Base" content_type="model/stl" file="bb8afb0303c0125f_Base.stl" />
+    <mesh name="Base_Motor" content_type="model/stl" file="aac4485d448eca41_Base_Motor.stl" />
+    <mesh name="Rotation_Pitch" content_type="model/stl" file="4a1476f57d28d2c0_Rotation_Pitch.stl" />
+    <mesh name="Rotation_Pitch_Motor" content_type="model/stl" file="f4fbcf18d8f2e91d_Rotation_Pitch_Motor.stl" />
+    <mesh name="Upper_Arm" content_type="model/stl" file="d97ad37c90400fe3_Upper_Arm.stl" />
+    <mesh name="Upper_Arm_Motor" content_type="model/stl" file="bafdb2cb9e9a884e_Upper_Arm_Motor.stl" />
+    <mesh name="Lower_Arm" content_type="model/stl" file="a04511bc65cbb702_Lower_Arm.stl" />
+    <mesh name="Lower_Arm_Motor" content_type="model/stl" file="07368fa4c50dea70_Lower_Arm_Motor.stl" />
+    <mesh name="Wrist_Pitch_Roll" content_type="model/stl" file="58e83ce1c8b24e1f_Wrist_Pitch_Roll.stl" />
+    <mesh name="Wrist_Pitch_Roll_Motor" content_type="model/stl" file="89ac3fb1d2536fa4_Wrist_Pitch_Roll_Motor.stl" />
+    <mesh name="Fixed_Jaw" content_type="model/stl" file="5528867073033eaa_Fixed_Jaw.stl" />
+    <mesh name="Fixed_Jaw_part1.ply.convex" content_type="model/stl" file="a91f823092866cb5_Fixed_Jaw_part1.ply.convex.stl" />
+    <mesh name="Fixed_Jaw_part2.ply.convex" content_type="model/stl" file="dd6162eb944dc700_Fixed_Jaw_part2.ply.convex.stl" />
+    <mesh name="Fixed_Jaw_Motor" content_type="model/stl" file="0321bfb902d5a119_Fixed_Jaw_Motor.stl" />
+    <mesh name="Moving_Jaw" content_type="model/stl" file="6d9c923024c75e6f_Moving_Jaw.stl" />
+    <mesh name="Moving_Jaw_part1.ply.convex" content_type="model/stl" file="c331a7c7b7a4cddd_Moving_Jaw_part1.ply.convex.stl" />
+    <mesh name="Moving_Jaw_part2.ply.convex" content_type="model/stl" file="421a34db4d1426b1_Moving_Jaw_part2.ply.convex.stl" />
+    <mesh name="Moving_Jaw_part3.ply.convex" content_type="model/stl" file="a0d92ac9c477f283_Moving_Jaw_part3.ply.convex.stl" />
+    <mesh name="XLeRobot_camera1" content_type="model/stl" file="f54fc014701f1772_XLeRobot_camera1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="XLeRobot_camera2" content_type="model/stl" file="95154bef44deeb71_XLeRobot_camera2.stl" scale="0.001 0.001 0.001" />
+    <mesh name="topbase1" content_type="model/stl" file="27ec489b526b7842_topbase1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="topbase2" content_type="model/stl" file="866c172149e274ff_topbase2.stl" scale="0.001 0.001 0.001" />
+    <mesh name="tophead1" content_type="model/stl" file="bee7ae0af47d25b7_tophead1.stl" scale="0.001 0.001 0.001" />
+    <mesh name="tophead4" content_type="model/stl" file="a427b70481f89f5f_tophead4.stl" scale="0.001 0.001 0.001" />
+    <mesh name="tophead5" content_type="model/stl" file="54bda4db70209c44_tophead5.stl" scale="0.001 0.001 0.001" />
+    <mesh name="tophead6" content_type="model/stl" file="3646936db777b61f_tophead6.stl" scale="0.001 0.001 0.001" />
+  </asset>
+  <default>
+    <default class="structure">
+      <geom type="box" group="2" contype="1" conaffinity="1" />
+    </default>
+    <default class="door">
+      <geom type="box" group="2" contype="1" conaffinity="1" friction="0.6 0.005 0.0001" />
+    </default>
+    <default class="panel">
+      <geom type="box" group="2" contype="1" conaffinity="1" />
+    </default>
+    <default class="button">
+      <joint type="slide" axis="0 1 0" range="0 0.0025" limited="true" stiffness="1400" springref="0" damping="6" armature="0.002" />
+      <geom type="box" group="2" contype="1" conaffinity="1" mass="0.02" friction="0.9 0.005 0.0001" />
+    </default>
+    <default class="glyph">
+      <geom type="box" group="2" contype="0" conaffinity="0" mass="0" material="mat_glyph" />
+    </default>
+    <default class="ring">
+      <geom type="box" group="2" contype="0" conaffinity="0" mass="0" material="mat_button_glow" />
+    </default>
+  </default>
+  <contact>
+    <exclude body1="world" body2="button_1_up" />
+    <exclude body1="world" body2="button_1_down" />
+    <exclude body1="world" body2="button_2_up" />
+    <exclude body1="world" body2="button_2_down" />
+    <exclude body1="world" body2="button_3_up" />
+    <exclude body1="world" body2="button_3_down" />
+  </contact>
+  <worldbody>
+    <light name="lobby_key" type="spot" pos="6 2 5.75" dir="0 0 -1" cutoff="70" exponent="8" attenuation="1 0.03 0.015" diffuse="0.7 0.7 0.7" castshadow="true" />
+    <light name="lobby_fill_left" type="spot" pos="3 1 5.75" dir="0.45 0.3 -1" cutoff="75" exponent="6" attenuation="1 0.025 0.01" diffuse="0.35 0.35 0.35" castshadow="true" />
+    <light name="lobby_fill_right" type="spot" pos="9 1 5.75" dir="-0.45 0.3 -1" cutoff="75" exponent="6" attenuation="1 0.025 0.01" diffuse="0.35 0.35 0.35" castshadow="true" />
+    <geom name="floor" class="structure" type="plane" pos="6 2 0" size="6 2 0.1" material="mat_floor" />
+    <geom name="ceiling" class="structure" pos="6 2 6.05" size="6 2 0.05" material="mat_ceiling" />
+    <geom name="wall_front" class="structure" pos="6 -0.05 3" size="6 0.05 3" material="mat_wall" />
+    <geom name="wall_left" class="structure" pos="-0.05 2 3" size="0.05 2 3" material="mat_wall" />
+    <geom name="wall_right" class="structure" pos="12.05 2 3" size="0.05 2 3" material="mat_wall" />
+    <geom name="pier_left" class="structure" pos="1.218 4.05 3" size="1.218 0.05 3" material="mat_wall" />
+    <geom name="pier_mid_1" class="structure" pos="4.518 4.05 3" size="0.882 0.05 3" material="mat_wall" />
+    <geom name="pier_mid_2" class="structure" pos="7.482 4.05 3" size="0.882 0.05 3" material="mat_wall" />
+    <geom name="pier_right" class="structure" pos="10.782 4.05 3" size="1.218 0.05 3" material="mat_wall" />
+    <geom name="lintel_1" class="structure" pos="3.036 4.05 4.2" size="0.6 0.05 1.8" material="mat_wall" />
+    <geom name="lintel_2" class="structure" pos="6.000 4.05 4.2" size="0.6 0.05 1.8" material="mat_wall" />
+    <geom name="lintel_3" class="structure" pos="8.964 4.05 4.2" size="0.6 0.05 1.8" material="mat_wall" />
+    <geom name="frame_1_l" class="structure" pos="2.376 3.96 1.23" size="0.06 0.04 1.29" material="mat_door_frame" />
+    <geom name="frame_1_r" class="structure" pos="3.696 3.96 1.23" size="0.06 0.04 1.29" material="mat_door_frame" />
+    <geom name="frame_1_t" class="structure" pos="3.036 3.96 2.46" size="0.6 0.04 0.06" material="mat_door_frame" />
+    <geom name="frame_2_l" class="structure" pos="5.340 3.96 1.23" size="0.06 0.04 1.29" material="mat_door_frame" />
+    <geom name="frame_2_r" class="structure" pos="6.660 3.96 1.23" size="0.06 0.04 1.29" material="mat_door_frame" />
+    <geom name="frame_2_t" class="structure" pos="6.000 3.96 2.46" size="0.6 0.04 0.06" material="mat_door_frame" />
+    <geom name="frame_3_l" class="structure" pos="8.304 3.96 1.23" size="0.06 0.04 1.29" material="mat_door_frame" />
+    <geom name="frame_3_r" class="structure" pos="9.624 3.96 1.23" size="0.06 0.04 1.29" material="mat_door_frame" />
+    <geom name="frame_3_t" class="structure" pos="8.964 3.96 2.46" size="0.6 0.04 0.06" material="mat_door_frame" />
+    <geom name="recess_1" class="structure" pos="3.036 4.16 1.2" size="0.62 0.01 1.22" material="mat_seam" />
+    <geom name="recess_2" class="structure" pos="6.000 4.16 1.2" size="0.62 0.01 1.22" material="mat_seam" />
+    <geom name="recess_3" class="structure" pos="8.964 4.16 1.2" size="0.62 0.01 1.22" material="mat_seam" />
+    <geom name="sill_1" class="structure" pos="3.036 4.09 0.005" size="0.6 0.09 0.005" material="mat_door_frame" />
+    <geom name="sill_2" class="structure" pos="6.000 4.09 0.005" size="0.6 0.09 0.005" material="mat_door_frame" />
+    <geom name="sill_3" class="structure" pos="8.964 4.09 0.005" size="0.6 0.09 0.005" material="mat_door_frame" />
+    <body name="door_1_left" pos="2.736 4.12 1.203">
+      <joint name="door_1_left_slide" type="slide" axis="-1 0 0" range="0 0.6" damping="30" armature="0.1" />
+      <geom name="door_1_left_geom" class="door" size="0.294 0.02 1.191" material="mat_door" mass="60" />
+    </body>
+    <body name="door_1_right" pos="3.336 4.12 1.203">
+      <joint name="door_1_right_slide" type="slide" axis="1 0 0" range="0 0.6" damping="30" armature="0.1" />
+      <geom name="door_1_right_geom" class="door" size="0.294 0.02 1.191" material="mat_door" mass="60" />
+    </body>
+    <body name="door_2_left" pos="5.700 4.12 1.203">
+      <joint name="door_2_left_slide" type="slide" axis="-1 0 0" range="0 0.6" damping="30" armature="0.1" />
+      <geom name="door_2_left_geom" class="door" size="0.294 0.02 1.191" material="mat_door" mass="60" />
+    </body>
+    <body name="door_2_right" pos="6.300 4.12 1.203">
+      <joint name="door_2_right_slide" type="slide" axis="1 0 0" range="0 0.6" damping="30" armature="0.1" />
+      <geom name="door_2_right_geom" class="door" size="0.294 0.02 1.191" material="mat_door" mass="60" />
+    </body>
+    <body name="door_3_left" pos="8.664 4.12 1.203">
+      <joint name="door_3_left_slide" type="slide" axis="-1 0 0" range="0 0.6" damping="30" armature="0.1" />
+      <geom name="door_3_left_geom" class="door" size="0.294 0.02 1.191" material="mat_door" mass="60" />
+    </body>
+    <body name="door_3_right" pos="9.264 4.12 1.203">
+      <joint name="door_3_right_slide" type="slide" axis="1 0 0" range="0 0.6" damping="30" armature="0.1" />
+      <geom name="door_3_right_geom" class="door" size="0.294 0.02 1.191" material="mat_door" mass="60" />
+    </body>
+    <geom name="panel_1" class="panel" pos="3.8885 3.9960 1.0050" size="0.0325 0.0040 0.0500" material="mat_panel" />
+    <body name="button_1_up" pos="3.8885 3.9890 1.0250">
+      <joint name="btn_1_up" class="button" />
+      <geom name="button_1_up_geom" class="button" size="0.0150 0.0030 0.0150" material="mat_button_cap" />
+      <geom name="ring_1_up_top" class="ring" pos="0 -0.00340 0.01120" size="0.01200 0.00040 0.00080" />
+      <geom name="ring_1_up_bottom" class="ring" pos="0 -0.00340 -0.01120" size="0.01200 0.00040 0.00080" />
+      <geom name="ring_1_up_left" class="ring" pos="-0.01120 -0.00340 0" size="0.00080 0.00040 0.01040" />
+      <geom name="ring_1_up_right" class="ring" pos="0.01120 -0.00340 0" size="0.00080 0.00040 0.01040" />
+      <geom name="chev_1_up_l" class="glyph" pos="-0.00425 -0.00350 0" quat="0.923880 0 -0.382683 0" size="0.00601 0.00050 0.00110" />
+      <geom name="chev_1_up_r" class="glyph" pos="0.00425 -0.00350 0" quat="0.923880 0 0.382683 0" size="0.00601 0.00050 0.00110" />
+    </body>
+    <body name="button_1_down" pos="3.8885 3.9890 0.9850">
+      <joint name="btn_1_down" class="button" />
+      <geom name="button_1_down_geom" class="button" size="0.0150 0.0030 0.0150" material="mat_button_cap" />
+      <geom name="ring_1_down_top" class="ring" pos="0 -0.00340 0.01120" size="0.01200 0.00040 0.00080" />
+      <geom name="ring_1_down_bottom" class="ring" pos="0 -0.00340 -0.01120" size="0.01200 0.00040 0.00080" />
+      <geom name="ring_1_down_left" class="ring" pos="-0.01120 -0.00340 0" size="0.00080 0.00040 0.01040" />
+      <geom name="ring_1_down_right" class="ring" pos="0.01120 -0.00340 0" size="0.00080 0.00040 0.01040" />
+      <geom name="chev_1_down_l" class="glyph" pos="-0.00425 -0.00350 0" quat="0.923880 0 0.382683 0" size="0.00601 0.00050 0.00110" />
+      <geom name="chev_1_down_r" class="glyph" pos="0.00425 -0.00350 0" quat="0.923880 0 -0.382683 0" size="0.00601 0.00050 0.00110" />
+    </body>
+    <geom name="panel_2" class="panel" pos="6.8525 3.9960 1.0050" size="0.0325 0.0040 0.0500" material="mat_panel" />
+    <body name="button_2_up" pos="6.8525 3.9890 1.0250">
+      <joint name="btn_2_up" class="button" />
+      <geom name="button_2_up_geom" class="button" size="0.0150 0.0030 0.0150" material="mat_button_cap" />
+      <geom name="ring_2_up_top" class="ring" pos="0 -0.00340 0.01120" size="0.01200 0.00040 0.00080" />
+      <geom name="ring_2_up_bottom" class="ring" pos="0 -0.00340 -0.01120" size="0.01200 0.00040 0.00080" />
+      <geom name="ring_2_up_left" class="ring" pos="-0.01120 -0.00340 0" size="0.00080 0.00040 0.01040" />
+      <geom name="ring_2_up_right" class="ring" pos="0.01120 -0.00340 0" size="0.00080 0.00040 0.01040" />
+      <geom name="chev_2_up_l" class="glyph" pos="-0.00425 -0.00350 0" quat="0.923880 0 -0.382683 0" size="0.00601 0.00050 0.00110" />
+      <geom name="chev_2_up_r" class="glyph" pos="0.00425 -0.00350 0" quat="0.923880 0 0.382683 0" size="0.00601 0.00050 0.00110" />
+    </body>
+    <body name="button_2_down" pos="6.8525 3.9890 0.9850">
+      <joint name="btn_2_down" class="button" />
+      <geom name="button_2_down_geom" class="button" size="0.0150 0.0030 0.0150" material="mat_button_cap" />
+      <geom name="ring_2_down_top" class="ring" pos="0 -0.00340 0.01120" size="0.01200 0.00040 0.00080" />
+      <geom name="ring_2_down_bottom" class="ring" pos="0 -0.00340 -0.01120" size="0.01200 0.00040 0.00080" />
+      <geom name="ring_2_down_left" class="ring" pos="-0.01120 -0.00340 0" size="0.00080 0.00040 0.01040" />
+      <geom name="ring_2_down_right" class="ring" pos="0.01120 -0.00340 0" size="0.00080 0.00040 0.01040" />
+      <geom name="chev_2_down_l" class="glyph" pos="-0.00425 -0.00350 0" quat="0.923880 0 0.382683 0" size="0.00601 0.00050 0.00110" />
+      <geom name="chev_2_down_r" class="glyph" pos="0.00425 -0.00350 0" quat="0.923880 0 -0.382683 0" size="0.00601 0.00050 0.00110" />
+    </body>
+    <geom name="panel_3" class="panel" pos="9.8165 3.9960 1.0050" size="0.0325 0.0040 0.0500" material="mat_panel" />
+    <body name="button_3_up" pos="9.8165 3.9890 1.0250">
+      <joint name="btn_3_up" class="button" />
+      <geom name="button_3_up_geom" class="button" size="0.0150 0.0030 0.0150" material="mat_button_cap" />
+      <geom name="ring_3_up_top" class="ring" pos="0 -0.00340 0.01120" size="0.01200 0.00040 0.00080" />
+      <geom name="ring_3_up_bottom" class="ring" pos="0 -0.00340 -0.01120" size="0.01200 0.00040 0.00080" />
+      <geom name="ring_3_up_left" class="ring" pos="-0.01120 -0.00340 0" size="0.00080 0.00040 0.01040" />
+      <geom name="ring_3_up_right" class="ring" pos="0.01120 -0.00340 0" size="0.00080 0.00040 0.01040" />
+      <geom name="chev_3_up_l" class="glyph" pos="-0.00425 -0.00350 0" quat="0.923880 0 -0.382683 0" size="0.00601 0.00050 0.00110" />
+      <geom name="chev_3_up_r" class="glyph" pos="0.00425 -0.00350 0" quat="0.923880 0 0.382683 0" size="0.00601 0.00050 0.00110" />
+    </body>
+    <body name="button_3_down" pos="9.8165 3.9890 0.9850">
+      <joint name="btn_3_down" class="button" />
+      <geom name="button_3_down_geom" class="button" size="0.0150 0.0030 0.0150" material="mat_button_cap" />
+      <geom name="ring_3_down_top" class="ring" pos="0 -0.00340 0.01120" size="0.01200 0.00040 0.00080" />
+      <geom name="ring_3_down_bottom" class="ring" pos="0 -0.00340 -0.01120" size="0.01200 0.00040 0.00080" />
+      <geom name="ring_3_down_left" class="ring" pos="-0.01120 -0.00340 0" size="0.00080 0.00040 0.01040" />
+      <geom name="ring_3_down_right" class="ring" pos="0.01120 -0.00340 0" size="0.00080 0.00040 0.01040" />
+      <geom name="chev_3_down_l" class="glyph" pos="-0.00425 -0.00350 0" quat="0.923880 0 0.382683 0" size="0.00601 0.00050 0.00110" />
+      <geom name="chev_3_down_r" class="glyph" pos="0.00425 -0.00350 0" quat="0.923880 0 -0.382683 0" size="0.00601 0.00050 0.00110" />
+    </body>
+    <body name="chassis" pos="6.8525 3.3 0.38" quat="0.7071068 0 0 0.7071068">
+      <joint name="base_slide_x" type="slide" axis="1 0 0" damping="50" />
+      <joint name="base_slide_y" type="slide" axis="0 1 0" damping="50" />
+      <joint name="base_rot_z" type="hinge" axis="0 0 1" damping="20" />
+      <inertial pos="0.0110104 -0.00226467 -0.353953" quat="0.766985 0.104619 0.0860426 0.627205" mass="10.5482" diaginertia="0.21164 0.173824 0.0431086" />
+      <geom pos="-0.01668 0.502 0.515" quat="0.707105 0.707108 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.92 0.92 0.92 1" mesh="raskogbody" />
+      <geom size="0.19565 0.2295 0.05" pos="0 0 -0.3" type="box" rgba="0.92 0.92 0.92 1" />
+      <geom size="0.1575 0.2025 0.295" pos="0 0 0.015" type="box" rgba="0.92 0.92 0.92 1" />
+      <geom size="0.045 0.018 0.34" pos="0 -0.216 0.06" type="box" rgba="0.92 0.92 0.92 1" />
+      <geom size="0.045 0.018 0.34" pos="0 0.216 0.06" type="box" rgba="0.92 0.92 0.92 1" />
+      <geom size="0.12 0.008 0.05" pos="0.04 0.2 0.34" type="box" rgba="0.92 0.92 0.92 1" />
+      <geom size="0.12 0.008 0.05" pos="0.04 -0.2 0.34" type="box" rgba="0.92 0.92 0.92 1" />
+      <geom size="0.008 0.2 0.05" pos="0.155 0 0.34" type="box" rgba="0.92 0.92 0.92 1" />
+      <geom size="0.008 0.2 0.05" pos="-0.04 0 0.34" type="box" rgba="0.92 0.92 0.92 1" />
+      <geom size="0.02" pos="0.15 -0.225 -0.35" rgba="0.92 0.92 0.92 1" />
+      <geom size="0.02" pos="0.15 0.225 -0.35" rgba="0.92 0.92 0.92 1" />
+      <geom pos="-0.01668 0.502 0.515" quat="0.707105 0.707108 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.501965 0.501965 0.501965 1" mesh="raskogwheel1" />
+      <geom pos="-0.01668 0.502 0.515" quat="0.707105 0.707108 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.101965 0.101965 0.101965 1" mesh="raskogwheel2" />
+      <geom pos="-0.09 -0.11 0.395" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.301965 0.301965 0.301965 1" mesh="Base" />
+      <geom pos="-0.09 -0.11 0.395" quat="1 0 0 0" type="mesh" rgba="0.301965 0.301965 0.301965 1" mesh="Base" />
+      <geom pos="-0.09 -0.11 0.395" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.101965 0.101965 0.101965 1" mesh="Base_Motor" />
+      <geom pos="-0.09 -0.11 0.395" quat="1 0 0 0" type="mesh" rgba="0.101965 0.101965 0.101965 1" mesh="Base_Motor" />
+      <geom pos="-0.09 0.11 0.395" quat="-2.32051e-08 0 0 1" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.301965 0.301965 0.301965 1" mesh="Base" />
+      <geom pos="-0.09 0.11 0.395" quat="-2.32051e-08 0 0 1" type="mesh" rgba="0.301965 0.301965 0.301965 1" mesh="Base" />
+      <geom pos="-0.09 0.11 0.395" quat="-2.32051e-08 0 0 1" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.101965 0.101965 0.101965 1" mesh="Base_Motor" />
+      <geom pos="-0.09 0.11 0.395" quat="-2.32051e-08 0 0 1" type="mesh" rgba="0.101965 0.101965 0.101965 1" mesh="Base_Motor" />
+      <geom pos="-0.44 -0.005 -0.25" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.301965 0.301965 0.301965 1" mesh="topbase1" />
+      <geom pos="-0.298 0.006 -0.365" quat="0.000796327 0 0 1" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.101965 0.101965 0.101965 1" mesh="topbase2" />
+      <body name="left_wheel" pos="-0.15 0.225 -0.32" quat="-1.64085e-08 -1.64085e-08 0.707107 0.707107">
+        <inertial pos="0 0 0" mass="1" diaginertia="0.01 0.01 0.01" />
+        <joint name="left_wheel_joint" pos="0 0 0" axis="0 0 1" />
+        <geom size="0.05 0.02" type="cylinder" />
+      </body>
+      <body name="right_wheel" pos="-0.15 -0.225 -0.32" quat="-1.64085e-08 -1.64085e-08 0.707107 0.707107">
+        <inertial pos="0 0 0" mass="1" diaginertia="0.01 0.01 0.01" />
+        <joint name="right_wheel_joint" pos="0 0 0" axis="0 0 1" />
+        <geom size="0.05 0.02" type="cylinder" />
+      </body>
+      <body name="Rotation_Pitch" pos="-0.09 -0.1552 0.4115" quat="0.707105 0.707108 0 0">
+        <inertial pos="-0.0307604 -1.67e-05 -0.0252713" quat="0.999804 0.00194061 0.00999923 0.0169499" mass="0.100006" diaginertia="8.38273e-05 8.09975e-05 2.39752e-05" />
+        <joint name="Rotation_L" pos="0 0 0" axis="0 -1 0" range="-2.16 2.16" actuatorfrcrange="-3.35 3.35" damping="0.6" frictionloss="0.052" />
+        <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.301965 0.301965 0.301965 1" mesh="Rotation_Pitch" />
+        <geom type="mesh" rgba="0.301965 0.301965 0.301965 1" mesh="Rotation_Pitch" />
+        <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.101965 0.101965 0.101965 1" mesh="Rotation_Pitch_Motor" />
+        <geom type="mesh" rgba="0.101965 0.101965 0.101965 1" mesh="Rotation_Pitch_Motor" />
+        <body name="Upper_Arm" pos="0 0.1025 0.0306" quat="0.707105 0.707108 0 0">
+          <inertial pos="-0.0898471 -0.0083822 0.0184089" quat="0.453581 0.453581 0.542461 0.542461" mass="0.103" diaginertia="0.000150862 0.0001425 3.7238e-05" />
+          <joint name="Pitch_L" pos="0 0 0" axis="-1 0 0" range="-0.22 3.37" actuatorfrcrange="-3.35 3.35" damping="0.6" frictionloss="0.052" />
+          <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.301965 0.301965 0.301965 1" mesh="Upper_Arm" />
+          <geom type="mesh" rgba="0.301965 0.301965 0.301965 1" mesh="Upper_Arm" />
+          <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.101965 0.101965 0.101965 1" mesh="Upper_Arm_Motor" />
+          <geom type="mesh" rgba="0.101965 0.101965 0.101965 1" mesh="Upper_Arm_Motor" />
+          <body name="Lower_Arm" pos="0 0.11257 0.028" quat="0.707105 -0.707108 0 0">
+            <inertial pos="-0.0980701 0.0032438 0.0182831" quat="0.509809 0.517888 0.487173 0.484304" mass="0.104" diaginertia="0.000160217 0.000145314 2.82692e-05" />
+            <joint name="Elbow_L" pos="0 0 0" axis="1 0 0" range="-0.22 3.14" actuatorfrcrange="-3.35 3.35" damping="0.6" frictionloss="0.052" />
+            <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.301965 0.301965 0.301965 1" mesh="Lower_Arm" />
+            <geom type="mesh" rgba="0.301965 0.301965 0.301965 1" mesh="Lower_Arm" />
+            <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.101965 0.101965 0.101965 1" mesh="Lower_Arm_Motor" />
+            <geom type="mesh" rgba="0.101965 0.101965 0.101965 1" mesh="Lower_Arm_Motor" />
+            <body name="Wrist_Pitch_Roll" pos="0 0.0052 0.1349" quat="0.707105 -0.707108 0 0">
+              <inertial pos="-0.0001033 -0.0386143 0.0281156" quat="0.96752 0.252767 0.00302683 -0.00190356" mass="0.079" diaginertia="3.68007e-05 2.74187e-05 1.89806e-05" />
+              <joint name="Wrist_Pitch_L" pos="0 0 0" axis="1 0 0" range="-1.65806 1.65806" actuatorfrcrange="-3.35 3.35" damping="0.6" frictionloss="0.052" />
+              <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.301965 0.301965 0.301965 1" mesh="Wrist_Pitch_Roll" />
+              <geom type="mesh" rgba="0.301965 0.301965 0.301965 1" mesh="Wrist_Pitch_Roll" />
+              <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.101965 0.101965 0.101965 1" mesh="Wrist_Pitch_Roll_Motor" />
+              <geom type="mesh" rgba="0.101965 0.101965 0.101965 1" mesh="Wrist_Pitch_Roll_Motor" />
+              <body name="Fixed_Jaw" pos="0 -0.0601 0" quat="0.707108 0 0.707105 0">
+                <inertial pos="0.0002136 0.0002451 -0.025187" quat="0.603842 0.354612 0.360831 0.615975" mass="0.087" diaginertia="4.34057e-05 3.76882e-05 2.43061e-05" />
+                <joint name="Wrist_Roll_L" pos="0 0 0" axis="0 -1 0" range="-2.74385 2.84121" actuatorfrcrange="-3.35 3.35" damping="0.6" frictionloss="0.052" />
+                <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.301965 0.301965 0.301965 1" mesh="Fixed_Jaw" />
+                <geom type="mesh" rgba="0.301965 0.301965 0.301965 1" mesh="Fixed_Jaw_part1.ply.convex" />
+                <geom type="mesh" rgba="0.301965 0.301965 0.301965 1" mesh="Fixed_Jaw_part2.ply.convex" />
+                <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.101965 0.101965 0.101965 1" mesh="Fixed_Jaw_Motor" />
+                <geom pos="5.44018e-08 -0.0069999 0.0240001" quat="0.499998 0.5 -0.5 -0.500002" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.301965 0.301965 0.301965 1" mesh="XLeRobot_camera1" />
+                <geom pos="5.44018e-08 -0.0069999 0.0240001" quat="0.499998 0.5 -0.5 -0.500002" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.101965 0.101965 0.101965 1" mesh="XLeRobot_camera2" />
+                <camera name="left_wrist" pos="-0.004 -0.013 0.066" xyaxes="-1 0 0 0 -0.40674 0.91354" fovy="55" />
+                <body name="Moving_Jaw" pos="-0.0202 -0.0244 0" quat="-3.55744e-07 0.0940644 0.995566 3.67656e-06">
+                  <inertial pos="-0.001575 -0.0300244 0.0192755" quat="0.696425 0.716921 -0.0244804 -0.0204209" mass="0.012" diaginertia="6.6191e-06 5.30288e-06 1.87802e-06" />
+                  <joint name="Jaw_L" pos="0 0 0" axis="0 0 1" range="-0.374533 1.74533" actuatorfrcrange="-15 15" damping="0.6" frictionloss="0.052" />
+                  <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.301965 0.301965 0.301965 1" mesh="Moving_Jaw" />
+                  <geom type="mesh" rgba="0.301965 0.301965 0.301965 1" mesh="Moving_Jaw_part1.ply.convex" />
+                  <geom type="mesh" rgba="0.301965 0.301965 0.301965 1" mesh="Moving_Jaw_part2.ply.convex" />
+                  <geom type="mesh" rgba="0.301965 0.301965 0.301965 1" mesh="Moving_Jaw_part3.ply.convex" />
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="Rotation_Pitch_2" pos="-0.09 0.1552 0.4115" quat="-1.64085e-08 -1.64085e-08 0.707108 0.707105">
+        <inertial pos="-0.0307604 -1.67e-05 -0.0252713" quat="0.999804 0.00194061 0.00999923 0.0169499" mass="0.100006" diaginertia="8.38273e-05 8.09975e-05 2.39752e-05" />
+        <joint name="Rotation_R" pos="0 0 0" axis="0 -1 0" range="-2.16 2.16" actuatorfrcrange="-3.35 3.35" damping="0.6" frictionloss="0.052" />
+        <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.301965 0.301965 0.301965 1" mesh="Rotation_Pitch" />
+        <geom type="mesh" rgba="0.301965 0.301965 0.301965 1" mesh="Rotation_Pitch" />
+        <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.101965 0.101965 0.101965 1" mesh="Rotation_Pitch_Motor" />
+        <geom type="mesh" rgba="0.101965 0.101965 0.101965 1" mesh="Rotation_Pitch_Motor" />
+        <body name="Upper_Arm_2" pos="0 0.1025 0.0306" quat="0.707105 0.707108 0 0">
+          <inertial pos="-0.0898471 -0.0083822 0.0184089" quat="0.453581 0.453581 0.542461 0.542461" mass="0.103" diaginertia="0.000150862 0.0001425 3.7238e-05" />
+          <joint name="Pitch_R" pos="0 0 0" axis="-1 0 0" range="-0.22 3.37" actuatorfrcrange="-3.35 3.35" damping="0.6" frictionloss="0.052" />
+          <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.301965 0.301965 0.301965 1" mesh="Upper_Arm" />
+          <geom type="mesh" rgba="0.301965 0.301965 0.301965 1" mesh="Upper_Arm" />
+          <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.101965 0.101965 0.101965 1" mesh="Upper_Arm_Motor" />
+          <geom type="mesh" rgba="0.101965 0.101965 0.101965 1" mesh="Upper_Arm_Motor" />
+          <body name="Lower_Arm_2" pos="0 0.11257 0.028" quat="0.707105 -0.707108 0 0">
+            <inertial pos="-0.0980701 0.0032438 0.0182831" quat="0.509809 0.517888 0.487173 0.484304" mass="0.104" diaginertia="0.000160217 0.000145314 2.82692e-05" />
+            <joint name="Elbow_R" pos="0 0 0" axis="1 0 0" range="-0.22 3.14" actuatorfrcrange="-3.35 3.35" damping="0.6" frictionloss="0.052" />
+            <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.301965 0.301965 0.301965 1" mesh="Lower_Arm" />
+            <geom type="mesh" rgba="0.301965 0.301965 0.301965 1" mesh="Lower_Arm" />
+            <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.101965 0.101965 0.101965 1" mesh="Lower_Arm_Motor" />
+            <geom type="mesh" rgba="0.101965 0.101965 0.101965 1" mesh="Lower_Arm_Motor" />
+            <body name="Wrist_Pitch_Roll_2" pos="0 0.0052 0.1349" quat="0.707105 -0.707108 0 0">
+              <inertial pos="-0.0001033 -0.0386143 0.0281156" quat="0.96752 0.252767 0.00302683 -0.00190356" mass="0.079" diaginertia="3.68007e-05 2.74187e-05 1.89806e-05" />
+              <joint name="Wrist_Pitch_R" pos="0 0 0" axis="1 0 0" range="-1.65806 1.65806" actuatorfrcrange="-3.35 3.35" damping="0.6" frictionloss="0.052" />
+              <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.301965 0.301965 0.301965 1" mesh="Wrist_Pitch_Roll" />
+              <geom type="mesh" rgba="0.301965 0.301965 0.301965 1" mesh="Wrist_Pitch_Roll" />
+              <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.101965 0.101965 0.101965 1" mesh="Wrist_Pitch_Roll_Motor" />
+              <geom type="mesh" rgba="0.101965 0.101965 0.101965 1" mesh="Wrist_Pitch_Roll_Motor" />
+              <body name="Fixed_Jaw_2" pos="0 -0.0601 0" quat="0.707108 0 0.707105 0">
+                <inertial pos="0.0002136 0.0002451 -0.025187" quat="0.603842 0.354612 0.360831 0.615975" mass="0.087" diaginertia="4.34057e-05 3.76882e-05 2.43061e-05" />
+                <joint name="Wrist_Roll_R" pos="0 0 0" axis="0 -1 0" range="-2.74385 2.84121" actuatorfrcrange="-3.35 3.35" damping="0.6" frictionloss="0.052" />
+                <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.301965 0.301965 0.301965 1" mesh="Fixed_Jaw" />
+                <geom type="mesh" rgba="0.301965 0.301965 0.301965 1" mesh="Fixed_Jaw_part1.ply.convex" />
+                <geom type="mesh" rgba="0.301965 0.301965 0.301965 1" mesh="Fixed_Jaw_part2.ply.convex" />
+                <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.101965 0.101965 0.101965 1" mesh="Fixed_Jaw_Motor" />
+                <geom pos="5.44018e-08 -0.0059999 0.0240001" quat="0.499998 0.5 -0.5 -0.500002" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.301965 0.301965 0.301965 1" mesh="XLeRobot_camera1" />
+                <geom pos="5.44018e-08 -0.0059999 0.0240001" quat="0.499998 0.5 -0.5 -0.500002" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.101965 0.101965 0.101965 1" mesh="XLeRobot_camera2" />
+                <camera name="right_wrist" pos="-0.004 -0.012 0.064" xyaxes="-1 0 0 0 -0.40591 0.91391" fovy="55" />
+                <body name="Moving_Jaw_2" pos="-0.0202 -0.0244 0" quat="-3.55744e-07 0.0940644 0.995566 3.67656e-06">
+                  <inertial pos="-0.001575 -0.0300244 0.0192755" quat="0.696425 0.716921 -0.0244804 -0.0204209" mass="0.012" diaginertia="6.6191e-06 5.30288e-06 1.87802e-06" />
+                  <joint name="Jaw_R" pos="0 0 0" axis="0 0 1" range="-0.374533 1.74533" actuatorfrcrange="-15 15" damping="0.6" frictionloss="0.052" />
+                  <geom type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.301965 0.301965 0.301965 1" mesh="Moving_Jaw" />
+                  <geom type="mesh" rgba="0.301965 0.301965 0.301965 1" mesh="Moving_Jaw_part1.ply.convex" />
+                  <geom type="mesh" rgba="0.301965 0.301965 0.301965 1" mesh="Moving_Jaw_part2.ply.convex" />
+                  <geom type="mesh" rgba="0.301965 0.301965 0.301965 1" mesh="Moving_Jaw_part3.ply.convex" />
+                </body>
+              </body>
+            </body>
+          </body>
+        </body>
+      </body>
+      <body name="head_pan_link" pos="-0.103 0 0.673">
+        <inertial pos="0 0 0" quat="0.5 0.5 -0.5 0.5" mass="0.2556" diaginertia="0.0184 0.0129 0.0095" />
+        <joint name="head_pan_joint" pos="0 0 0" axis="0 0 1" range="-3.2 3.2" damping="0.6" frictionloss="0.052" />
+        <geom pos="-0.335 -0.005 -0.923" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.301965 0.301965 0.301965 1" mesh="tophead1" />
+        <geom pos="1.17 -0.009 0.262" quat="-0.706825 -4.62158e-07 0.707388 -4.62158e-07" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.101965 0.101965 0.101965 1" mesh="tophead4" />
+        <body name="head_tilt_link" pos="0.001 0.002 0.09815" quat="-2.32051e-08 0 0 1">
+          <inertial pos="0 0 0" quat="0.707107 0.707107 0 0" mass="0.02087" diaginertia="0.0061 0.0061 0.0014" />
+          <joint name="head_tilt_joint" pos="0 0 0" axis="0 1 0" range="-0.76 1.45" damping="0.6" frictionloss="0.052" />
+          <geom pos="0.16265 -0.006 -1.16815" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.301965 0.301965 0.301965 1" mesh="tophead5" />
+          <geom pos="0.16265 -0.006 -1.16815" quat="1 0 0 0" type="mesh" contype="0" conaffinity="0" group="1" density="0" rgba="0.101965 0.101965 0.101965 1" mesh="tophead6" />
+          <camera name="head" pos="0.032 0.002 0.028" xyaxes="0 -1 0 0 0 1" fovy="42" />
+        </body>
+      </body>
+    </body>
+  </worldbody>
+  <actuator>
+    <velocity name="act_base_slide_x" joint="base_slide_x" kv="80" />
+    <velocity name="act_base_slide_y" joint="base_slide_y" kv="80" />
+    <velocity name="act_base_rot_z" joint="base_rot_z" kv="40" />
+    <position name="act_Rotation_L" joint="Rotation_L" kp="30" kv="3" forcerange="-15 15" />
+    <position name="act_Pitch_L" joint="Pitch_L" kp="30" kv="3" forcerange="-15 15" />
+    <position name="act_Elbow_L" joint="Elbow_L" kp="30" kv="3" forcerange="-15 15" />
+    <position name="act_Wrist_Pitch_L" joint="Wrist_Pitch_L" kp="30" kv="3" forcerange="-15 15" />
+    <position name="act_Wrist_Roll_L" joint="Wrist_Roll_L" kp="30" kv="3" forcerange="-15 15" />
+    <position name="act_Rotation_R" joint="Rotation_R" kp="30" kv="3" forcerange="-15 15" />
+    <position name="act_Pitch_R" joint="Pitch_R" kp="30" kv="3" forcerange="-15 15" />
+    <position name="act_Elbow_R" joint="Elbow_R" kp="30" kv="3" forcerange="-15 15" />
+    <position name="act_Wrist_Pitch_R" joint="Wrist_Pitch_R" kp="30" kv="3" forcerange="-15 15" />
+    <position name="act_Wrist_Roll_R" joint="Wrist_Roll_R" kp="30" kv="3" forcerange="-15 15" />
+    <position name="act_head_pan_joint" joint="head_pan_joint" kp="10" kv="1" forcerange="-5 5" />
+    <position name="act_head_tilt_joint" joint="head_tilt_joint" kp="10" kv="1" forcerange="-5 5" />
+    <position name="act_Jaw_L" joint="Jaw_L" kp="20" kv="0.8" forcerange="-15 15" />
+    <position name="act_Jaw_R" joint="Jaw_R" kp="20" kv="0.8" forcerange="-15 15" />
+    <position name="act_door_1_left" joint="door_1_left_slide" kp="2000" kv="120" ctrlrange="0 0.6" />
+    <position name="act_door_1_right" joint="door_1_right_slide" kp="2000" kv="120" ctrlrange="0 0.6" />
+    <position name="act_door_2_left" joint="door_2_left_slide" kp="2000" kv="120" ctrlrange="0 0.6" />
+    <position name="act_door_2_right" joint="door_2_right_slide" kp="2000" kv="120" ctrlrange="0 0.6" />
+    <position name="act_door_3_left" joint="door_3_left_slide" kp="2000" kv="120" ctrlrange="0 0.6" />
+    <position name="act_door_3_right" joint="door_3_right_slide" kp="2000" kv="120" ctrlrange="0 0.6" />
+  </actuator>
+  <equality>
+    <joint name="lock_base_slide_x" joint1="base_slide_x" polycoef="0 0 0 0 0" />
+    <joint name="lock_base_slide_y" joint1="base_slide_y" polycoef="0 0 0 0 0" />
+    <joint name="lock_base_rot_z" joint1="base_rot_z" polycoef="0 0 0 0 0" />
+  </equality>
+</mujoco>

@@ -1,0 +1,17 @@
+{
+  "no_model_trial": true,
+  "snapshot_audit": {
+    "passed": true,
+    "stage_snapshot_sha256": "c07048092c5472351e2c331c8899b97d55c6a3c58f3522574353b2f9b0b29e0d",
+    "full_integration_state_match": true,
+    "controller_idle": true,
+    "all_buttons_unlatched": true,
+    "private_only": true
+  },
+  "camera_roles": [
+    "head",
+    "left_wrist",
+    "right_wrist"
+  ],
+  "finish_and_exit_ok": true
+}

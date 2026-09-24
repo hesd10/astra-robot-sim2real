@@ -1,0 +1,24 @@
+[
+  {
+    "file": "D3-realtime-muted.mp4",
+    "speed": 1,
+    "duration_seconds": 336.27,
+    "audio_streams": 0,
+    "video": "H.264, 1080x1920, 30 fps, BT.709 SDR",
+    "bytes": 185547466,
+    "sha256": "316d2ebfcab71234f8546781ff9ee6f5a911ef462db78fa78e058245d65515af",
+    "full_decode": "pass",
+    "sequence": "complete supplied sequence; no trimming"
+  },
+  {
+    "file": "D3-6x-muted.mp4",
+    "speed": 6,
+    "duration_seconds": 56.03,
+    "audio_streams": 0,
+    "video": "H.264, 1080x1920, 30 fps, BT.709 SDR",
+    "bytes": 78558088,
+    "sha256": "4404d9f6d886cd898d33e15ef8bbd1adc5c8f2367752c85475ff28e6cd8e8796",
+    "full_decode": "pass",
+    "sequence": "complete supplied sequence; no trimming"
+  }
+]

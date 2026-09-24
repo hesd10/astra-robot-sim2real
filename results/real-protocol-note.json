@@ -1,0 +1,10 @@
+{
+  "clarification_source": "Experiment operator, September 24, 2026",
+  "scope": "All 12 reported real-robot trials (A1-D3)",
+  "written_prompt_criterion": "Physical depression of the target downward elevator call button",
+  "executed_success_criterion": "Operator-confirmed physical contact between the gripper tip and the target button",
+  "reason": "The physical elevator button was stiff; the operator accepted gripper-tip contact during execution.",
+  "feedback": "The operator proactively sent success through the task interface.",
+  "interpretation": "Reported real times measure completion under the contact criterion, not verified button depression.",
+  "archival_policy": "Original prompt, operator event records, and numerical trial results are preserved; this note documents their operational interpretation."
+}

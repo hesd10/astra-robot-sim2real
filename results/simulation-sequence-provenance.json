@@ -1,0 +1,183 @@
+{
+  "renderer": "MuJoCo 3.11.0",
+  "episode": "be001-r1-i0e3",
+  "snapshots": "results/simulation-sequence-snapshots.json",
+  "snapshots_sha256": "e8b75793769ecd10556a0f89c04772cfe32be0e867e0b0d469c19be038f7db8c",
+  "simulation_advanced": false,
+  "vertical_fov_degrees": 42,
+  "presentation": "Six recorded configurations, one fixed external camera focused on the middle elevator and approach corridor; near wall hidden in memory, reflections disabled. Last two frames include a separate fixed close view of the button and gripper.",
+  "images": [
+    {
+      "path": "media/simulation-sequence-1.png",
+      "sha256": "f91c945eb30ad57c7e5ac8616d298251c7bd8ef3169f1d5ae10ab3d8f3663696",
+      "lookat": [
+        6.95,
+        2.65,
+        0.5
+      ],
+      "distance": 4.4,
+      "azimuth": 135,
+      "elevation": -34,
+      "size_px": [
+        1200,
+        1000
+      ],
+      "target_pixel": [
+        831.0725589416634,
+        235.92582794248727
+      ],
+      "time_seconds": 0.0,
+      "archive_line": 1
+    },
+    {
+      "path": "media/simulation-sequence-2.png",
+      "sha256": "cf13cf48dcae616ee35f486438ceebf81f513abba7129fd0b80db724699de0ef",
+      "lookat": [
+        6.95,
+        2.65,
+        0.5
+      ],
+      "distance": 4.4,
+      "azimuth": 135,
+      "elevation": -34,
+      "size_px": [
+        1200,
+        1000
+      ],
+      "target_pixel": [
+        831.0725589416634,
+        235.92582794248727
+      ],
+      "time_seconds": 115.00000000018505,
+      "archive_line": 2301
+    },
+    {
+      "path": "media/simulation-sequence-3.png",
+      "sha256": "45fa84839c3b5f53f5185e591312f19de8ea6d84cc9fdf9fb5ec934991ae445b",
+      "lookat": [
+        6.95,
+        2.65,
+        0.5
+      ],
+      "distance": 4.4,
+      "azimuth": 135,
+      "elevation": -34,
+      "size_px": [
+        1200,
+        1000
+      ],
+      "target_pixel": [
+        831.0725589416634,
+        235.92582794248727
+      ],
+      "time_seconds": 150.00000000035217,
+      "archive_line": 3001
+    },
+    {
+      "path": "media/simulation-sequence-4.png",
+      "sha256": "a83389d26f1299a10852b9bc4470697378b164f8d82486183b04fd2ed071c699",
+      "lookat": [
+        6.95,
+        2.65,
+        0.5
+      ],
+      "distance": 4.4,
+      "azimuth": 135,
+      "elevation": -34,
+      "size_px": [
+        1200,
+        1000
+      ],
+      "target_pixel": [
+        831.0725589416634,
+        235.92582794248727
+      ],
+      "time_seconds": 204.00000000061002,
+      "archive_line": 4081
+    },
+    {
+      "path": "media/simulation-sequence-5.png",
+      "sha256": "bf03d07175a67a9ef91bae872d9769d5ced15108759fcc31509259c6ba5ebf60",
+      "lookat": [
+        6.95,
+        2.65,
+        0.5
+      ],
+      "distance": 4.4,
+      "azimuth": 135,
+      "elevation": -34,
+      "size_px": [
+        1200,
+        1000
+      ],
+      "target_pixel": [
+        831.0725589416634,
+        235.92582794248727
+      ],
+      "time_seconds": 281.0000000002671,
+      "archive_line": 5621,
+      "inset": {
+        "path": "media/simulation-sequence-5-detail.png",
+        "sha256": "c769c3776634a864dacf402890fa97458ab2ce5fe8eaadfc0c3e0b3beac1b90c",
+        "lookat": [
+          6.853,
+          3.965,
+          1.015
+        ],
+        "distance": 0.3,
+        "azimuth": 125,
+        "elevation": -8,
+        "size_px": [
+          650,
+          520
+        ],
+        "target_pixel": [
+          353.4159316527672,
+          233.02569695530676
+        ]
+      }
+    },
+    {
+      "path": "media/simulation-sequence-6.png",
+      "sha256": "7588da92f7ed53e75e04e92c1e088dce1dfb594d4fedbe6dc05b02e39db53b5d",
+      "lookat": [
+        6.95,
+        2.65,
+        0.5
+      ],
+      "distance": 4.4,
+      "azimuth": 135,
+      "elevation": -34,
+      "size_px": [
+        1200,
+        1000
+      ],
+      "target_pixel": [
+        831.3319673439693,
+        235.8068743841838
+      ],
+      "time_seconds": 295.9999999999124,
+      "archive_line": 5921,
+      "inset": {
+        "path": "media/simulation-sequence-6-detail.png",
+        "sha256": "a3e97e33512883cfa101ff724d97c278f351a9ede2f43b9ff47170cb082c677a",
+        "lookat": [
+          6.853,
+          3.965,
+          1.015
+        ],
+        "distance": 0.3,
+        "azimuth": 125,
+        "elevation": -8,
+        "size_px": [
+          650,
+          520
+        ],
+        "target_pixel": [
+          355.2842596000523,
+          232.74279155966107
+        ]
+      }
+    }
+  ]
+}

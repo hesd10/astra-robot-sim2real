@@ -1,0 +1,123 @@
+{
+  "verified_on": "2026-09-24",
+  "bibliography_style": "unsrtnat",
+  "numbering": "Order of first citation in manuscript",
+  "new_references": [
+    {
+      "key": "huang2022inner",
+      "source": "https://arxiv.org/abs/2207.05608",
+      "placement": "Related Work",
+      "scope": "Environment feedback in embodied language-model planning"
+    },
+    {
+      "key": "driess2023palme",
+      "source": "https://arxiv.org/abs/2303.03378",
+      "placement": "Related Work",
+      "scope": "Visual and continuous-state grounding in an embodied language model"
+    },
+    {
+      "key": "brohan2023rt2",
+      "source": "https://arxiv.org/abs/2307.15818",
+      "placement": "Related Work",
+      "scope": "Joint training on robot actions and vision-language tasks"
+    },
+    {
+      "key": "openx2023",
+      "source": "https://arxiv.org/abs/2310.08864",
+      "placement": "Related Work",
+      "scope": "Cross-embodiment datasets and policy transfer"
+    },
+    {
+      "key": "octo2024",
+      "source": "https://arxiv.org/abs/2405.12213",
+      "placement": "Related Work",
+      "scope": "Generalist robot policy adaptation to new observation and action spaces"
+    },
+    {
+      "key": "yao2023react",
+      "source": "https://arxiv.org/abs/2210.03629",
+      "placement": "Related Work",
+      "scope": "Interleaving reasoning and environment interaction"
+    },
+    {
+      "key": "shinn2023reflexion",
+      "source": "https://arxiv.org/abs/2303.11366",
+      "placement": "Related Work",
+      "scope": "Verbal experience retained outside model weights"
+    },
+    {
+      "key": "chaumette2006visual",
+      "source": "https://faculty.cc.gatech.edu/~seth/res.php?u=publications",
+      "placement": "Related Work; Discussion",
+      "scope": "Classical image-based and position-based visual feedback; author bibliography and abstract checked"
+    },
+    {
+      "key": "zhao2020sim2real",
+      "source": "https://arxiv.org/abs/2009.13303",
+      "placement": "Related Work",
+      "scope": "Sim2real transfer taxonomy"
+    },
+    {
+      "key": "peng2018dynamics",
+      "source": "https://arxiv.org/abs/1710.06537",
+      "placement": "Related Work; Discussion",
+      "scope": "Training under randomized dynamics for physical transfer"
+    },
+    {
+      "key": "todorov2012mujoco",
+      "source": "https://roboti.us/lab/papers/TodorovIROS12.pdf",
+      "placement": "System",
+      "scope": "Attribution for the simulation engine"
+    }
+  ],
+  "retained_concisions": "One-paragraph limitations and two-sentence S3 explanation follow the explicit author request.",
+  "restored_explanation": "Body-information introduction; measured pose provenance; separate reproduction subsection.",
+  "page_policy": "No page-count target or maximum; preserve useful explanations.",
+  "reference_count": 19,
+  "research_papers": 17,
+  "first_citation_order": [
+    "suntzu1910",
+    "ahn2022saycan",
+    "huang2022inner",
+    "liang2022code",
+    "huang2023voxposer",
+    "driess2023palme",
+    "brohan2023rt2",
+    "openx2023",
+    "octo2024",
+    "yao2023react",
+    "shinn2023reflexion",
+    "wang2023voyager",
+    "ha2023scaling",
+    "chaumette2006visual",
+    "zhao2020sim2real",
+    "tobin2017domain",
+    "peng2018dynamics",
+    "xlerobot",
+    "todorov2012mujoco"
+  ],
+  "compiled_numbers": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "appendix_start_page": 18,
+  "style_source": "https://mirrors.ctan.org/macros/latex/contrib/natbib/unsrtnat.bst",
+  "style_sha256": "2b257bc5d35c5716691f67615b3b29cc718d05b6b998f87473c924dec0a652e9"
+}

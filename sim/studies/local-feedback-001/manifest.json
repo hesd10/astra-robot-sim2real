@@ -1,0 +1,127 @@
+{
+  "study": "local-feedback-001",
+  "model": "gpt-6-astra",
+  "effort": "xhigh",
+  "task_seconds": 300,
+  "session_seconds": 480,
+  "formal_trials_started": 0,
+  "trials": [
+    {
+      "run": "lf001-t001",
+      "state": "S1",
+      "condition": "FREE",
+      "repeat": 1
+    },
+    {
+      "run": "lf001-t002",
+      "state": "S1",
+      "condition": "STEP",
+      "repeat": 1
+    },
+    {
+      "run": "lf001-t003",
+      "state": "S1",
+      "condition": "LOOP",
+      "repeat": 1
+    },
+    {
+      "run": "lf001-t004",
+      "state": "S2",
+      "condition": "STEP",
+      "repeat": 1
+    },
+    {
+      "run": "lf001-t005",
+      "state": "S2",
+      "condition": "LOOP",
+      "repeat": 1
+    },
+    {
+      "run": "lf001-t006",
+      "state": "S2",
+      "condition": "FREE",
+      "repeat": 1
+    },
+    {
+      "run": "lf001-t007",
+      "state": "S3",
+      "condition": "LOOP",
+      "repeat": 1
+    },
+    {
+      "run": "lf001-t008",
+      "state": "S3",
+      "condition": "FREE",
+      "repeat": 1
+    },
+    {
+      "run": "lf001-t009",
+      "state": "S3",
+      "condition": "STEP",
+      "repeat": 1
+    }
+  ],
+  "inputs_sha256": {
+    "FREE/API.md": "cd2cfe097e95f3e7a0013bdf52a4eb8d35a84fbda0ca2cf9d74a384addce8071",
+    "FREE/PRIOR.md": "f78e12793a21cea48c224c487ecccd8b304b9ea58711ed07f8245dbc88d6405b",
+    "FREE/PROMPT.md": "9e0803ac89a9574c6838a1ec5a7389bd7b5ef6fec3865f2140604445d27192c5",
+    "FREE/robot.py": "00ebc6d5dd9f09986ca860b453a85c28207907c10e7b733ae8ae1f553b4137c4",
+    "LOOP/API.md": "cd2cfe097e95f3e7a0013bdf52a4eb8d35a84fbda0ca2cf9d74a384addce8071",
+    "LOOP/PRIOR.md": "5c609e70183414e1d400d94245ea8f346617e63d07ae6ddf0c56c659715711b5",
+    "LOOP/PROMPT.md": "9e0803ac89a9574c6838a1ec5a7389bd7b5ef6fec3865f2140604445d27192c5",
+    "LOOP/robot.py": "00ebc6d5dd9f09986ca860b453a85c28207907c10e7b733ae8ae1f553b4137c4",
+    "LOOP/skill/local-press/SKILL.md": "fa8b853004c5ba4f89b8686b0ebe31a13896100ff6a560a55733822c868b61c1",
+    "LOOP/skill/local-press/scripts/feedback.py": "767cac20153657552f87fca39b08c99dc34ba93f60601a39f68a1f10c86ad76a",
+    "LOOP/skill/local-press/scripts/primitive.py": "522a7321976faf37e720e6fc3bc1a87ec64fa709a42c1cdecc8089ff655f2689",
+    "LOOP/skill/local-press/scripts/run.py": "77379584b3abdeb3428cba9fa7ed9a1033e3f9f3cc63eee12cfd219c21fdc054",
+    "STEP/API.md": "cd2cfe097e95f3e7a0013bdf52a4eb8d35a84fbda0ca2cf9d74a384addce8071",
+    "STEP/PRIOR.md": "5c609e70183414e1d400d94245ea8f346617e63d07ae6ddf0c56c659715711b5",
+    "STEP/PROMPT.md": "9e0803ac89a9574c6838a1ec5a7389bd7b5ef6fec3865f2140604445d27192c5",
+    "STEP/robot.py": "00ebc6d5dd9f09986ca860b453a85c28207907c10e7b733ae8ae1f553b4137c4",
+    "STEP/skill/local-press/SKILL.md": "ece5e2c34aca5e86388639de8b6a72cb115da3e978bca47bfe87f58a919e16fb",
+    "STEP/skill/local-press/scripts/primitive.py": "522a7321976faf37e720e6fc3bc1a87ec64fa709a42c1cdecc8089ff655f2689",
+    "STEP/skill/local-press/scripts/run.py": "d4b75fcaed934bf2c00f8e3e3ad409f1dcdfccb5cb7fa163617545b45ded4b26"
+  },
+  "states_sha256": {
+    "S1-head.jpg": "ab6556f28013013aef491b983a2fa3ffc6e702542b1c2e98834265035efb9c4f",
+    "S1-left_wrist.jpg": "8784d6f7ab018acca6c9d57ec839843453f6813432cacbe56e834f9a3a84ed6d",
+    "S1-right_wrist.jpg": "2210f5fa9c84b7b004eb85634111f557ce16d4a280d0dd938ee1b0219ffaf049",
+    "S1.json": "5a9516ea76def1fd7587c8b006c722f11b87031b3e10f1644406782e2416ea49",
+    "S2-head.jpg": "d307752a63a8c1a35a022c169a124c44e8743a60bc79c32e93f50ac115f947b6",
+    "S2-left_wrist.jpg": "b7e4f7f2e591514071bf8f077d8e5814b6d7672c3cca87d4056d681d06f39c19",
+    "S2-right_wrist.jpg": "55da2d2af6dbb4573b0cd4c83e9fb360cc147b8597141296d4721f97f800a292",
+    "S2.json": "c07048092c5472351e2c331c8899b97d55c6a3c58f3522574353b2f9b0b29e0d",
+    "S3-head.jpg": "6096cbe646d5b1a76d53b8db1ea29811aff6be92298a5fe12b527da924e0cedf",
+    "S3-left_wrist.jpg": "93040c6aa0c532006fdd44d46789cada849ce69b479b0d9ed29cdea43b0eeef5",
+    "S3-right_wrist.jpg": "98fe0703b837d1005cfb06c3d7a3961f9afa507031e170929da4f3c7a3fe9f16",
+    "S3.json": "77ed81edd4ea2b2fc0cf9789ee030b8cd68b32d7dc630c33297dc7c24d91fe7f"
+  },
+  "runtime_sha256": {
+    "scripts/prepare_local_feedback_states.py": "e913d258d96a776d0bb6236d73792aadf145f6968c6094bd32da5fe6dda45fd0",
+    "scripts/local_feedback_service.py": "8a5dcad1f331ee0a140172396ac67b120b0af53ec8a545f5bd889832f202c922",
+    "scripts/start_local_feedback_experiment.py": "a071e38cc3de31903f9f80f7cbf3537ed2728cf8e95daccfaf78dfb885b1c78e",
+    "scripts/start_local_feedback_trial.py": "70dceb2518f38538884535949832aae58fa000adc7c45fcde4be21ddc56e80c9",
+    "scripts/check_local_feedback_setup.py": "bd542b854cc678fce0067d8407231515ed18806b4693fb305654bef745f449f6",
+    "sim_env/isolate.py": "6deed51d48584b7dbbab17ddacfbcee1b60c5e82c5d3fc3ed719aa2ee935d92a",
+    "sim_env/monitor.py": "c005733b680fb0d788218df169022c192704440b1f55730445aaa62f39bf82cd",
+    "sim_env/setup.py": "c3d8b3c557a5815eae30ee1de93e0fdef7c39561af1887de943a91a1f8b2d0d8",
+    "sim_env/subject_tools.py": "dd0c31ca05eb7a2c1d43b167ac5a0a02a2e883f3ef92ca4e3a11f5f16ebc3328",
+    "sim_env/service.py": "efa31fa8837ed3df678a3580e4c4a2252db5df0a098dc668b58de7cbc701cf2a",
+    "sim_env/provider_probe.py": "c74b79c43f44734d3a90c01197707a0372678ff5f3f07284df6c618f33a80f59",
+    "sim_env/mailbox.py": "536fa73d50c8564d5b8b1bbeddfc4f73176fe9b18266882e64c70aff3ab43d43",
+    "sim_env/core.py": "ce194e853f9be49d1ff7e9c447d03e31f77ca6822e7347ae152bbfbeff0f2f57",
+    "sim_env/workflow.py": "7c7683c0df99da20f99fad43aa3f2f558e8808ca1629b911214c18d4579ea8ca",
+    "sim_env/agent.py": "4678c2b6dd5652b97847c6e3e9bee7b0c0cecbcc48ff2de788c973a56651ec99",
+    "sim_env/dashboard_recording.py": "7b3075c245799417c08aa72bad8e1b33d341af00c9696abfc188025f3e32a8fd",
+    "sim_env/dashboard.py": "37fe144299b21f635b976d2596b8fdcd39d2d124846b428a337737ac117ed67e",
+    "sim_env/__init__.py": "14c53ac6169117cd610558356bb44a3bbfac8680126f888d0da8ca590b7b1bd6",
+    "sim_env/progress.py": "8e9ec7cdc1bd88542555f2033853c5a9bef40d88b9f0d849ff5507c39ac9be59",
+    "sim_env/video_timeline.py": "1676fd927c1099ea43c68ebe680bc499de0d8bdc0be37c2d19e81819db7ce580",
+    "sim_env/rendering.py": "3e1263e60e9e0d99d5ab45093da08c2bee7b7cabcdfd051721981c49d729d046",
+    "sim_env/model.py": "2f4353eea17952cf0d939093a5b132e025f84f16160dfc331bcaea090cc425cc",
+    "sim_env/transfer.py": "bcff2709a4a4842f1dfda4a6653aaa2c2d09737c9541a6cebae83d397ce78775",
+    "studies/local-feedback-001/PROTOCOL.zh-CN.md": "3b26cc057df3667271ecb3bd49a4263944e5938059f676c0e6e5cf7fda745dc4"
+  },
+  "origin_script": "experiments/er001-t005/subject/evidence/control/final_advance.py",
+  "origin_script_sha256": "3eab550bd8d137f2ec713b268f3ae0d581057fe067b4e108f05549a72fcf5cd1"
+}

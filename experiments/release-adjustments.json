@@ -1,0 +1,26 @@
+{
+  "changes": [
+    {
+      "file": "real/experiment/formal.py",
+      "source_sha256": "d51177b076daa16ea47d151e3e01c015d9f57bda5b99d02d6383edd123132fd1",
+      "release_sha256": "92f8d1373f541c430ab0d4f6a77752f992d5fd849bc60455e183a94aae7d27f5"
+    },
+    {
+      "file": "real/experiment/campaign.py",
+      "source_sha256": "00ffb6ea1c9e74d6c2a6097080e5a2548ce01d81b42f6138b00dbd9c240f7d49",
+      "release_sha256": "3e24b4c04bf98942c2e0bb5a30f52f9b6fd107457c1e5baf6c6a7ce573061266"
+    },
+    {
+      "file": "real/experiment/controller.py",
+      "source_sha256": "5c176829faacbcb0084701d09fb3797a65f389c1a8c3f51a9d6a975dcc39c94e",
+      "release_sha256": "e2a13d42cc558541a79fadedfc57468fceb4159dba5aadde6af941e8be785d52"
+    }
+  ],
+  "notes": [
+    "Real launcher uses current interpreter.",
+    "Formal runtime resolves simulation materials under sim/.",
+    "Demo formal controller uses bundled fixture rather than a missing live Beijing profile.",
+    "Unconfirmed empty camera mapping is supplied for hardware-free testing.",
+    "Portable shell entrypoints are new release helpers."
+  ]
+}

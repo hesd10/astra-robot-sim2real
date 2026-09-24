@@ -1,0 +1,13 @@
+.venv/
+**/__pycache__/
+.pytest_cache/
+**/*.pyc
+**/reports/runtime/
+real/experiment/records/
+real/robots/
+real/register-backups/
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.blg
+paper/*.xdv

@@ -1,0 +1,62 @@
+{
+  "figure": "simulation-scene",
+  "renderer": "MuJoCo 3.11.0",
+  "model": "sim/models/elevator_four_mecanum.xml",
+  "model_sha256": "cd4bef986f42e547051412aa9884649bc8124402644a1bd628d8ebbcb30be7ff",
+  "state": "sim/studies/body-experience-001/private-initial-reference.json",
+  "state_sha256": "cfba25b513c9da252252b83846b016cc39b2d4b741cb2e6ffe65e5afc21e6465",
+  "state_description": "Saved original starting state after settling",
+  "simulation_advanced": false,
+  "presentation": "External cutaway: near wall hidden in memory, reflections disabled; labels added to the manuscript figure only",
+  "vertical_fov_degrees": 45,
+  "images": [
+    {
+      "path": "media/simulation-lobby-start.png",
+      "sha256": "bcdcfc069170f8b9b8103b6deed86ecef702b5bab0617c16cfb25b6c712d8cb2",
+      "size_px": [
+        1800,
+        1000
+      ],
+      "lookat": [
+        6.1,
+        2.6,
+        1.0
+      ],
+      "distance": 5.8,
+      "azimuth": 90,
+      "elevation": -18,
+      "target_pixel": [
+        1027.6972672605773,
+        423.12693204321585
+      ],
+      "robot_pixel": [
+        1266.3174912020183,
+        652.0036622681293
+      ]
+    },
+    {
+      "path": "media/simulation-target-panel.png",
+      "sha256": "89640a9b4a93d693da4099a72e58781715ba19102b30cd4b096097c306fb1d8a",
+      "size_px": [
+        520,
+        1000
+      ],
+      "lookat": [
+        6.8525,
+        3.989,
+        1.005
+      ],
+      "distance": 0.17,
+      "azimuth": 90,
+      "elevation": 0,
+      "target_pixel": [
+        260.0002708674762,
+        357.9873988690167
+      ],
+      "robot_pixel": [
+        -147.99059557277792,
+        317.4224706679457
+      ]
+    }
+  ]
+}

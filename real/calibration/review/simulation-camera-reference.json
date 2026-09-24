@@ -1,0 +1,351 @@
+{
+  "status": "simulation_parameters_reused_by_user_request",
+  "source_xml": "/home/sida/Documents/ChatGPT/astra-elevator-button/mujoco_astra_local_20260917_final/studies/body-experience-001/body/I3/robot/robot.xml",
+  "source_sha256": "b5786bb6c225659bfc142f9e2bceefcf485b16ab172ad1dc9c958f35dedfca16",
+  "render_size_source": "mujoco_astra_local_20260917_final/sim_env/service.py defaults 640x480",
+  "validated_for_current_setup": false,
+  "units": "meter and radian unless named degrees",
+  "extrinsic_convention": "Rigid attachment to moving parent body. MuJoCo camera: +X right,+Y up,-Z forward. Optical camera: +X right,+Y down,+Z forward. World extrinsics require robot kinematics and current calibrated joints.",
+  "resolution_note": "Scale K for resizing; account for crop separately. Physical USB camera role mapping remains to be verified.",
+  "cameras": {
+    "head": {
+      "xml_camera_name": "head",
+      "parent_body": "head_tilt_link",
+      "resolution": [
+        640,
+        480
+      ],
+      "fovy_deg": 42.0,
+      "K": [
+        [
+          625.2213755265124,
+          0,
+          320
+        ],
+        [
+          0,
+          625.2213755265124,
+          240
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "principal_point_convention": "continuous image edges: center=(W/2,H/2); integer pixel-center indices use ((W-1)/2,(H-1)/2)",
+      "distortion": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "distortion_note": "simulation pinhole assumption, not a measured real-lens distortion",
+      "T_parent_from_mujoco_camera": [
+        [
+          0.0,
+          0.0,
+          -1.0,
+          0.032
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.002
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.028
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_parent_from_optical_camera": [
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.032
+        ],
+        [
+          -1.0,
+          0.0,
+          0.0,
+          0.002
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          0.028
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_optical_camera_from_parent": [
+        [
+          -0.0,
+          -1.0,
+          -0.0,
+          0.002
+        ],
+        [
+          -0.0,
+          -0.0,
+          -1.0,
+          0.028
+        ],
+        [
+          1.0,
+          0.0,
+          0.0,
+          -0.032
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "left_wrist": {
+      "xml_camera_name": "right_wrist",
+      "parent_body": "Fixed_Jaw_2",
+      "resolution": [
+        640,
+        480
+      ],
+      "fovy_deg": 55.0,
+      "K": [
+        [
+          461.03571047307986,
+          0,
+          320
+        ],
+        [
+          0,
+          461.03571047307986,
+          240
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "principal_point_convention": "continuous image edges: center=(W/2,H/2); integer pixel-center indices use ((W-1)/2,(H-1)/2)",
+      "distortion": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "distortion_note": "simulation pinhole assumption, not a measured real-lens distortion",
+      "T_parent_from_mujoco_camera": [
+        [
+          -0.9999999999999999,
+          0.0,
+          0.0,
+          -0.004
+        ],
+        [
+          0.0,
+          -0.40591113326487493,
+          0.9139125515560145,
+          -0.012
+        ],
+        [
+          0.0,
+          0.9139125515560145,
+          0.40591113326487493,
+          0.064
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_parent_from_optical_camera": [
+        [
+          -0.9999999999999999,
+          0.0,
+          0.0,
+          -0.004
+        ],
+        [
+          0.0,
+          0.40591113326487493,
+          -0.9139125515560145,
+          -0.012
+        ],
+        [
+          0.0,
+          -0.9139125515560145,
+          -0.40591113326487493,
+          0.064
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_optical_camera_from_parent": [
+        [
+          -1.0000000000000002,
+          -0.0,
+          -0.0,
+          -0.004000000000000001
+        ],
+        [
+          -0.0,
+          0.40591113326487493,
+          -0.9139125515560145,
+          0.06336133689876343
+        ],
+        [
+          -0.0,
+          -0.9139125515560146,
+          -0.40591113326487493,
+          0.015011361910279821
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    },
+    "right_wrist": {
+      "xml_camera_name": "left_wrist",
+      "parent_body": "Fixed_Jaw",
+      "resolution": [
+        640,
+        480
+      ],
+      "fovy_deg": 55.0,
+      "K": [
+        [
+          461.03571047307986,
+          0,
+          320
+        ],
+        [
+          0,
+          461.03571047307986,
+          240
+        ],
+        [
+          0,
+          0,
+          1
+        ]
+      ],
+      "principal_point_convention": "continuous image edges: center=(W/2,H/2); integer pixel-center indices use ((W-1)/2,(H-1)/2)",
+      "distortion": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "distortion_note": "simulation pinhole assumption, not a measured real-lens distortion",
+      "T_parent_from_mujoco_camera": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -0.004
+        ],
+        [
+          0.0,
+          -0.4067414725694931,
+          0.9135433073981771,
+          -0.013
+        ],
+        [
+          0.0,
+          0.9135433073981771,
+          0.4067414725694931,
+          0.066
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_parent_from_optical_camera": [
+        [
+          -1.0,
+          0.0,
+          0.0,
+          -0.004
+        ],
+        [
+          0.0,
+          0.4067414725694931,
+          -0.9135433073981771,
+          -0.013
+        ],
+        [
+          0.0,
+          -0.9135433073981771,
+          -0.4067414725694931,
+          0.066
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_optical_camera_from_parent": [
+        [
+          -1.0,
+          -0.0,
+          -0.0,
+          -0.004
+        ],
+        [
+          -0.0,
+          0.4067414725694931,
+          -0.9135433073981771,
+          0.06558149743168311
+        ],
+        [
+          -0.0,
+          -0.913543307398177,
+          -0.4067414725694931,
+          0.014968874193410243
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  }
+}

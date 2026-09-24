@@ -1,0 +1,19 @@
+{"seconds": 57.6188018321991, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 86.54504251480103, "request": {"op": "move", "targets": {"right_2": 2.04, "right_3": 1.2, "right_4": 0.36, "head_2": 0.2}, "duration": 10}}
+{"seconds": 86.55748391151428, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 106.41886138916016, "request": {"op": "move", "targets": {"right_2": 1.0, "right_4": -0.84}, "duration": 9.5}}
+{"seconds": 106.43203401565552, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 141.7045350074768, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 162.68731117248535, "request": {"op": "move", "targets": {"right_2": 1.3}, "duration": 3}}
+{"seconds": 188.43011498451233, "request": {"op": "move", "targets": {"right_2": 1.55, "right_4": -1.1}, "duration": 2.5}}
+{"seconds": 188.4423849582672, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 3}}
+{"seconds": 216.88056588172913, "request": {"op": "move", "targets": {"right_4": -0.3}, "duration": 4.8}}
+{"seconds": 245.61977124214172, "request": {"op": "base", "vx": 0.07, "vy": 0, "wz": 0, "duration": 4}}
+{"seconds": 272.0490207672119, "request": {"op": "base", "vx": 0.035, "vy": -0.008, "wz": 0, "duration": 2.5}}
+{"seconds": 300.06154775619507, "request": {"op": "move", "targets": {"right_4": -0.16}, "duration": 1.2}}
+{"seconds": 300.0735077857971, "request": {"op": "base", "vx": 0.025, "vy": 0, "wz": 0, "duration": 1.6}}
+{"seconds": 324.53338503837585, "request": {"op": "move", "targets": {"right_4": -0.04}, "duration": 1.1}}
+{"seconds": 324.5449757575989, "request": {"op": "base", "vx": 0, "vy": 0.012, "wz": 0, "duration": 0.8}}
+{"seconds": 343.80007219314575, "request": {"op": "base", "vx": 0.02, "vy": 0, "wz": 0, "duration": 1.0}}
+{"seconds": 359.74021100997925, "request": {"op": "move", "targets": {"right_4": 0.02}, "duration": 0.8}}
+{"seconds": 359.76736855506897, "request": {"op": "base", "vx": 0.02, "vy": 0, "wz": 0, "duration": 1}}

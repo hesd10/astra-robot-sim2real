@@ -1,0 +1,164 @@
+\begin{thebibliography}{19}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[{Sun Tzu}(1910)]{suntzu1910}
+{Sun Tzu}.
+\newblock \emph{{Sun Tzu} on the Art of War}.
+\newblock Luzac \& Co., London, 1910.
+\newblock URL \url{https://www.gutenberg.org/files/66706/66706-h/66706-h.htm}.
+\newblock Translated by Lionel Giles. Chapter III, paragraph 18.
+
+\bibitem[Ahn et~al.(2022)Ahn, Brohan, Brown, Chebotar, et~al.]{ahn2022saycan}
+Michael Ahn, Anthony Brohan, Noah Brown, Yevgen Chebotar, et~al.
+\newblock Do as {I} can, not as {I} say: Grounding language in robotic
+  affordances.
+\newblock \emph{arXiv preprint arXiv:2204.01691}, 2022.
+\newblock URL \url{https://arxiv.org/abs/2204.01691}.
+
+\bibitem[Huang et~al.(2022)Huang, Xia, Xiao, Chan, Liang, Florence, Zeng,
+  Tompson, Mordatch, Chebotar, Sermanet, Brown, Jackson, Luu, Levine, Hausman,
+  and Ichter]{huang2022inner}
+Wenlong Huang, Fei Xia, Ted Xiao, Harris Chan, Jacky Liang, Pete Florence, Andy
+  Zeng, Jonathan Tompson, Igor Mordatch, Yevgen Chebotar, Pierre Sermanet, Noah
+  Brown, Tomas Jackson, Linda Luu, Sergey Levine, Karol Hausman, and Brian
+  Ichter.
+\newblock Inner monologue: Embodied reasoning through planning with language
+  models.
+\newblock \emph{arXiv preprint arXiv:2207.05608}, 2022.
+\newblock URL \url{https://arxiv.org/abs/2207.05608}.
+
+\bibitem[Liang et~al.(2022)Liang, Huang, Xia, Xu, Hausman, Ichter, Florence,
+  and Zeng]{liang2022code}
+Jacky Liang, Wenlong Huang, Fei Xia, Peng Xu, Karol Hausman, Brian Ichter, Pete
+  Florence, and Andy Zeng.
+\newblock Code as policies: Language model programs for embodied control.
+\newblock \emph{arXiv preprint arXiv:2209.07753}, 2022.
+\newblock URL \url{https://arxiv.org/abs/2209.07753}.
+
+\bibitem[Huang et~al.(2023)Huang, Wang, Zhang, Li, Wu, and
+  Fei-Fei]{huang2023voxposer}
+Wenlong Huang, Chen Wang, Ruohan Zhang, Yunzhu Li, Jiajun Wu, and Li~Fei-Fei.
+\newblock {VoxPoser}: Composable {3D} value maps for robotic manipulation with
+  language models.
+\newblock \emph{arXiv preprint arXiv:2307.05973}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2307.05973}.
+
+\bibitem[Driess et~al.(2023)Driess, Xia, Sajjadi, Lynch, Chowdhery, Ichter,
+  Wahid, Tompson, Vuong, Yu, Huang, Chebotar, Sermanet, Duckworth, Levine,
+  Vanhoucke, Hausman, Toussaint, Greff, Zeng, Mordatch, and
+  Florence]{driess2023palme}
+Danny Driess, Fei Xia, Mehdi S.~M. Sajjadi, Corey Lynch, Aakanksha Chowdhery,
+  Brian Ichter, Ayzaan Wahid, Jonathan Tompson, Quan Vuong, Tianhe Yu, Wenlong
+  Huang, Yevgen Chebotar, Pierre Sermanet, Daniel Duckworth, Sergey Levine,
+  Vincent Vanhoucke, Karol Hausman, Marc Toussaint, Klaus Greff, Andy Zeng,
+  Igor Mordatch, and Pete Florence.
+\newblock {PaLM-E}: An embodied multimodal language model.
+\newblock \emph{arXiv preprint arXiv:2303.03378}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2303.03378}.
+
+\bibitem[Brohan et~al.(2023)Brohan, Brown, Carbajal, Chebotar,
+  et~al.]{brohan2023rt2}
+Anthony Brohan, Noah Brown, Justice Carbajal, Yevgen Chebotar, et~al.
+\newblock {RT-2}: Vision-language-action models transfer web knowledge to
+  robotic control.
+\newblock \emph{arXiv preprint arXiv:2307.15818}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2307.15818}.
+
+\bibitem[{Open X-Embodiment Collaboration}(2023)]{openx2023}
+{Open X-Embodiment Collaboration}.
+\newblock {Open X-Embodiment}: Robotic learning datasets and {RT-X} models.
+\newblock \emph{arXiv preprint arXiv:2310.08864}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2310.08864}.
+
+\bibitem[{Octo Model Team}(2024)]{octo2024}
+{Octo Model Team}.
+\newblock {Octo}: An open-source generalist robot policy.
+\newblock \emph{arXiv preprint arXiv:2405.12213}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2405.12213}.
+
+\bibitem[Yao et~al.(2023)Yao, Zhao, Yu, Du, Shafran, Narasimhan, and
+  Cao]{yao2023react}
+Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan,
+  and Yuan Cao.
+\newblock {ReAct}: Synergizing reasoning and acting in language models.
+\newblock In \emph{International Conference on Learning Representations}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2210.03629}.
+
+\bibitem[Shinn et~al.(2023)Shinn, Cassano, Berman, Gopinath, Narasimhan, and
+  Yao]{shinn2023reflexion}
+Noah Shinn, Federico Cassano, Edward Berman, Ashwin Gopinath, Karthik
+  Narasimhan, and Shunyu Yao.
+\newblock {Reflexion}: Language agents with verbal reinforcement learning.
+\newblock \emph{arXiv preprint arXiv:2303.11366}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2303.11366}.
+
+\bibitem[Wang et~al.(2023)Wang, Xie, Jiang, Mandlekar, Xiao, Zhu, Fan, and
+  Anandkumar]{wang2023voyager}
+Guanzhi Wang, Yuqi Xie, Yunfan Jiang, Ajay Mandlekar, Chaowei Xiao, Yuke Zhu,
+  Linxi Fan, and Anima Anandkumar.
+\newblock Voyager: An open-ended embodied agent with large language models.
+\newblock \emph{arXiv preprint arXiv:2305.16291}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2305.16291}.
+
+\bibitem[Ha et~al.(2023)Ha, Florence, and Song]{ha2023scaling}
+Huy Ha, Pete Florence, and Shuran Song.
+\newblock Scaling up and distilling down: Language-guided robot skill
+  acquisition.
+\newblock \emph{arXiv preprint arXiv:2307.14535}, 2023.
+\newblock URL \url{https://arxiv.org/abs/2307.14535}.
+
+\bibitem[Chaumette and Hutchinson(2006)]{chaumette2006visual}
+Fran\c{c}ois Chaumette and Seth Hutchinson.
+\newblock Visual servo control, part {I}: Basic approaches.
+\newblock \emph{IEEE Robotics \& Automation Magazine}, 13\penalty0
+  (4):\penalty0 82--90, 2006.
+\newblock URL \url{https://inria.hal.science/inria-00350283}.
+
+\bibitem[Zhao et~al.(2020)Zhao, Pe\~na Queralta, and
+  Westerlund]{zhao2020sim2real}
+Wenshuai Zhao, Jorge Pe\~na Queralta, and Tomi Westerlund.
+\newblock Sim-to-real transfer in deep reinforcement learning for robotics: A
+  survey.
+\newblock In \emph{IEEE Symposium Series on Computational Intelligence}, pages
+  737--744, 2020.
+\newblock \doi{10.1109/SSCI47803.2020.9308468}.
+\newblock URL \url{https://arxiv.org/abs/2009.13303}.
+
+\bibitem[Tobin et~al.(2017)Tobin, Fong, Ray, Schneider, Zaremba, and
+  Abbeel]{tobin2017domain}
+Josh Tobin, Rachel Fong, Alex Ray, Jonas Schneider, Wojciech Zaremba, and
+  Pieter Abbeel.
+\newblock Domain randomization for transferring deep neural networks from
+  simulation to the real world.
+\newblock \emph{arXiv preprint arXiv:1703.06907}, 2017.
+\newblock URL \url{https://arxiv.org/abs/1703.06907}.
+
+\bibitem[Peng et~al.(2018)Peng, Andrychowicz, Zaremba, and
+  Abbeel]{peng2018dynamics}
+Xue~Bin Peng, Marcin Andrychowicz, Wojciech Zaremba, and Pieter Abbeel.
+\newblock Sim-to-real transfer of robotic control with dynamics randomization.
+\newblock In \emph{IEEE International Conference on Robotics and Automation},
+  2018.
+\newblock \doi{10.1109/ICRA.2018.8460528}.
+\newblock URL \url{https://arxiv.org/abs/1710.06537}.
+
+\bibitem[{Vector-Wangel and contributors}(2026)]{xlerobot}
+{Vector-Wangel and contributors}.
+\newblock {XLeRobot}.
+\newblock Project repository, 2026.
+\newblock URL \url{https://github.com/Vector-Wangel/XLeRobot}.
+\newblock Accessed September 23, 2026.
+
+\bibitem[Todorov et~al.(2012)Todorov, Erez, and Tassa]{todorov2012mujoco}
+Emanuel Todorov, Tom Erez, and Yuval Tassa.
+\newblock {MuJoCo}: A physics engine for model-based control.
+\newblock In \emph{IEEE/RSJ International Conference on Intelligent Robots and
+  Systems}, pages 5026--5033, 2012.
+\newblock \doi{10.1109/IROS.2012.6386109}.
+\newblock URL \url{https://roboti.us/lab/papers/TodorovIROS12.pdf}.
+
+\end{thebibliography}

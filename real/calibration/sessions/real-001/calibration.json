@@ -1,0 +1,732 @@
+{
+  "version": 1,
+  "mounting": "reverse",
+  "joints": {
+    "left_1": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61034983-if00:1",
+      "mapping_capture": "503fb649-8594-4acd-82f3-4e17093aecb0",
+      "mapping_method": "group_bus_and_standard_id_order",
+      "reference": {
+        "continuous": 1011.0,
+        "present_modulo": 1011.0,
+        "reference_q": 0.0,
+        "epoch": "0681c682-b0ee-47e5-86d7-f7fb781bf271",
+        "utc": "2026-09-22T02:33:15.137725+00:00",
+        "spread_counts": 0,
+        "method": "group_snapshot"
+      },
+      "sign": 1,
+      "sign_capture": "9a58dfbf-2fb7-4962-8e8c-7f493523a3e3",
+      "limits": {
+        "observed_min_rad": -0.24697090684958822,
+        "observed_max_rad": 3.3379421944391554,
+        "usable_min_rad": -0.19461102928975832,
+        "usable_max_rad": 3.2855823168793257,
+        "margin_deg": 3,
+        "capture_id": "ff705f08-d25b-402a-a7cf-d03c1cd3ca27",
+        "counts": [
+          850,
+          3187
+        ]
+      }
+    },
+    "left_2": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61034983-if00:2",
+      "mapping_capture": "503fb649-8594-4acd-82f3-4e17093aecb0",
+      "mapping_method": "group_bus_and_standard_id_order",
+      "reference": {
+        "continuous": 3111.0,
+        "present_modulo": 3111.0,
+        "reference_q": 0.0,
+        "epoch": "0681c682-b0ee-47e5-86d7-f7fb781bf271",
+        "utc": "2026-09-22T02:33:15.137745+00:00",
+        "spread_counts": 0,
+        "method": "group_snapshot"
+      },
+      "sign": -1,
+      "sign_capture": "85211a14-c82c-438b-aa25-d36f002e0e84",
+      "limits": {
+        "observed_min_rad": -0.2638446955163303,
+        "observed_max_rad": 3.390097541227267,
+        "usable_min_rad": -0.21148481795650037,
+        "usable_max_rad": 3.337737663667437,
+        "margin_deg": 3,
+        "capture_id": "ff705f08-d25b-402a-a7cf-d03c1cd3ca27",
+        "counts": [
+          901,
+          3283
+        ]
+      }
+    },
+    "left_3": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61034983-if00:3",
+      "mapping_capture": "503fb649-8594-4acd-82f3-4e17093aecb0",
+      "mapping_method": "group_bus_and_standard_id_order",
+      "reference": {
+        "continuous": 1084.0,
+        "present_modulo": 1084.0,
+        "reference_q": 0.0,
+        "epoch": "0681c682-b0ee-47e5-86d7-f7fb781bf271",
+        "utc": "2026-09-22T02:33:15.137756+00:00",
+        "spread_counts": 7,
+        "method": "group_snapshot"
+      },
+      "sign": 1,
+      "sign_capture": "9ba9e0c7-65fe-47cd-8294-d11588c90c31",
+      "limits": {
+        "observed_min_rad": -0.31139809994078516,
+        "observed_max_rad": 3.0802334220743677,
+        "usable_min_rad": -0.25903822238095525,
+        "usable_max_rad": 3.027873544514538,
+        "margin_deg": 3,
+        "capture_id": "ff705f08-d25b-402a-a7cf-d03c1cd3ca27",
+        "counts": [
+          881,
+          3092
+        ]
+      }
+    },
+    "left_4": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61034983-if00:4",
+      "mapping_capture": "503fb649-8594-4acd-82f3-4e17093aecb0",
+      "mapping_method": "group_bus_and_standard_id_order",
+      "reference": {
+        "continuous": 2004.0,
+        "present_modulo": 2004.0,
+        "reference_q": 0.0,
+        "epoch": "0681c682-b0ee-47e5-86d7-f7fb781bf271",
+        "utc": "2026-09-22T02:33:15.137764+00:00",
+        "spread_counts": 0,
+        "method": "group_snapshot"
+      },
+      "sign": 1,
+      "sign_capture": "2df6b10e-853a-4ae6-bd17-4292878bc8c8",
+      "limits": {
+        "observed_min_rad": -1.7472041174017452,
+        "observed_max_rad": 1.8300390799475699,
+        "usable_min_rad": -1.6948442398419152,
+        "usable_max_rad": 1.77767920238774,
+        "margin_deg": 3,
+        "capture_id": "ff705f08-d25b-402a-a7cf-d03c1cd3ca27",
+        "counts": [
+          865,
+          3197
+        ]
+      }
+    },
+    "left_5": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61034983-if00:5",
+      "mapping_capture": "503fb649-8594-4acd-82f3-4e17093aecb0",
+      "mapping_method": "group_bus_and_standard_id_order",
+      "reference": {
+        "continuous": 3205.0,
+        "present_modulo": 3205.0,
+        "reference_q": 0.0,
+        "epoch": "0681c682-b0ee-47e5-86d7-f7fb781bf271",
+        "utc": "2026-09-22T02:33:15.137771+00:00",
+        "spread_counts": 0,
+        "method": "group_snapshot"
+      },
+      "sign": -1,
+      "sign_capture": "c5097345-d052-4726-b5bf-056412f91f57",
+      "limits": {
+        "observed_min_rad": -2.8823499004371196,
+        "observed_max_rad": 3.106311095468423,
+        "usable_min_rad": -2.82999002287729,
+        "usable_max_rad": 3.0539512179085935,
+        "margin_deg": 3,
+        "capture_id": "ff705f08-d25b-402a-a7cf-d03c1cd3ca27",
+        "counts": [
+          1180,
+          5084
+        ]
+      }
+    },
+    "left_6": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61034983-if00:6",
+      "mapping_capture": "503fb649-8594-4acd-82f3-4e17093aecb0",
+      "mapping_method": "group_bus_and_standard_id_order",
+      "reference": {
+        "continuous": 2062.0,
+        "present_modulo": 2062.0,
+        "reference_q": 0.0,
+        "epoch": "0681c682-b0ee-47e5-86d7-f7fb781bf271",
+        "utc": "2026-09-22T02:33:15.137778+00:00",
+        "spread_counts": 0,
+        "method": "group_snapshot"
+      },
+      "sign": 1,
+      "sign_capture": "f10dc89d-7901-4cbd-8713-ce75ff51bfb1",
+      "limits": {
+        "observed_min_rad": -0.06902913545485385,
+        "observed_max_rad": 2.2580197197676637,
+        "usable_min_rad": -0.016669257895023964,
+        "usable_max_rad": 2.205659842207834,
+        "margin_deg": 3,
+        "capture_id": "ff705f08-d25b-402a-a7cf-d03c1cd3ca27",
+        "counts": [
+          2017,
+          3534
+        ]
+      }
+    },
+    "right_1": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61033169-if00:1",
+      "mapping_capture": "b3c977e5-907e-41d4-87b8-dfb8c047c9e6",
+      "mapping_method": "group_bus_and_standard_id_order",
+      "reference": {
+        "continuous": 3042.0,
+        "present_modulo": 3042.0,
+        "reference_q": 0.0,
+        "epoch": "0681c682-b0ee-47e5-86d7-f7fb781bf271",
+        "utc": "2026-09-22T02:36:17.676530+00:00",
+        "spread_counts": 0,
+        "method": "group_snapshot"
+      },
+      "sign": 1,
+      "sign_capture": "4922a594-44b3-4d6f-a313-bc1ffd96e38e",
+      "limits": {
+        "observed_min_rad": -3.394699483590924,
+        "observed_max_rad": 0.28532042654672923,
+        "usable_min_rad": -3.342339606031094,
+        "usable_max_rad": 0.23296054898689933,
+        "margin_deg": 3,
+        "capture_id": "cf578f17-3bc4-49bf-a999-a7ebc57caf3c",
+        "counts": [
+          829,
+          3228
+        ]
+      }
+    },
+    "right_2": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61033169-if00:2",
+      "mapping_capture": "b3c977e5-907e-41d4-87b8-dfb8c047c9e6",
+      "mapping_method": "group_bus_and_standard_id_order",
+      "reference": {
+        "continuous": 3104.8571428571427,
+        "present_modulo": 3104.8571428571427,
+        "reference_q": 0.0,
+        "epoch": "0681c682-b0ee-47e5-86d7-f7fb781bf271",
+        "utc": "2026-09-22T02:36:17.676548+00:00",
+        "spread_counts": 1,
+        "method": "group_snapshot"
+      },
+      "sign": -1,
+      "sign_capture": "ad78bf8f-0a0c-4e85-a8c0-5a3e16d822bc",
+      "limits": {
+        "observed_min_rad": -0.21804441199231644,
+        "observed_max_rad": 3.4021502474177967,
+        "usable_min_rad": -0.16568453443248654,
+        "usable_max_rad": 3.349790369857967,
+        "margin_deg": 3,
+        "capture_id": "cf578f17-3bc4-49bf-a999-a7ebc57caf3c",
+        "counts": [
+          887,
+          3247
+        ]
+      }
+    },
+    "right_3": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61033169-if00:3",
+      "mapping_capture": "b3c977e5-907e-41d4-87b8-dfb8c047c9e6",
+      "mapping_method": "group_bus_and_standard_id_order",
+      "reference": {
+        "continuous": 1166.0,
+        "present_modulo": 1166.0,
+        "reference_q": 0.0,
+        "epoch": "0681c682-b0ee-47e5-86d7-f7fb781bf271",
+        "utc": "2026-09-22T02:36:17.676559+00:00",
+        "spread_counts": 0,
+        "method": "group_snapshot"
+      },
+      "sign": 1,
+      "sign_capture": "7c212dcc-ab6d-4fcf-a6ab-2f77b8c0cfd8",
+      "limits": {
+        "observed_min_rad": -0.2561747915769021,
+        "observed_max_rad": 3.138524692014022,
+        "usable_min_rad": -0.2038149140170722,
+        "usable_max_rad": 3.086164814454192,
+        "margin_deg": 3,
+        "capture_id": "cf578f17-3bc4-49bf-a999-a7ebc57caf3c",
+        "counts": [
+          999,
+          3212
+        ]
+      }
+    },
+    "right_4": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61033169-if00:4",
+      "mapping_capture": "b3c977e5-907e-41d4-87b8-dfb8c047c9e6",
+      "mapping_method": "group_bus_and_standard_id_order",
+      "reference": {
+        "continuous": 2084.0,
+        "present_modulo": 2084.0,
+        "reference_q": 0.0,
+        "epoch": "0681c682-b0ee-47e5-86d7-f7fb781bf271",
+        "utc": "2026-09-22T02:36:17.676566+00:00",
+        "spread_counts": 0,
+        "method": "group_snapshot"
+      },
+      "sign": 1,
+      "sign_capture": "51a73c1b-7f9c-48ab-8fe0-ae3ec156742d",
+      "limits": {
+        "observed_min_rad": -1.8653206380689396,
+        "observed_max_rad": 1.688912847462091,
+        "usable_min_rad": -1.8129607605091096,
+        "usable_max_rad": 1.636552969902261,
+        "margin_deg": 3,
+        "capture_id": "cf578f17-3bc4-49bf-a999-a7ebc57caf3c",
+        "counts": [
+          868,
+          3185
+        ]
+      }
+    },
+    "right_5": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61033169-if00:5",
+      "mapping_capture": "b3c977e5-907e-41d4-87b8-dfb8c047c9e6",
+      "mapping_method": "group_bus_and_standard_id_order",
+      "reference": {
+        "continuous": 3170.0,
+        "present_modulo": 3170.0,
+        "reference_q": 0.0,
+        "epoch": "0681c682-b0ee-47e5-86d7-f7fb781bf271",
+        "utc": "2026-09-22T02:36:17.676573+00:00",
+        "spread_counts": 0,
+        "method": "group_snapshot"
+      },
+      "sign": -1,
+      "sign_capture": "72ac0864-12be-4f86-b813-9a620a6426cc",
+      "limits": {
+        "observed_min_rad": -2.291767297101148,
+        "observed_max_rad": 3.0020004018921997,
+        "usable_min_rad": -2.239407419541318,
+        "usable_max_rad": 2.94964052433237,
+        "margin_deg": 3,
+        "capture_id": "cf578f17-3bc4-49bf-a999-a7ebc57caf3c",
+        "counts": [
+          1213,
+          4664
+        ]
+      }
+    },
+    "right_6": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61033169-if00:6",
+      "mapping_capture": "b3c977e5-907e-41d4-87b8-dfb8c047c9e6",
+      "mapping_method": "group_bus_and_standard_id_order",
+      "reference": {
+        "continuous": 2031.0,
+        "present_modulo": 2031.0,
+        "reference_q": 0.0,
+        "epoch": "0681c682-b0ee-47e5-86d7-f7fb781bf271",
+        "utc": "2026-09-22T02:36:17.676580+00:00",
+        "spread_counts": 0,
+        "method": "group_snapshot"
+      },
+      "sign": 1,
+      "sign_capture": "fd876255-7bb7-4021-8d65-5545ecd3d18d",
+      "limits": {
+        "observed_min_rad": -0.05062136600022616,
+        "observed_max_rad": 2.316310989707318,
+        "usable_min_rad": 0.0017385115596037296,
+        "usable_max_rad": 2.2639511121474882,
+        "margin_deg": 3,
+        "capture_id": "cf578f17-3bc4-49bf-a999-a7ebc57caf3c",
+        "counts": [
+          1998,
+          3541
+        ]
+      }
+    },
+    "head_1": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61034983-if00:7",
+      "mapping_capture": "b6e6d8b8-8a5f-46e3-84d6-1948acd5b9a2",
+      "mapping_method": "group_bus_and_standard_id_order",
+      "reference": {
+        "continuous": 2027.0,
+        "present_modulo": 2027.0,
+        "reference_q": 3.141592653589793,
+        "epoch": "0681c682-b0ee-47e5-86d7-f7fb781bf271",
+        "utc": "2026-09-22T02:38:21.147116+00:00",
+        "spread_counts": 0,
+        "method": "group_snapshot"
+      },
+      "sign": -1,
+      "sign_capture": "24b2d742-0a33-4232-aa53-9c251f2f2bfe",
+      "limits": {
+        "observed_min_rad": 0.627398142245227,
+        "observed_max_rad": 5.3459230457814595,
+        "usable_min_rad": 0.6797580198050569,
+        "usable_max_rad": 5.293563168221629,
+        "margin_deg": 3,
+        "capture_id": "bd3417f6-fb93-4830-83f3-251d2d94ddd2",
+        "counts": [
+          590,
+          3666
+        ]
+      }
+    },
+    "head_2": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61034983-if00:8",
+      "mapping_capture": "b6e6d8b8-8a5f-46e3-84d6-1948acd5b9a2",
+      "mapping_method": "group_bus_and_standard_id_order",
+      "reference": {
+        "continuous": 1714.0,
+        "present_modulo": 1714.0,
+        "reference_q": 0.0,
+        "epoch": "0681c682-b0ee-47e5-86d7-f7fb781bf271",
+        "utc": "2026-09-22T02:38:21.147139+00:00",
+        "spread_counts": 0,
+        "method": "group_snapshot"
+      },
+      "sign": 1,
+      "sign_capture": "591194c0-28d4-4b4e-9ec5-7ea96d0d8d10",
+      "limits": {
+        "observed_min_rad": -0.23930100291016002,
+        "observed_max_rad": 1.6260196351587797,
+        "usable_min_rad": -0.18694112535033014,
+        "usable_max_rad": 1.5736597575989497,
+        "margin_deg": 3,
+        "capture_id": "bd3417f6-fb93-4830-83f3-251d2d94ddd2",
+        "counts": [
+          1558,
+          2774
+        ]
+      }
+    }
+  },
+  "wheels": {
+    "front_left": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61033169-if00:12",
+      "mapping_capture": "58838d2f-ef33-475f-93c4-437c22b5bf07"
+    },
+    "rear_left": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61033169-if00:10",
+      "mapping_capture": "8dbc76da-766f-4b65-b8e0-04000ad64d3c"
+    },
+    "front_right": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61033169-if00:11",
+      "mapping_capture": "c4f93434-6986-41d2-9e06-89de5152d0bf"
+    },
+    "rear_right": {
+      "motor": "usb-1a86_USB_Single_Serial_5B61033169-if00:9",
+      "mapping_capture": "f0897312-e1ed-4650-8a23-e802556c8cc8"
+    }
+  },
+  "base": {
+    "dimensions": {
+      "diameter_mm": 120.0,
+      "track_mm": 550.0,
+      "wheelbase_mm": 260.0,
+      "pattern": "X"
+    },
+    "trials": {
+      "forward": {
+        "front_left": {
+          "delta": -611,
+          "travel": 691
+        },
+        "front_right": {
+          "delta": 727,
+          "travel": 819
+        },
+        "rear_left": {
+          "delta": -647,
+          "travel": 727
+        },
+        "rear_right": {
+          "delta": 745,
+          "travel": 831
+        }
+      },
+      "backward": {
+        "front_left": {
+          "delta": 479,
+          "travel": 593
+        },
+        "front_right": {
+          "delta": -532,
+          "travel": 638
+        },
+        "rear_left": {
+          "delta": 482,
+          "travel": 608
+        },
+        "rear_right": {
+          "delta": -529,
+          "travel": 637
+        }
+      },
+      "left": {
+        "front_left": {
+          "delta": 712,
+          "travel": 810
+        },
+        "front_right": {
+          "delta": 838,
+          "travel": 878
+        },
+        "rear_left": {
+          "delta": -873,
+          "travel": 911
+        },
+        "rear_right": {
+          "delta": -624,
+          "travel": 746
+        }
+      },
+      "right": {
+        "front_left": {
+          "delta": -683,
+          "travel": 715
+        },
+        "front_right": {
+          "delta": -1028,
+          "travel": 1208
+        },
+        "rear_left": {
+          "delta": 912,
+          "travel": 988
+        },
+        "rear_right": {
+          "delta": 675,
+          "travel": 759
+        }
+      },
+      "ccw": {
+        "front_left": {
+          "delta": 546,
+          "travel": 632
+        },
+        "front_right": {
+          "delta": 1068,
+          "travel": 1128
+        },
+        "rear_left": {
+          "delta": 338,
+          "travel": 442
+        },
+        "rear_right": {
+          "delta": 938,
+          "travel": 1004
+        }
+      },
+      "cw": {
+        "front_left": {
+          "delta": -694,
+          "travel": 760
+        },
+        "front_right": {
+          "delta": -1235,
+          "travel": 1261
+        },
+        "rear_left": {
+          "delta": -435,
+          "travel": 503
+        },
+        "rear_right": {
+          "delta": -1012,
+          "travel": 1040
+        }
+      }
+    },
+    "trace_ids": {
+      "forward": "7fbb46de-f7ae-4759-9149-97a2e48ba14b",
+      "backward": "80a71ef2-eee0-42e1-a345-2af49fe9f0d8",
+      "left": "e63e6b31-4d2f-4ea9-910d-ab60bf88eee9",
+      "right": "7191e455-3c96-4eb3-9d1b-87f6aa4fb619",
+      "ccw": "7c5dd355-78a7-4932-a48e-85548a522097",
+      "cw": "a94f4b35-66a2-4cb3-ad86-44c29f71b98b"
+    },
+    "solution": {
+      "wheel_order": [
+        "front_left",
+        "front_right",
+        "rear_left",
+        "rear_right"
+      ],
+      "matrix_body_mps_radps_to_wheel_radps": [
+        [
+          16.666666666666668,
+          -16.666666666666668,
+          -6.750000000000001
+        ],
+        [
+          16.666666666666668,
+          16.666666666666668,
+          6.750000000000001
+        ],
+        [
+          16.666666666666668,
+          16.666666666666668,
+          -6.750000000000001
+        ],
+        [
+          16.666666666666668,
+          -16.666666666666668,
+          6.750000000000001
+        ]
+      ],
+      "encoder_sign_for_forward_roll": {
+        "front_left": -1,
+        "front_right": 1,
+        "rear_left": -1,
+        "rear_right": 1
+      },
+      "counts_per_wheel_revolution": 4096,
+      "assumed_direct_drive": true,
+      "scale_status": "nominal_geometry_only",
+      "active_motor_command_sign_verified": false,
+      "velocity_register_units_verified": false,
+      "stop_response_verified": false,
+      "passive_direction_checks": [
+        {
+          "direction": "forward",
+          "wheel": "front_left",
+          "delta": -611
+        },
+        {
+          "direction": "backward",
+          "wheel": "front_left",
+          "delta": 479
+        },
+        {
+          "direction": "left",
+          "wheel": "front_left",
+          "delta": 712
+        },
+        {
+          "direction": "right",
+          "wheel": "front_left",
+          "delta": -683
+        },
+        {
+          "direction": "ccw",
+          "wheel": "front_left",
+          "delta": 546
+        },
+        {
+          "direction": "cw",
+          "wheel": "front_left",
+          "delta": -694
+        },
+        {
+          "direction": "forward",
+          "wheel": "front_right",
+          "delta": 727
+        },
+        {
+          "direction": "backward",
+          "wheel": "front_right",
+          "delta": -532
+        },
+        {
+          "direction": "left",
+          "wheel": "front_right",
+          "delta": 838
+        },
+        {
+          "direction": "right",
+          "wheel": "front_right",
+          "delta": -1028
+        },
+        {
+          "direction": "ccw",
+          "wheel": "front_right",
+          "delta": 1068
+        },
+        {
+          "direction": "cw",
+          "wheel": "front_right",
+          "delta": -1235
+        },
+        {
+          "direction": "forward",
+          "wheel": "rear_left",
+          "delta": -647
+        },
+        {
+          "direction": "backward",
+          "wheel": "rear_left",
+          "delta": 482
+        },
+        {
+          "direction": "left",
+          "wheel": "rear_left",
+          "delta": -873
+        },
+        {
+          "direction": "right",
+          "wheel": "rear_left",
+          "delta": 912
+        },
+        {
+          "direction": "ccw",
+          "wheel": "rear_left",
+          "delta": 338
+        },
+        {
+          "direction": "cw",
+          "wheel": "rear_left",
+          "delta": -435
+        },
+        {
+          "direction": "forward",
+          "wheel": "rear_right",
+          "delta": 745
+        },
+        {
+          "direction": "backward",
+          "wheel": "rear_right",
+          "delta": -529
+        },
+        {
+          "direction": "left",
+          "wheel": "rear_right",
+          "delta": -624
+        },
+        {
+          "direction": "right",
+          "wheel": "rear_right",
+          "delta": 675
+        },
+        {
+          "direction": "ccw",
+          "wheel": "rear_right",
+          "delta": 938
+        },
+        {
+          "direction": "cw",
+          "wheel": "rear_right",
+          "delta": -1012
+        }
+      ]
+    }
+  },
+  "camera": {
+    "status": "historical_reference_only",
+    "files": [
+      {
+        "name": "f826d97e-simulation-camera-reference.json",
+        "source_name": "simulation-camera-reference.json",
+        "sha256": "4a87da5dde8f34a895e468b45df72ca96741a0e5bdf715e3621ec20fa4eee74a"
+      }
+    ],
+    "note": "按用户要求直接沿用冻结虚拟环境的相机内外参，无需用户导入。头部及双腕的 640×480 针孔参数、相对父刚体的安装变换与原角色映射；未重新标定实机。",
+    "validated_for_current_setup": false
+  },
+  "groups": {
+    "left": {
+      "serial": "usb-1a86_USB_Single_Serial_5B61034983-if00",
+      "mapping_capture": "503fb649-8594-4acd-82f3-4e17093aecb0"
+    },
+    "right": {
+      "serial": "usb-1a86_USB_Single_Serial_5B61033169-if00",
+      "mapping_capture": "b3c977e5-907e-41d4-87b8-dfb8c047c9e6"
+    },
+    "head": {
+      "serial": "usb-1a86_USB_Single_Serial_5B61034983-if00",
+      "mapping_capture": "b6e6d8b8-8a5f-46e3-84d6-1948acd5b9a2"
+    }
+  }
+}

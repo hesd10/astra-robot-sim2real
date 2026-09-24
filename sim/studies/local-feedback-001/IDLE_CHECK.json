@@ -1,0 +1,20 @@
+[
+  {
+    "state": "S1",
+    "idle_seconds": 30,
+    "unpressed": true,
+    "fault": null
+  },
+  {
+    "state": "S2",
+    "idle_seconds": 30,
+    "unpressed": true,
+    "fault": null
+  },
+  {
+    "state": "S3",
+    "idle_seconds": 30,
+    "unpressed": true,
+    "fault": null
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "name": "formal-001",
+  "description": "Formal starting pose: about 2.50 m horizontally from the middle UP button, 0.75 m to its right when facing the wall, slightly off-axis; standard forward head and folded arms.",
+  "initialization": {
+    "standoff_m": 2.4,
+    "lateral_m": 0.75,
+    "yaw_deg": 8.0
+  }
+}

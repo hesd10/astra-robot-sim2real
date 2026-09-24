@@ -1,0 +1,23 @@
+{"seconds": 48.00244474411011, "request": {"op": "move", "targets": {"head_2": 0.15, "right_2": 2.15, "right_3": 1.2, "right_4": 0.1}, "duration": 8.8}}
+{"seconds": 57.42693567276001, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 78.12498950958252, "request": {"op": "move", "targets": {"right_2": 1.05, "right_4": -0.84}, "duration": 9.8}}
+{"seconds": 78.22837972640991, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 114.24583721160889, "request": {"op": "move", "targets": {"right_2": 1.55, "right_4": -0.34}, "duration": 4.6}}
+{"seconds": 114.34936618804932, "request": {"op": "base", "vx": 0.09, "vy": 0.04, "wz": 0, "duration": 5}}
+{"seconds": 138.52766609191895, "request": {"op": "move", "targets": {"right_2": 1.95, "right_4": 0.06}, "duration": 3.7}}
+{"seconds": 138.6236448287964, "request": {"op": "base", "vx": 0.085, "vy": 0.05, "wz": 0, "duration": 4}}
+{"seconds": 169.9729163646698, "request": {"op": "base", "vx": 0.09, "vy": -0.03, "wz": 0, "duration": 4}}
+{"seconds": 190.8491928577423, "request": {"op": "move", "targets": {"right_2": 1.85, "right_4": -0.04}, "duration": 1.5}}
+{"seconds": 190.94427180290222, "request": {"op": "base", "vx": 0.07, "vy": -0.045, "wz": 0, "duration": 4}}
+{"seconds": 215.43164038658142, "request": {"op": "move", "targets": {"right_2": 1.73, "right_4": -0.16}, "duration": 1.5}}
+{"seconds": 215.51435589790344, "request": {"op": "base", "vx": 0.05, "vy": 0, "wz": 0, "duration": 3}}
+{"seconds": 233.77815437316895, "request": {"op": "move", "targets": {"right_2": 1.43, "right_4": -0.46}, "duration": 2.8}}
+{"seconds": 252.9371099472046, "request": {"op": "base", "vx": 0.04, "vy": -0.008, "wz": 0, "duration": 2.5}}
+{"seconds": 272.58392786979675, "request": {"op": "move", "targets": {"right_2": 1.34, "right_4": -0.55}, "duration": 1.3}}
+{"seconds": 272.6756522655487, "request": {"op": "base", "vx": 0.025, "vy": 0, "wz": 0, "duration": 1.6}}
+{"seconds": 290.7159197330475, "request": {"op": "move", "targets": {"right_2": 1.3, "right_4": -0.59}, "duration": 1}}
+{"seconds": 290.8120048046112, "request": {"op": "base", "vx": 0.02, "vy": 0, "wz": 0, "duration": 1.5}}
+{"seconds": 311.48345255851746, "request": {"op": "move", "targets": {"right_2": 1.21, "right_4": -0.68}, "duration": 1.3}}
+{"seconds": 325.0899136066437, "request": {"op": "base", "vx": 0.015, "vy": 0, "wz": 0, "duration": 1.3}}
+{"seconds": 342.5287346839905, "request": {"op": "base", "vx": 0.012, "vy": 0, "wz": 0, "duration": 1.2}}
+{"seconds": 359.3845489025116, "request": {"op": "base", "vx": 0.012, "vy": -0.006, "wz": 0, "duration": 1.3}}

@@ -1,0 +1,20 @@
+{"seconds": 57.72458362579346, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 85.45649313926697, "request": {"op": "move", "targets": {"right_2": 2.25, "right_3": 1.75, "right_4": 0.26}, "duration": 8}}
+{"seconds": 85.46771168708801, "request": {"op": "base", "vx": 0.095, "vy": 0.03, "wz": 0, "duration": 5}}
+{"seconds": 107.40271019935608, "request": {"op": "base", "vx": 0.08, "vy": 0.06, "wz": 0, "duration": 5}}
+{"seconds": 127.48124122619629, "request": {"op": "base", "vx": 0.095, "vy": 0.03, "wz": 0, "duration": 5}}
+{"seconds": 147.04971981048584, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 152.6643750667572, "request": {"op": "move", "targets": {"head_1": 2.75, "head_2": 0.4}, "duration": 2}}
+{"seconds": 175.3124701976776, "request": {"op": "base", "vx": 0.06, "vy": 0.01, "wz": 0, "duration": 4}}
+{"seconds": 191.6850311756134, "request": {"op": "base", "vx": 0.035, "vy": 0, "wz": 0, "duration": 3}}
+{"seconds": 214.95371317863464, "request": {"op": "move", "targets": {"right_2": 2.17, "right_3": 1.83, "right_4": 0.1}, "duration": 1.5}}
+{"seconds": 232.71109914779663, "request": {"op": "base", "vx": 0, "vy": 0.008, "wz": 0, "duration": 1.5}}
+{"seconds": 234.8288049697876, "request": {"op": "move", "targets": {"right_4": 0.02}, "duration": 1}}
+{"seconds": 253.73572301864624, "request": {"op": "base", "vx": 0.012, "vy": 0, "wz": 0, "duration": 2}}
+{"seconds": 273.70831656455994, "request": {"op": "move", "targets": {"right_4": 0.06}, "duration": 0.8}}
+{"seconds": 275.1259891986847, "request": {"op": "base", "vx": 0.008, "vy": 0, "wz": 0, "duration": 2}}
+{"seconds": 312.91639471054077, "request": {"op": "move", "targets": {"right_4": 0.12}, "duration": 0.8}}
+{"seconds": 314.3348386287689, "request": {"op": "base", "vx": 0.008, "vy": 0, "wz": 0, "duration": 2}}
+{"seconds": 330.5464975833893, "request": {"op": "base", "vx": 0.008, "vy": 0, "wz": 0, "duration": 2}}
+{"seconds": 345.1818354129791, "request": {"op": "move", "targets": {"right_4": 0.18}, "duration": 0.8}}
+{"seconds": 346.59022068977356, "request": {"op": "base", "vx": 0.006, "vy": 0, "wz": 0, "duration": 2}}

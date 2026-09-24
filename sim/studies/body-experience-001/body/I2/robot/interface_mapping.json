@@ -1,0 +1,23 @@
+{
+  "joint_channels_to_xml_joint_names": {
+    "left_1": "Rotation_R",
+    "left_2": "Pitch_R",
+    "left_3": "Elbow_R",
+    "left_4": "Wrist_Pitch_R",
+    "left_5": "Wrist_Roll_R",
+    "left_6": "Jaw_R",
+    "right_1": "Rotation_L",
+    "right_2": "Pitch_L",
+    "right_3": "Elbow_L",
+    "right_4": "Wrist_Pitch_L",
+    "right_5": "Wrist_Roll_L",
+    "right_6": "Jaw_L",
+    "head_1": "head_pan_joint",
+    "head_2": "head_tilt_joint"
+  },
+  "angle_unit": "radian",
+  "joint_readback_to_xml_qpos": "identity: same sign and zero reference; no added offset",
+  "base_frame": "chassis; +X forward, +Y left, +Z up",
+  "root_pose_in_xml": "identity reference convention, not a supplied world pose",
+  "command_surface": "Only channels in API.md are directly controllable; wheel joints are internal."
+}

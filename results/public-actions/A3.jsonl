@@ -1,0 +1,50 @@
+{"seconds": 46.71399641036987, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 63.38009834289551, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 80.2040536403656, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 103.643630027771, "request": {"op": "move", "targets": {"right_2": 2.8, "head_2": 0.3}, "duration": 3.5}}
+{"seconds": 121.25620818138123, "request": {"op": "move", "targets": {"right_2": 3.14, "right_3": 1.0}, "duration": 5.2}}
+{"seconds": 143.51696276664734, "request": {"op": "base", "vx": 0.1, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 163.35948276519775, "request": {"op": "move", "targets": {"head_2": 0.65}, "duration": 1.8}}
+{"seconds": 202.5135052204132, "request": {"op": "base", "vx": 0.08, "vy": 0, "wz": 0, "duration": 5}}
+{"seconds": 237.19424438476562, "request": {"op": "move", "targets": {"right_3": 0.45, "head_2": 1.15}, "duration": 5}}
+{"seconds": 282.68262100219727, "request": {"op": "move", "targets": {"right_4": 0.8, "head_2": 0.45}, "duration": 4.5}}
+{"seconds": 328.21741914749146, "request": {"op": "move", "targets": {"right_2": 2.3, "right_4": 1.57}, "duration": 7.5}}
+{"seconds": 350.729275226593, "request": {"op": "base", "vx": 0.05, "vy": 0, "wz": 0, "duration": 4}}
+{"seconds": 370.1053614616394, "request": {"op": "base", "vx": 0.04, "vy": 0, "wz": 0, "duration": 3.75}}
+{"seconds": 392.0223104953766, "request": {"op": "move", "targets": {"right_2": 2.23}, "duration": 1.2}}
+{"seconds": 401.93171310424805, "request": {"op": "base", "vx": 0.025, "vy": 0, "wz": 0, "duration": 4}}
+{"seconds": 423.78962206840515, "request": {"op": "move", "targets": {"right_2": 2.17}, "duration": 1.1}}
+{"seconds": 434.1791594028473, "request": {"op": "base", "vx": 0.02, "vy": 0, "wz": 0, "duration": 3}}
+{"seconds": 456.08774042129517, "request": {"op": "move", "targets": {"right_2": 2.03}, "duration": 1.5}}
+{"seconds": 472.5752229690552, "request": {"op": "base", "vx": 0.01, "vy": -0.015, "wz": 0, "duration": 2}}
+{"seconds": 506.2365953922272, "request": {"op": "move", "targets": {"right_3": 0.6}, "duration": 1.5}}
+{"seconds": 523.6668288707733, "request": {"op": "base", "vx": 0.015, "vy": 0, "wz": 0, "duration": 2}}
+{"seconds": 543.7188844680786, "request": {"op": "move", "targets": {"right_3": 0.67}, "duration": 1}}
+{"seconds": 558.7267050743103, "request": {"op": "base", "vx": 0.01, "vy": 0, "wz": 0, "duration": 1.5}}
+{"seconds": 576.8145925998688, "request": {"op": "move", "targets": {"right_3": 0.71}, "duration": 0.8}}
+{"seconds": 578.1433551311493, "request": {"op": "base", "vx": 0.02, "vy": 0, "wz": 0, "duration": 1}}
+{"seconds": 595.859897851944, "request": {"op": "base", "vx": 0.02, "vy": 0, "wz": 0, "duration": 1.5}}
+{"seconds": 612.653395652771, "request": {"op": "move", "targets": {"head_2": 1.15}, "duration": 3.2}}
+{"seconds": 649.3167519569397, "request": {"op": "base", "vx": -0.03, "vy": 0, "wz": 0, "duration": 1.5}}
+{"seconds": 651.3411021232605, "request": {"op": "move", "targets": {"right_2": 1.88, "right_3": 0.86, "head_2": 0.45}, "duration": 3.2}}
+{"seconds": 678.7004551887512, "request": {"op": "move", "targets": {"right_4": 1.35}, "duration": 1.5}}
+{"seconds": 694.0550646781921, "request": {"op": "move", "targets": {"right_4": 1.28}, "duration": 0.8}}
+{"seconds": 703.5587434768677, "request": {"op": "base", "vx": 0.02, "vy": 0, "wz": 0, "duration": 1}}
+{"seconds": 720.4635372161865, "request": {"op": "move", "targets": {"right_3": 0.9}, "duration": 0.8}}
+{"seconds": 738.3912136554718, "request": {"op": "move", "targets": {"right_2": 1.84, "right_3": 0.92}, "duration": 1}}
+{"seconds": 768.0810294151306, "request": {"op": "move", "targets": {"right_3": 0.95}, "duration": 0.8}}
+{"seconds": 769.3771021366119, "request": {"op": "base", "vx": 0.015, "vy": 0, "wz": 0, "duration": 1}}
+{"seconds": 794.4031744003296, "request": {"op": "base", "vx": -0.02, "vy": 0, "wz": 0, "duration": 1}}
+{"seconds": 795.8852007389069, "request": {"op": "move", "targets": {"right_3": 1.05}, "duration": 1.2}}
+{"seconds": 812.3029882907867, "request": {"op": "base", "vx": 0.015, "vy": 0, "wz": 0, "duration": 0.8}}
+{"seconds": 827.8192758560181, "request": {"op": "base", "vx": 0.015, "vy": 0, "wz": 0, "duration": 0.6}}
+{"seconds": 846.2157838344574, "request": {"op": "base", "vx": -0.015, "vy": 0, "wz": 0, "duration": 0.8}}
+{"seconds": 847.5239133834839, "request": {"op": "move", "targets": {"right_4": 1.24}, "duration": 0.8}}
+{"seconds": 858.4078350067139, "request": {"op": "base", "vx": -0.04, "vy": 0, "wz": 0, "duration": 1.5}}
+{"seconds": 889.2008109092712, "request": {"op": "move", "targets": {"right_4": 1.16}, "duration": 1}}
+{"seconds": 890.7077372074127, "request": {"op": "base", "vx": 0.02, "vy": 0, "wz": 0, "duration": 2}}
+{"seconds": 904.3715167045593, "request": {"op": "base", "vx": 0.015, "vy": 0, "wz": 0, "duration": 0.8}}
+{"seconds": 931.1893570423126, "request": {"op": "move", "targets": {"right_3": 1.1, "right_4": 1.06}, "duration": 1.2}}
+{"seconds": 950.6914777755737, "request": {"op": "base", "vx": -0.05, "vy": 0, "wz": 0, "duration": 2}}
+{"seconds": 953.2125074863434, "request": {"op": "move", "targets": {"right_3": 1.35, "right_4": 0.6}, "duration": 2.8}}
+{"seconds": 975.2235944271088, "request": {"op": "base", "vx": 0.025, "vy": 0, "wz": 0, "duration": 2.4}}

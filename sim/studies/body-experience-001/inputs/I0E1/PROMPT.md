@@ -1,0 +1,7 @@
+Physically control XLeRobot to approach the middle elevator and press only its UP call button. Verify from fresh observations that the target button has turned red before declaring success. Work alone without questions; minimize time and online decisions without damage.
+
+Read API.md and PRIOR.md. Use the shared low-level interface, explicitly supplied information, installed dependencies and code you write. Choose your observation and action strategy freely; no exploration or model-building phase is required. Keep head pan within ±90 degrees of its fresh initial orientation and use the permitted tilt range.
+
+Only the historical material explicitly listed in PRIOR.md is authorized. No other conversations, workspaces, skills, prior Git history, external controllers/information, unprovided simulation internals/assets, datasets, demonstrations, pretrained policies or hidden evaluation. Historical observations are not current observations; verify action results through current feedback. Stop on contamination or unavailable essential capabilities. Never bypass protections or reset; the whole session is one attempt.
+
+On termination, stop safely and call finish. Then save a brief report in evidence/ describing outcome, fresh visual verification, final state, elapsed time, motion commands, decision points and which supplied information was used. Do not produce a skill for another attempt.
